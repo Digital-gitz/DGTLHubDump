@@ -6,9 +6,10 @@ font-weight: 100;
 font-style: normal;
 color: rgba(0, 0, 0, 0.397);
 outline-offset: unset;
-text-shadow: -1px -1px 0 rgb(216, 26, 26), 1px -1px 0 rgb(141, 58, 20), -1px 1px 0 rgb(172, 119, 21), 1px 1px 0 #000;
+text-shadow: -1px -1px 0 rgb(139, 3, 3), 1px -1px 0 rgb(141, 58, 20), -1px 1px 0 rgb(172, 119, 21), 1px 1px 0 #000;
 }
 h6{
+  
   font-size: 18px;
   text-align: center;
 }
@@ -40,18 +41,8 @@ display: block;
   margin-left: auto;
   margin-right: auto;
 }
-#content{
-  height: auto;
-  font-size: large;
-  align-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  color: rgb(209, 209, 209);
-  width: 600px;
-}
 
-#Contact{
+#content{
   font-size: large;
   align-content: center;
   margin-left: auto;
