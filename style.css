@@ -9,7 +9,7 @@ outline-offset: unset;
 text-shadow: -1px -1px 0 rgb(139, 3, 3), 1px -1px 0 rgb(141, 58, 20), -1px 1px 0 rgb(172, 119, 21), 1px 1px 0 #000;
 }
 h6{
-  
+  color: rgb(255, 200, 0);
   font-size: 18px;
   text-align: center;
 }
