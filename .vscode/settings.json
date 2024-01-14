@@ -1,2 +1,101 @@
 {
+       
+        "workbench.colorCustomizations": {
+          "workbench": {
+            "iconTheme": "vscode-icons"
+          },
+          "sideBar.background": "#000a0a",
+          "editor.cursorBlinking": "expand",
+          "editor.tabCompletion": "on",
+          "editor.scrollbar.horizontal": "hidden",
+          "editor.scrollbar.vertical": "hidden",
+          "scrollbar.shadow": "#00000000",
+          "editor.minimap.enabled": true,
+          "minimap.background": "#00000000",
+          "editor.lineHighlightBackground": "#1073cf2d",
+          "editor.lineHighlightBorder": "#9fced11f",
+          "editor.background": "#000a0a",
+          "editor.foreground": "#3fb762",
+          "editor.selectionBackground": "#00ff1e2d",
+          "editor.selectionHighlightBackground": "#00ff1e2d",
+          "editor.selectionHighlightBorder": "#00ff1e2d",
+          "editor.multiCursorPaste": "spread",
+          "terminalCursor.foreground": "#ff00ff",
+          "terminal.integrated.cursorStyle": "block",
+          "terminal.integrated.cursorStyleInactive": "none",
+          "terminal.fontFamily": "comic sans ms",
+          "terminal.background": "#07090a",
+          "terminal.foreground": "#d5fb00",
+          "terminal.ansiBlack": "#1D2021",
+          "terminal.ansiBrightBlack": "#665C54",
+          "terminal.ansiBrightBlue": "#0D6678",
+          "terminal.ansiBrightCyan": "#8BA59B",
+          "terminal.ansiBrightGreen": "#237e02",
+          "terminal.ansiBrightMagenta": "#8F4673",
+          "terminal.ansiBrightRed": "#FB543F",
+          "terminal.ansiBrightWhite": "#FDF4C1",
+          "terminal.ansiBrightYellow": "#FAC03B",
+          "terminal.ansiBlue": "#00a1f9",
+          "terminal.ansiCyan": "#8BA59B",
+          "terminal.ansiGreen": "#95C085",
+          "terminal.ansiMagenta": "#8F4673",
+          "terminal.ansiRed": "#FB543F",
+          "terminal.ansiWhite": "#A89984",
+          "terminal.ansiYellow": "#FAC03B",
+          "better-comments.tags": [
+            {
+              "tag": "!",
+              "color": "#FF2D00",
+              "strikethrough": false,
+              "underline": false,
+              "backgroundColor": "transparent",
+              "bold": false,
+              "italic": false
+            },
+            {
+              "tag": "?",
+              "color": "#3498DB",
+              "strikethrough": false,
+              "underline": false,
+              "backgroundColor": "transparent",
+              "bold": false,
+              "italic": false
+            },
+            {
+              "tag": "//",
+              "color": "#474747",
+              "strikethrough": true,
+              "underline": false,
+              "backgroundColor": "transparent",
+              "bold": false,
+              "italic": false
+            },
+            {
+              "tag": "todo",
+              "color": "#FF8C00",
+              "strikethrough": false,
+              "underline": false,
+              "backgroundColor": "transparent",
+              "bold": false,
+              "italic": false
+            },
+            {
+              "tag": "*",
+              "color": "#98C379",
+              "strikethrough": false,
+              "underline": false,
+              "backgroundColor": "transparent",
+              "bold": false,
+              "italic": false
+            }
+          ]
+        },
+    "workbench.iconTheme": "vscode-icons",
+    "svg.preview.background": "custom",
+    "liveServer.settings.port": 5501,
+    "cSpell.words": [
+      "Skulliguess"
+    ],
+
 }
+
