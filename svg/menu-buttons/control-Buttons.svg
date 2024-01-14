@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+    <title>escape-shape</title>
+    <circle fill="#970101" cx="10" cy="10" r="8.8"></circle> <!-- Scaled down circle -->
+    <rect fill="white" x="9.2" y="5.6" width="1.6" height="8.8"></rect> <!-- Scaled down rectangle -->
+    <rect fill="white" x="5.6" y="9.2" width="8.8" height="1.6"></rect> <!-- Scaled down rectangle -->
+</svg>

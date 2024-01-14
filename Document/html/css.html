@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Hello HTML/CSS</title>
+
+<style>
+#boxes{
+
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+.show-button{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.hide-button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+</style>
+
+</head>
+<body>
+    <header>
+        <!-- BANNER -->
+<img src="../../images/banners/cssbanner.webp" 
+alt="banner" width="100%" style=" border: 1px solid black;" >
+<button class="hide-button" onclick="document.getElementById('boxes').style.display='none'">Hide</button>
+<button class="show-button" onclick="document.getElementById('boxes').style.display='block'">Show</button>
+    </header>
+  
+<div id="boxes">
+      
+        <div class="box1"
+        style="    
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border: 10px solid darkred;
+            position: absolute;
+            margin: 5px;
+            padding: 60px;
+            top: 15;
+            padding-top: 100px;
+            left: 0;">
+            <p> red Box</p>
+
+        </div>
+
+        <div class="box2"
+        style="
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute;
+            padding: 60px;
+            top: 15;
+            padding-left: 100px;
+            margin: 5px;
+            right: 0;
+            border: 10px solid darkblue;
+            border-bottom: 50px solid darkblue;
+            ">
+            
+            <p> blue Box</p>
+        </div>
+
+        <div class="box3"
+        style="    width: 100px;
+        height: 100px;
+        background-color: green;
+        position: absolute;
+        padding: 300px 600px 60px 60px;
+        margin: 5px;
+        border: 10px solid darkgreen;
+        bottom: 0;
+        left: 5;">
+            <p> green Box</p>
+        </div>
+
+        <div class="box4"
+        style="    width: 100px;
+        height: 100px;
+        background-color: yellow;
+        position: absolute;
+        padding-top: 100p00x;
+        bottom: 0;
+        padding: 60px;
+        border-radius: 50%;
+        margin: 5px;
+        border: 10px solid darkgoldenrod;
+        right: 0;">
+            <p> yellow Box</p>
+        </div>
+
+        <div class="box5"
+        style="    width: 50px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        transform: translate(-50%, -50%);">
+        </div>
+
+        <div class="box6"
+        style="    width: 50px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 70%;
+        left: 70%;
+        transform: translate(-50%, -50%) rotate(90deg);">
+        </div>
+
+        <div class="box7"
+        style="      width: 50px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        transform: translate(-50%, -50%) rotate(45deg);">
+        </div>
+
+        <div class="box8"
+        style="
+        width: 50px;
+        height: 10px;
+        background-color: black;
+        position: absolute;
+        top: 80%;
+        left: 80%;
+        transform: translate(-50%, -50%) rotate(135deg);">
+        </div>
+
+        <div class="box8">
+        </div>
+        <div class="box9">
+        </div>
+    </div>
+
+
+
+    <footer>
+
+        
+    </footer>
+    <script src=""></script>
+</body>
+</html>

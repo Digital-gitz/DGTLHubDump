@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+ xml:lang="en"
+  xmlns:xlink="http://www.w3.org/1999/xlink" height="320px" width="140px" >
+    <title>Animated Stoplight, using CSS Keyframes</title> 
+    <defs> 
+        <circle id="light" cx="70" r="30" /> 
+        <radialGradient id="red-light-on" fx="0.45" 
+        fy="0.4"> 
+        <stop stop-color="orange" 
+        offset="0.1"/> 
+        <stop stop-color="red" 
+        offset="0.8"/> 
+        <stop stop-color="brown"
+         offset="1.0"/> 
+        </radialGradient> 
+        <radialGradient id="red-light-off"
+         fx="0.45" fy="0.4"> 
+         <stop stop-color="maroon" 
+         offset="0"/> <stop stop-color="#220000" 
+         offset="0.7"/> <stop stop-color="black"
+          offset="1.0"/> </radialGradient> 
+          <!-- More gradients --> </defs> <style> /* CSS styles (see below) */ </style> <rect x="20" y="20" width="100" height="280" fill="url(#metal)" stroke="black" stroke-width="3" /> <g stroke="black" stroke-width="2"> <g class="red light"> <use xlink:href="#light" y="80" fill="url(#red-light-off)" /> <use class="lit" xlink:href="#light" y="80" fill="url(#red-light-on)" /> </g> <g class="yellow light"> <use xlink:href="#light" y="160" fill="url(#yellow-light-off)" /> <use class="lit" xlink:href="#light" y="160" fill="url(#yellow-light-on)" visibility="hidden" /> </g> <g class="green light">
+     <use xlink:href="#light" y="240" fill="url(#green-light-off)" />

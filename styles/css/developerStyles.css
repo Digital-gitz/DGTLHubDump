@@ -1,0 +1,87 @@
+
+*{
+
+    background-color: #f4fcfe;
+    margin: 0;  
+    padding: 0;
+    border: 0;
+}
+
+#headerBar, .headerContent, .headerlinks, .headerlink,  .logo, .title, a {
+    background-color: #000a0a;
+    display: flex;
+    justify-content: space-around;
+}
+
+#headerBar {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerContent{
+    flex-direction: column;
+    position: relative;
+}
+.headerlinks{
+    display: flex;
+    justify-content: space-around;
+    font-family: Newsreader;
+}
+.headerlinks a{
+    font-family: Newsreader;
+}
+.headerlink a{
+    margin: 0 1em;
+    padding: 0.25em 1em;
+    fled -size: 1.5em;
+    flex-direction: column;
+   }
+.logo {
+    justify-content: space-around;
+}
+#reactLogo {
+    float: right;
+    margin: 1em;
+    height: 10em;
+    width: 10em;
+    align-self: center;
+    justify-content: space-around;}
+#vanilaFlower {
+    margin: 1em;
+    float: right;
+    align-self: center;
+    justify-content: space-around;}
+#nextLogo {
+    margin: 1em;
+    width: 260.448px;
+height: 253.006px;
+    float: right;
+    justify-content: space-around;}
+    
+    #reactLogo:hover {
+        height: 10em;
+        width: 10em;
+        align-self: center;
+        justify-content: space-around;
+        transform: rotate(360deg);
+        transition: transform 2s;}
+.title {
+    font-size: 5em;
+    font-family: Newsreader;
+    margin-bottom: .5em; 
+    color: #C9F4E4;
+    align-self: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    font-family: Newsreader;
+    margin: 1em;
+    background-color: #000a0a;
+}
+
+
+   .developer {
+    
+   }
