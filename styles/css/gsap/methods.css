@@ -1,0 +1,26 @@
+.circle {
+  width: 190px;
+  height: 190px;
+  -moz-border-radius: 95px;
+  -webkit-border-radius: 95px;
+  border-radius: 95px;
+  font-size: 33px;
+  text-align:center;
+}
+
+p { 
+  color: white;
+  line-height:190px;
+}
+
+#b {
+  background: blue;
+}
+
+#g {
+  background: green;
+}
+
+#r {
+  background: red;
+}
