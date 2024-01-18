@@ -13,21 +13,17 @@ console.log("The final sum is: " + sum);
 let colors = ["red", "white", "blue"];
 let statement = "My favorite colors are ";
 
+
+// Challenge 1: Make the statement say the following:
+// 'My favorite colors are red, white, blue,'
 for (let i = 0; i < colors.length; i++) {
   // append each color to the iteration
 statement += colors[i] + ", ";
 }
 
-// Challenge 1: Make the statement say the following:
-// 'My favorite colors are red, white, blue,'
-
-
-
-
-
 // Challenge 2: Make the statement say the following:
 // 'My favorite colors are red, white and blue.'
-
+//step back one index and add "and" before the last color
 for (let i = 0; i < colors.length; i++) {
     if (i === colors.length - 1) {
       statement += "and " + colors[i] + ".";

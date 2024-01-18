@@ -1,26 +1,26 @@
-
 /* here is a styled Header with my name in it */
-header{
-text-align    : center;
-font-size     : 30px;
-font-weight   : 100;
-font-style    : normal;
-font-family   : 'Open Sans',sans-serif;
-color         : rgba(0, 0, 0, 0.397);
-outline-offset: unset;
-text-shadow   : -1px -1px 0 rgb(139, 3, 3), 1px -1px 0 rgb(141, 58, 20), -1px 1px 0 rgb(172, 119, 21), 1px 1px 0 #000;
+header {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(0, 0, 0, 0.397);
+  outline-offset: unset;
+  text-shadow: -1px -1px 0 rgb(139, 3, 3), 1px -1px 0 rgb(141, 58, 20),
+    -1px 1px 0 rgb(172, 119, 21), 1px 1px 0 #000;
 }
 .center-flex {
-  display        : flex;
+  display: flex;
   justify-content: center;
-  height         : 100vh;
-  align-items    : center;
-  text-align     : center;
-  color          : rgb(255, 255, 255);
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 a {
   color: skyblue;
-  /* color: green; */  
+  /* color: green; */
 }
 
 a:hover {
@@ -35,89 +35,86 @@ h1 {
   color: white;
 }
 
- body{  
-background-color: rgb(61, 61, 61);  
-   /* background-image: url("images/SpaceBackgroung.png"); */
-  background-repeat  : no-repeat;
+body {
+  background-color: rgb(61, 61, 61);
+  /* background-image: url("images/SpaceBackgroung.png"); */
+  background-repeat: no-repeat;
   background-position: center;
-  background-size    : cover;
-} 
-.navigation{
-  text-align  : center;
-  margin-left : auto;
+  background-size: cover;
+}
+.navigation {
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
   font-size: 35px;
-  height   : 50px;
-  float    : center;
-
+  height: 50px;
+  float: center;
 }
 /* styling for all of the list items */
-.navigation li{
-display: inline;
-padding: 20px;
-margin : 0px;
+.navigation li {
+  display: inline;
+  padding: 20px;
+  margin: 0px;
 }
 /* I put a circle around my photo */
-.me{
-  height      : auto;
-  display     : block;
-  clip-path   : circle(35%);
-  margin-left : auto;
+.me {
+  height: auto;
+  display: block;
+  clip-path: circle(35%);
+  margin-left: auto;
   margin-right: auto;
 }
 /* here is the main content of my page */
-.content{
-  font-size    : large;
-  font         : 1em sans-serif;
-  font-weight  : normal;
-  font-style   : normal;
-  font-family  : 'Open Sans', sans-serif;
+.content {
+  font-size: large;
+  font: 1em sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-family: "Open Sans", sans-serif;
   align-content: center;
-  margin-left  : auto;
-  margin-right : auto;
-  text-align   : justify;
-  width        : 600px;
-
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  width: 600px;
 }
 
-.ContactInfo{
-  height       : auto;
-  font-size    : large;
-  font         : 1em sans-serif;
-  font         : optional;
+.ContactInfo {
+  height: auto;
+  font-size: large;
+  font: 1em sans-serif;
+  font: optional;
   align-content: center;
-  margin-left  : auto;
-  margin-right : auto;
-  text-align   : justify;
-  color        : rgb(209, 209, 209);
-  width        : 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  color: rgb(209, 209, 209);
+  width: 600px;
 }
 /* here are my links displaying psedo classis*/
-a:link{
-  height         : auto;
-  align-content  : center;
+a:link {
+  height: auto;
+  align-content: center;
   text-decoration: none;
-  text-align     : right;
-  float          : center;
-  width          : 150px;
-  textdecoration : none;
-
+  text-align: right;
+  float: center;
+  width: 150px;
+  textdecoration: none;
 }
-a:visited{
+a:visited {
   /* color: rgb(247, 49, 0); */
 }
-.footer{
-  height      : auto;
-  text-align  : center;
-  margin-left : auto;
+.footer {
+  height: auto;
+  text-align: center;
+  margin-left: auto;
   margin-right: auto;
-  font-size   : 35px;
-  height      : 50px;
-  float       : center;
+  font-size: 35px;
+  height: 50px;
+  float: center;
 }
-.footer li{
+.footer li {
   display: inline;
   padding: 20px;
-  margin : 0px;
-  color  : rgb(209, 209, 209);
+  margin: 0px;
+  color: rgb(209, 209, 209);
 }

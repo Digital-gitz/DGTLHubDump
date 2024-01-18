@@ -13,6 +13,20 @@ img {
   left: 0;
 
 }
+img.katamar {
+  /* width: 150px; or any other size */
+  z-index: -1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  transform: scale(0.5); /* resizes the image to 50% of its containing block */
+  transition: transform 0.5s ease; /* optional, for smooth resizing */
+}
+
+/* Example of a hover effect to resize image (optional) */
+img.katamar:hover {
+  transform: scale(1.5); /* increases size by 50% when hovered */
+}
 
 html, body {
     height: 50%;       /* Make sure the body takes the full height of the viewport */
