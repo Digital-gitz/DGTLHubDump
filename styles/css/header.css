@@ -1,0 +1,74 @@
+header {
+    background-color: #000;
+    margin-bottom: 40px;
+}
+
+header h2 {
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-weight: 300;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+
+}
+header nav ul li a {
+    color : #fff;
+    text-decoration: none;
+    margin: 0 20px; 0 0;
+}
+header nav ul li:last-child a {
+    /* Removes the margin to the right of the last anchor tag 
+       so that the nav appears centered. */
+    margin-right: 0;
+  }
+
+  /* When a web browser is larger than 600 pixels,
+   apply these rules. */
+@media all and (min-width: 600px) {
+    header {
+      /* Changes the default setting from `block` to `flex`. */
+      display: flex;
+      /* Pushes the items (the title and nav) to the far sides of the 
+         browser with space between them. */
+      justify-content: space-between;
+      /* Adds 0 pixels padding top and bottom, and 30 pixels padding 
+         left and right. */
+      padding: 0 30px;
+    }
+  
+    header h1 {
+      /* Sets 14 pixels of margin above and below the `h1` and sets 
+          0 pixels of margin to the left and right. */
+      margin: 14px 0;
+      /* Removes or sets 0 pixels of padding above the `h1`. */
+      padding-top: 0;
+    }
+  
+    header nav {
+      /*
+        Pushes the navigation container down by 8 pixels to make it
+        present a little better visually within the space.
+      */
+      margin-top: 8px;
+    }
+    /* Users cannot hover on mobile devices, so that is why you
+       implement this behavior only for larger screens. */
+    header nav ul li a:hover {
+      /* Targets the change when a user holds the pointer over the anchor tag 
+         (link) within the list items within the unordered list that 
+         is within the navigation that is within the header. */
+      color: #bdbdbd;
+    }
+  }
