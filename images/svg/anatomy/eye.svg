@@ -1,8 +1,0 @@
-<svg width="100%" height="100%" viewBox="0 0 100 100">
-    <circle cx="50" cy="50" r="26" fill="#ff8989" />
-    <circle cx="50" cy="50" r="25" fill="white" />
-    <circle cx="50" cy="50" r="15" fill="blue" />
-    <circle cx="50" cy="50" r="5" fill="black" />
-    <circle cx="55" cy="50" r="2" fill="white" />
-    <circle cx="53" cy="54" r="1" fill="white" />
-</svg>

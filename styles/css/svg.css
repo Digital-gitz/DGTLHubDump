@@ -1,8 +1,11 @@
-svg {
-    margin: 20px 0 0 -100px;
-    width: 100vw;
-    height: 100vh;
-  }
-  svg circle {
-    fill: magenta;
-  }
+body {
+  background-color: gray;
+}
+
+#shitbirdtree {
+  shape-outside: url("../../images/svg/nature/shitbirdNtree.svg");
+  float: left;
+  /* shape-outside: inset(23%); */
+}
+
+p {font-size:4em;}

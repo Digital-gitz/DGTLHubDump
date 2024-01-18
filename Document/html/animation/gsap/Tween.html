@@ -6,30 +6,14 @@
         </script>
     </head>
 
+    <iframe 
+    class="spinNskew"
+    width="3000";
+    height="2000";
+    src="../../../../images/svg/tools/mesureDevice.svg";
+    style="float: left; margin-right: 20px;"></iframe>
+
     <body>
-        <svg width="900" height="650">
-            <rect class="rect" x="400" y="300" 
-               width="100" height="100" fill="indigo" stroke="black"/>
-            <rect class="rect" x="200" y="300" 
-               width="100" height="100" fill="indigo" stroke="black"/>
-            <rect class="rect" x="100" y="400" 
-               width="100" height="100" fill="indigo" stroke="black"/>
-            <rect class="rect" x="50" y="78" 
-               width="100" height="100" fill="indigo" stroke="black"/>
-
-               <rect class="rect" x="100" y="200" 
-                width="100" height="100" fill="indigo" stroke="black"/>
-        </svg> 
-
-        <script>
-            gsap.to(".rect", 13, {
-                delay: 1,
-                rotate: 1880,    
-                skewX: 15,
-                skewY: 15,
-                fill: "blue",
-                ease: "power1.in"
-            });
-        </script>
+        <script src="../../../../scripts/javascript/gsap/basics/spinandscew.js"></script>
     </body>
 </html>

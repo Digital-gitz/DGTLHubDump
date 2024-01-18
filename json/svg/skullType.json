@@ -1,0 +1,34 @@
+{
+    "id": "LRGWCOYXMRZXH",
+    "name": "skullType",
+    "size": 149500,
+    "btime": 1705442373635,
+    "mtime": 1705441981215,
+    "ext": "svg",
+    "tags": [
+        "skull",
+        "SVG"
+    ],
+    "folders": [
+        "LI7UN42V621DP"
+    ],
+    "isDeleted": false,
+    "url": "",
+    "annotation": "",
+    "modificationTime": 1705442367863,
+    "forceThumbnail": true,
+    "height": 1707,
+    "width": 1259,
+    "palettes": [
+        {
+            "color": [
+                4,
+                4,
+                4
+            ],
+            "ratio": 100,
+            "$$hashKey": "object:4030"
+        }
+    ],
+    "lastModified": 1705442486635
+}
