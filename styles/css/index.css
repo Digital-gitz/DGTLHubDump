@@ -1,0 +1,21 @@
+body{background-image: url('../../images/drawings/proom.png');
+background-size: cover; 
+background-position: center; 
+background-repeat: no-repeat;
+height: 100vh; 
+margin: 0;
+}
+
+html, body {
+    height: 50%;       /* Make sure the body takes the full height of the viewport */
+    margin: 0;                  /* Remove default margin */
+    display: flex;              /* Apply Flexbox */
+    justify-content: left;      /* left horizontally */
+    align-items: center;        /* Center vertically */
+  }
+  
+  table {
+    /* Your table styles here */
+  }
+
+  
