@@ -1,0 +1,9 @@
+#console {
+    border: 1px solid black;
+    height: 200px;
+    overflow: auto;
+    padding: 5px;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: monospace;
+}

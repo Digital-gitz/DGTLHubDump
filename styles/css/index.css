@@ -6,6 +6,14 @@ height: 100vh;
 margin: 0;
 }
 
+img {
+  display: block;
+  position : fixed;
+  bottom: 0;
+  left: 0;
+
+}
+
 html, body {
     height: 50%;       /* Make sure the body takes the full height of the viewport */
     margin: 0;                  /* Remove default margin */
