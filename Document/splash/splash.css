@@ -1,0 +1,7 @@
+img{
+    onmouseover="bigImg(this)"
+}
+.headt{
+    font-size: 2vh;
+}
+

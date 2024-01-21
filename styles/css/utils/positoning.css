@@ -44,3 +44,19 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+/* Fix floating issus around content */
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+/* apply to empty div to clear space around a float */
+.clear{
+  /* clearL: right; */
+  /* clear: left; */
+  clear: both;
+}

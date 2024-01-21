@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-image: url('../../images/drawings/proom.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+padding: 2em;  
+}
+  
+h1 h2 {
+  width: 50%;
+  align-items: center;
+}
+ul {
+  width: 50%;
+}
+  table {
+    width: 100%;     
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  align-items: center;
+  }
+  img.katamar {
+    z-index: -1;
+    position: absolute; 
+    width: 100%;  
+    transform: scale(0.5);
+  }
+
+
+  
+
+  

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My HomePage</title>
+   <!-- STYLES -->
+   <link href="styles/css/style.css" rel="stylesheet" type="text/css"/>
+   <link href="styles/css/centerContent.css" rel="stylesheet" type="text/css"/>
+   <!-- FONTS -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200;1,6..72,500&display=swap" rel="stylesheet">
+   <!-- Londrina Outline font-family: 'Londrina Outline', sans-serif; font-family: 'Newsreader', serif; -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&family=Newsreader:ital,opsz,wght@0,6..72,200;1,6..72,500&display=swap" rel="stylesheet">
+</head>
+<body bgcolor="black"  style="background-color: azure;"> 
+ <div class="center-flex" style="position: relative;">
+        <!-- Skull Image -->
+        <!-- <div class="skull" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+            <img src="./svg/anatomy/skullheadSVG.svg" alt="skullheadSVG" style="width: 100%; height: auto;">
+        </div> -->
+        <button class="hide-button" onclick="document.getElementById('boxes').style.display='none'">Hide</button>
+        <button class="show-button" onclick="document.getElementById('boxes').style.display='block'">Show</button>
+  <div class="center-flex">
+     <h1 class="enter"
+         style="
+         font-family: 'Londrina Outline', 'Newsreader', sans-serif;
+         font-size: 5rem;
+         font-weight: 500; 
+         font-style: italic;
+         color: skyblue;
+         z-index: 2;
+         position: relative;
+         user-select: none;
+         "><a href="404.html" 
+              id="linkToPage1">Enter.</a></h1></div>
+  <style>
+    .enter, a{
+      font-style: italic;
+      text-decoration: none;
+      text-shadow: 
+      -1px -1px 0 #88d5ff, 1px -1px 0 #88d5ff, -1px  1px 0 #88d5ff, 1px  1px 0 #88d5ff; 
+    }
+        .enter a:hover {
+          color: green; /* Change text color to yellow on hover */
+          text-shadow: 0 0 10px yellow; /* Add a yellow glow to the text on hover */
+      }  
+      .enter a:clicked {
+          color: skyblue; /* Change text color to yellow on hover */
+          text-shadow: 0 0 10px yellow; /* Add a yellow glow to the text on hover */
+      }
+      .enter :visited {
+          color: teal;
+      }
+  </style>
+
+</div>
+
+
+<object type="image/svg+xml" data="../../svg/gradients/gradientSkulliguess.svg"
+        style="position: absolute; 
+ top: 0; left: 40%; height: 100%; z-index: 1;">
+ 
+<!-- <iframe src="svg/flowers/vanillaFlower.svg"></iframe> -->
+
+
+  <script>
+    // Add an event listener to the document to capture the "Enter" key press
+    document.addEventListener("keydown", function(event) {
+        if (event.key === "Enter") {
+          // Trigger a click event on the anchor tag with the id "linkToPage1"
+          document.getElementById("linkToPage1").click();
+        }
+    });
+  </script>
+
+</body>
+</html>

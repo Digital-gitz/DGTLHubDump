@@ -92,10 +92,14 @@
         },
     "workbench.iconTheme": "vscode-icons",
     "svg.preview.background": "custom",
-    "liveServer.settings.port": 5501,
+    "liveServer.settings.port": 6969,
     "cSpell.words": [
       "Skulliguess"
     ],
+    "editor.tokenColorCustomizations": {
+      "comments": "",
+      "textMateRules": []
+    },
 
 }
 
