@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 422.19 215.51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dce6d1;
+        font-family: NotoSerifNFP-Reg, 'NotoSerif Nerd Font Propo';
+        font-size: 64px;
+        opacity: .74;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .75px;
+      }
+
+      .cls-2 {
+        fill: #3356e4;
+      }
+
+      .cls-3 {
+        fill: #ccd5f8;
+      }
+
+      .cls-4 {
+        fill: #6680eb;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-3" d="m116.79,60.89C144.47,12.42,271.05-12.71,350.64,6.44c3.3.79,57.31,14.29,65.89,40.72,16.8,51.75-151.85,118.11-241.28,97.92-51.95-11.73-76.55-52.53-58.46-84.19Z"/>
+      <path class="cls-4" d="m358.58,85.32c59.68,40.86,20.75,105.35-59.21,124.13-3.32.78-58.36,13.21-105.65.06-92.58-25.74-92.88-132.13-5.15-154.06,50.96-12.74,131.02,3.17,170.01,29.87Z"/>
+      <path class="cls-2" d="m226.16,36.79c59.68,40.86,20.75,105.35-59.21,124.13-3.32.78-59.31,16.25-105.65.06-78.61-27.47-85.97-110.67,3.39-124.47,28.54-4.41,122.48-26.42,161.47.27Z"/>
+    </g>
+    <text class="cls-1" transform="translate(133.19 136.65)"><tspan x="0" y="0">de-cloud.</tspan></text>
+  </g>
+</svg>

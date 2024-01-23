@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rock Paper Scissors Tutorial</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="../../../favicon/weirdfav.ico" />
+    <link href="rockPaperScissors.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Rock - Paper - Scissors</h1>
+    <h2>Computer Choice: <span id="computer-choice"></span></h2>
+    <h2>Your Choice: <span id="user-choice"></span></h2>
+    <h2>Result: <span id="result"></span></h2>
+
+    <button id="rock">rock</button>
+    <button id="paper">paper</button>
+    <button id="scissors">scissors</button>
+    
+    
+
+      <br />
+      <hr />
+      <h1>Rock - Paper - Scissors v.2</h1>
+      <div class="choices">
+        <button onclick="playGame('🪨')" id="🪨rock">👊</button>
+        <button onclick="playGame('📄')" id="📄paper">✋</button>
+        <button onclick="playGame('✂️')" id="✂️scissors">✌️</button>
+     </div>
+
+    <div id="playerScore">PLAYER:</div>
+    <div id="computerScore">COMPUTER:</div>
+    <div id="resolution"></div>
+
+    <div class="scoreDisplay">Player Score:
+      <span id="playerScoreDisplay">0</span>
+    </div>
+    <div class="scoreDisplay">Computer Score:
+      <span id="computerScoreDisplay">0</span>
+    </div>
+    <script src="RockPaperScissors.js" charset="utf-8"></script>
+  </body>
+</html>
