@@ -712,4 +712,11 @@ main .recent-orders a{
         font-size: 2rem;
     }
 
-}
+    .section_titile{
+        font-size:12px;
+        color: #28DF99;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+    }
+
+    

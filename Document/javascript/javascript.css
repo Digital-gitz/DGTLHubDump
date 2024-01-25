@@ -1,9 +1,22 @@
-
-
 img {
 padding-left: 25%;
 }
 
-.choice {
- 
+.logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.logo a {
+    color: #fff;
+transition: .6s;
+font-size: 1.5rem;
+}
+.logo a:hover{
+    color: #28df99;
+}
+
+.logo a:hover span{
+    color: #fff;
 }

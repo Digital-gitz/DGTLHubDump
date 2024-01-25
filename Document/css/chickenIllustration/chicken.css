@@ -1,0 +1,55 @@
+body {
+    font-family: system-ui;
+    padding: 5% 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .chicken {
+    --colSize: 140px;
+    --br: calc(var(--colSize) * 2);
+    --combColor: hsl(12 98% 52% / 1);
+    --beakColor: hsl(42 100% 50% / 1);
+    
+    display: grid;
+    grid-template-columns: repeat(3, var(--colSize));
+    grid-auto-rows: var(--colSize);
+    grid-template-areas:
+      ". . comb1"
+      "comb2 comb2 comb1"
+      ". eye beak"
+      ". wattle .";
+    margin-bottom: 5%;
+  }
+  
+  .comb1 {
+    grid-area: comb1;
+    border-radius: 0 var(--br) var(--br) 0;
+    background: var(--combColor);
+  }
+  
+  .comb2 {
+    grid-area: comb2;
+    border-radius: 0 var(--br) 0 var(--br);
+    background: var(--combColor);
+  }
+  
+  .eye {
+    --pupil: calc(var(--colSize) * .18);
+    grid-area: eye;
+    background: radial-gradient(black var(--pupil), transparent var(--pupil));
+  }
+  
+  .beak {
+    grid-area: beak;
+    border-radius: 0 var(--br) 0 0;
+    background: var(--beakColor);
+  }
+  
+  .wattle {
+    grid-area: wattle;
+    border-radius: var(--br) 0 var(--br) var(--br);
+    background: var(--combColor);
+  }
