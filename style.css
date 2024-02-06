@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+styledimg {
+  background-image: url(../../images/drawings/katamari.png);
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 20px;
+}
+
+
+body{
+  position: relative;
+            height: 100vh; /* Ensure the body takes up the full viewport height */
+            display: flex;
+            justify-content: center; /* Center children horizontally */
+            align-items: center; /* Center children vertically */
+            flex-wrap: wrap; /* Allow items to wrap */
+}
+.random-position {
+  position: absolute;
+}
+h1 h2 {
+  width: 50%;
+  align-items: center;
+}
+ul {
+  width: 50%;
+}
+  table {
+    width: 100%;     
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  align-items: center;
+  }
+  img.katamar {
+widht: 50%;
+height: 50%;
+  }
+
+
+  
+  a {
+    text-decoration: none; /* Removes the underline from all anchor tags */
+    transition: color 0.3s; /* Smooth transition for color change */
+}
+a:hover {
+  }
+
+  
+  .katamari {
+}
+  
