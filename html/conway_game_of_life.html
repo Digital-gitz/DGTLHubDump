@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Conway Game of Life</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Font -->
+    <!-- Styling -->
+    <!-- Cont-Del-Netw -->
+    <link href="" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <main>
+        <canvas id="game-board"></canvas>
+
+
+
+        <script>
+
+            export const CELL_SIZE = 10
+
+export const BOARD_WIDTH = document.documentElement.offsetWidth
+export const BOARD_HEIGHT = document.documentElement.offsetHeight
+
+export const CELL_COLOR = "rgb(0, 255, 0)"
+export const BOARD_COLOR = "rgb(0, 0, 0)"
+
+const canvas = document.getElementById("game-board")
+
+import { Game } from "./modules/game.mjs"
+
+const game = new Game(canvas)
+
+
+
+game.initialize()
+
+export class Board {
+    #cellSize = CELL_SIZE
+    #backgroundColor = BOARD_COLOR
+
+    constructor(canvas) {
+        this.canvas = canvas
+        this.ctx = this.canvas.getContext("2d")
+    }
+
+    drawBackground() {
+        const { width, height } = this.canvas
+
+        this.ctx.fillStyle = this.#backgroundColor
+        this.ctx.fillRect(0, 0, width, height)
+    }
+
+    get size() {
+        const { width, height } = this.canvas
+
+        return {
+            cellNumberX: Math.ceil(width / this.#cellSize),
+            cellNumberY: Math.ceil(height / this.#cellSize),
+            cellSize: this.#cellSize,
+        }
+    }
+
+    get context() {
+        return this.ctx
+    }
+}
+
+
+export class Cell {
+    #alive = true
+    #neighbors = 0
+
+    constructor(ctx, x, y, cellSize) {
+        this.ctx = ctx
+
+        this.x = x
+        this.y = y
+        this.cellSize = cellSize
+    }
+
+    nextGeneration() {
+        if (!this.#alive && this.#neighbors === 3) {
+            this.#alive = true
+        } else {
+            this.#alive = this.#alive && (this.#neighbors === 2 || this.#neighbors === 3)
+        }
+    }
+
+    draw() {
+        if (this.#alive) {
+            this.ctx.fillStyle = CELL_COLOR
+            this.ctx.fillRect(...this.#position)
+        }
+    }
+
+    get #position() {
+        return [
+            this.x * this.cellSize,
+            this.y * this.cellSize,
+            this.cellSize,
+            this.cellSize
+        ]
+    }
+
+    set alive(alive) {
+        this.#alive = alive
+    }
+
+    get alive() {
+        return this.#alive
+    }
+
+    set neighbors(neighbors) {
+        this.#neighbors = neighbors
+    }
+}
+     
+</script>
+    </main>
+</body>
+</html>

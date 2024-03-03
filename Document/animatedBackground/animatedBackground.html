@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/x-icon" href="">
+    <title>Animated Background</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css"/>
+    <!-- Font -->
+    <!-- Styling -->
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .sec{
+        position: relative;
+        width: 100%vw;
+        height: 100vh;
+        background: #000;
+        overflow: hidden;
+        flex-wrap: wrap;
+        display: flex;
+        gap : 4px;
+    }
+    .sec .box{
+        position: relative;
+      width: 40px;
+      height: 40px;
+        background: #222;
+    }
+    .animate{
+    animation: animate 1s linear forwards;
+    }
+    
+    @keyframes animate{
+        0%{
+            background: transparent;
+        }
+        50%{
+          background: #0f0;
+        }
+        100%{
+            background: transparent;
+        }
+    }
+
+</style>
+    <!-- Cont-Del-Netw -->
+    <link href="animatedbackground.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <section class="sec"></section>
+    <script>
+        for (let i = 0; i < 350; i++) {
+        let box = document.createElement('div');
+        box.classList.add('box');
+        document.querySelector('.sec').appendChild(box);
+        }
+
+        function animateBox(){
+            let boxes = document.querySelectorAll('.box');
+            let num = Math.floor(Math.random() * boxes.length);
+            boxes[num].classList.add('animate');
+        }
+        setInterval(animateBox, 500);
+    </script>
+    <main></main>
+</body>
+</html>

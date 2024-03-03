@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sec{
+    position: relative;
+    width: 100%vw;
+    height: 100vh;
+    background: #000;
+    overflow: hidden;
+    flex-wrap: wrap;
+    display: flex;
+    gap : 4px;
+}
+.sec .box{
+    position: relative;
+  width: 40px;
+  height: 40px;
+    background: #222;
+}
+.animate{
+animation: animate 1s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        background: transparent;
+    }
+    50%{
+      background: #0f0;
+    }
+    100%{
+        background: transparent;
+    }
+}
