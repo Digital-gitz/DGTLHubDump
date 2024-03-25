@@ -4,6 +4,39 @@
   text-align: center;
 }
 
+.pos {
+  position: fixed;
+}
+
+.pos-1 {
+  top: 50%;
+  left: 50%;
+  width: 200vw;
+  height: 200vh;
+}
+
+.pos-2 {
+  top: 20%;
+  left: 20%;
+  width: 60vw;
+  height: 80vh;
+  /* height: 100vh; */
+}
+
+.pos-3 {
+  top: 20%;
+  left: 100%;
+  width: 80vw;
+  height: 100vh;
+}
+
+.pos-4 {
+  top: 60%;
+  left: -50%;
+  width: 100vw;
+  height: 100vh;
+}
+
 /* Bottom left text */
 .bottom-left {
   position: absolute;
@@ -41,8 +74,8 @@
 }
 
 .reorient {
-    margin-top: 50px;
-    margin-bottom: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* Fix floating issus around content */
@@ -55,7 +88,7 @@
   margin-left: 1rem;
 }
 /* apply to empty div to clear space around a float */
-.clear{
+.clear {
   /* clearL: right; */
   /* clear: left; */
   clear: both;

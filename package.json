@@ -14,5 +14,9 @@
     "keyword"
   ],
   "author": "Svyatoslav Olegovitch Russkiy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@huggingface/inference": "^2.6.6",
+    "dotenv": "^16.4.5"
+  }
 }

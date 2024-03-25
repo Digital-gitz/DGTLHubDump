@@ -1,0 +1,65 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    --bg: radial-gradient(circle at 47.5% 47%, rgb(255 255 255 / 0.3) 0.7vmin, rgb(255 255 255 / 0) 0),
+      radial-gradient(circle at 56% 64%, rgb(255 255 255 / 0.25) 1.3vmin, rgb(255 255 255 / 0) 0),
+      radial-gradient(circle at 55% 67%, rgb(255 255 255 / 0.2) 3vmin, rgb(255 255 255 / 0) 0), 
+      blue;
+    --size: 30vmin 20vmin;
+    --mask: conic-gradient(transparent 160deg, blue 161deg, blue 199deg, transparent 200deg),
+      radial-gradient(circle at 50% 68%, blue 3.6vmin, transparent calc(3.6vmin + 1px));
+    margin: 0;
+    min-height: 100vh;
+    padding: 1rem;
+    background: lightblue;
+  }
+  
+  body::after,
+  body::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    
+    background: var(--bg);
+    background-size: 
+      var(--size), 
+      var(--size), 
+      var(--size), 
+      var(--size);
+    -webkit-mask-image: var(--mask);
+    mask-image: var(--mask);
+    -webkit-mask-size: var(--size), var(--size);
+    -webkit-mask-position: 0 -7.5vmin, 0 0;
+    mask-repeat: repeat;
+  }
+  /* using mask to apply https://css-irl.info/drawing-raindrops-with-css-gradients-and-masks/?ref=dailydev */
+  body::before {
+    --pos: 15vmin 7.5vmin;
+    background-position: var(--pos), var(--pos), var(--pos), var(--pos);
+    mask-position: 15vmin 0vmin, 15vmin 7.5vmin;
+  }
+  
+  .support-mask-size,
+  .support-mask-repeat {
+    padding: 0.25em 0.5em;
+    background: white;
+    border-radius: 0.2rem;
+    width: fit-content;
+    position: relative;
+    z-index: 1;
+  }
+  
+  @supports (mask-size: 20vmin 20vmin) {
+    .support-mask-size {
+      display: none;
+    }
+  }
+  
+  @supports (mask-repeat: repeat) {
+    .support-mask-repeat {
+      display: none;
+    }
+  }

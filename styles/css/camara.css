@@ -1,0 +1,142 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.camera {
+    width: 200px;
+    height: 225px;
+    position: relative;
+}
+.bottom {
+    position: absolute;
+    height: 225px;
+    width: 200px;
+    background: #b4ab9c;
+    border-radius: 20px;
+}
+.bottom::after {
+    content: "";
+    width: 80%;
+    position: absolute;
+    height: 15px;
+    background-color: #403d37;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.top {
+    position: absolute;
+    height: 170px;
+    width: 200px;
+    background: #d3c8b6;
+    background-image: radial-gradient(circle at 50% 34%, #d3c8b6, #d3c8b6 3px, transparent 5px), radial-gradient(circle at 55% 38%, #d3c8b6, #d3c8b6 1px, transparent 3px), radial-gradient(circle at 50% 40%, #607e7c, #607e7c 20px, #455 20px, #455 25px, #403d37 25px, #403d37 40px, transparent 40px), linear-gradient(to bottom, #d3c8b6, #d3c8b6 60%, #ccc1b0 60%, #ccc1b0 80%, #d3c8b6 80%, #b4ab9c 80%);
+    border-radius: 20px 20px 0 0;
+}
+.top::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-radius: 0 0 50% 50%;
+    background-color: #403d37;
+    position: absolute;
+    bottom: 72px;
+    left: 50%;
+    transform-origin: bottom;
+    transform: translate(-50%);
+    animation: close 3s infinite;
+}
+.top::before {
+    content: "";
+    width: 50px;
+    height: 1px;
+    border-radius: 50% 50% 0 0;
+    background-color: #403d37;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform-origin: top;
+    transform: translate(-50%);
+    animation: close 3s infinite;
+}
+.lens {
+    position: absolute;
+    height: 170px;
+    width: 200px;
+    border-radius: 20px 20px 0 0;
+    background-image: radial-gradient(circle at 50% 40%, transparent, transparent 25px, #403d37 25px, #403d37 40px, transparent 40px);
+}
+.details {
+    position: absolute;
+    height: 170px;
+    width: 200px;
+    background-image: radial-gradient(circle at 18% 40%, #f95251, #f95251 10px, #b4ab9c 10px, #b4ab9c 12px, transparent 12px), radial-gradient(circle at 85% 38%, #403d37, #403d37 8px, #b4ab9c 8px, #b4ab9c 10px, transparent 10px);
+}
+.details::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    background-color: #403d37;
+    border-radius: 5px;
+    top: 15px;
+    left: 8%;
+}
+.details::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: 5px solid #383530;
+    background-color: #403d37;
+    border-radius: 2px;
+    top: 15px;
+    right: 8%;
+    background-image: radial-gradient(circle at center, #607e7c, #607e7c 10%, #455 20%, #403d37 30%);
+}
+.picture {
+    width: 150px;
+    height: 170px;
+    position: absolute;
+    background-color: #d2cfc7;
+    bottom: 55px;
+    left: 50%;
+    transform: translate(-50%);
+    animation: 3s print infinite;
+}
+.picture::before {
+    content: "";
+    position: absolute;
+    width: 130px;
+    height: 130px;
+    left: 50%;
+    top: 12px;
+    transform: translate(-50%);
+    background-color: #403d37;
+    background-image: linear-gradient(47deg, #403d37 50%, #383530 50%);
+}
+.picture::after {
+    content: "";
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    background-color: #d2cfc7;
+}
+@keyframes close {
+    10% {
+        transform: translate(-50%) scaleY(30);
+   }
+    20% {
+        transform: translate(-50%) scaleY(0);
+   }
+}
+@keyframes print {
+    30% {
+        bottom: 55px;
+   }
+    100% {
+        bottom: -100px;
+   }
+}

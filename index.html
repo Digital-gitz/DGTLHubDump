@@ -9,9 +9,7 @@
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
       rel="stylesheet"
-      type="text/css"
-    />
-    
+      type="text/css"/>
     <script
   src="https://code.jquery.com/jquery-3.7.1.min.js"
   integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
@@ -42,12 +40,38 @@
   /* You can change the background color and image URL here.  This solution works with animated .svg and animated .gif */
   background: #ffffff url('https://gist.githubusercontent.com/condensed-io/d4da34ecfdeda137ad4787fbd244ed27/raw/b96d939e9baf98ff79394c11af83c10a6acdd241/pac.svg') no-repeat center center;
 }
+.ghosttit{
+  -webkit-mask-image: -webkit-gradient(linear, left 90%, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)))
+
+}
+canvas {
+  border: 1px solid azure;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 </style>
 
+<!--  
+╭━━━━┳╮╱╱╱╱╱╭━━━╮
+┃╭╮╭╮┃┃╱╱╱╱╱╰╮╭╮┃
+╰╯┃┃╰┫╰━┳━━╮╱┃┃┃┣╮╭┳╮╭┳━━╮
+╱╱┃┃╱┃╭╮┃┃━┫╱┃┃┃┃┃┃┃╰╯┃╭╮┃
+╱╱┃┃╱┃┃┃┃┃━┫╭╯╰╯┃╰╯┃┃┃┃╰╯┃
+╱╱╰╯╱╰╯╰┻━━╯╰━━━┻━━┻┻┻┫╭━╯
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃┃
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰╯ -->
   </head>
   <body>
+<canvas id="myCanvas"></canvas>
  
+
     <h1 align="center">DiGiTaL DuMp</h1>
+
+
     <h2 align="center"><a href="#">##</a></h2>
     <!-- HTML -->
     <h2 align="center"><a href="Document/html/html.html">HTML</a></h2>
@@ -57,34 +81,26 @@
     </h2>
     <!-- Dashboard -->
     <h2 align="center">
-      <a href="Document/responsiveDashboardDesign/responsiveDashboarDesign.html"
-        >Dashboard</a
-      >
+      <a href="Document/responsiveDashboardDesign/responsiveDashboarDesign.html">Dashboard</a>
     <h2 align="center">
-      <a href="Document/avatar/avatar.html"
-        >Avatar</a
-      >
+      <a href="Document/avatar/avatar.html">Avatar</a>
     </h2>
     <!--Portfolio Page -->
     <h2 align="center">
       <a href="Document/portfolio/portfolio.html">some_theeemin</a>
     </h2>
-    <!-- HomeDev -->
-    <h2 align="center"><a href=""></a></h2>
-
     <!--404 -->
     <h2 align="center"><a href="404.html">404</a></h2>
     <!--threejs-->
     <h2 align="center"><a href="Document/threejs/threejs.html">ThreeJS</a></h2>
+    
+    <!--Styles-->
+    <h2 align="center"><a href="styles/css/style.html">Styles--backgrounds</a></h2>
+    
     <!--CSS-->
     <h2 align="center"><a href="Document/css/css.html">CSS</a></h2>
-    
-    
-    <!--CSS-->
+    <!-- CSs ArT -->
     <h2 align="center"><a href="Document/css/css.html">CSS</a></h2>
-    
-    
-    
     <!--Photoshop-->
     <h2 align="center"><a href="Design/Adobe/Photoshop.html">Photoshop</a></h2>
     <!-- showdown -->
@@ -97,12 +113,16 @@
     <h2 align="center"><a href="Document/conwayGameofLife/simple-app/index.html">"Did you ever hear the tragedy of Darth Plagueis The Wise? I thought not. It’s not a story the Jedi would tell you. It’s a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life… He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful… the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic. He could save others from death, but not himself."  </a></h2>
     <!-- Weird Maxix  -->
     <h2 align="center"><a href="data:text/html,<body%20style=margin:0><canvas%20id=q%20/><script>var%20q=document.getElementById('q'),s=window.screen,w=q.width=s.width,h=q.height=s.height,p=Array(256).join(1).split(''),c=q.getContext('2d'),m=Math;setInterval(function(){c.fillStyle='rgba(0,0,0,0.05)';c.fillRect(0,0,w,h);c.fillStyle='rgba(0,255,0,1)';p=p.map(function(v,i){r=m.random();c.fillText(String.fromCharCode(m.floor(2720+r*33)),i*10,v);v+=10;%20return%20v>768+r*1e4?0:v})},33)%3C/script%3E">matrix</a></h2>
-    
     <!-- Actual porfolio -->
     <h2 align="center"><a href="https://snazzy-starship-b11073.netlify.app/">Gods Cravin</a></h2>
-    
-    
-    
+    <!-- Animated-background -->
+    <h2 align="center"><a href="Document/animatedBackground/animatedBackground.html">BackgroundCSS</a></h2>    
+    <!-- HomeDev -->
+    <!-- <h2 align="center"><a href=""></a></h2> -->
+
+
+
+
     
     <img
       class="katamar"
@@ -110,22 +130,68 @@
       alt="Logo"
       class="logo"
     />
+<!--  -->
+<!--  -->
+    <!-- <a href="/gif/noisestorm-crab-rave-monstercat-release-zC92sr" title="Noisestorm - Crab Rave [Monstercat Release]"><img src="https://i.makeagif.com/media/10-03-2020/zC92sr.gif" alt="Noisestorm - Crab Rave [Monstercat Release]"></a><div style="font-size:11px;">make <a href="/" title="make a gif">music GIFs</a> like this at MakeaGif</div> -->
 
 
-    <a href="/gif/noisestorm-crab-rave-monstercat-release-zC92sr" title="Noisestorm - Crab Rave [Monstercat Release]"><img src="https://i.makeagif.com/media/10-03-2020/zC92sr.gif" alt="Noisestorm - Crab Rave [Monstercat Release]"></a><div style="font-size:11px;">make <a href="/" title="make a gif">music GIFs</a> like this at MakeaGif</div>
 
 
-    <iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/LDU_Txk06tM?si=kxKWZfoh758g7W73&amp;clip=Ugkx0b14O7WJlqSy8y8LoEXcecS_LtpO6eqn&amp;clipt=EIKjBBiamAU" 
-    title="YouTube video player"
-     frameborder="0"
-      allow="accelerometer;
-       autoplay;
-        clipboard-write;
-         encrypted-media;
-          gyroscope; picture-in-picture; web-share"
-           allowfullscreen></iframe>
-    <div id="preloader"></div>
-    <script src="script.js"></script>
+<!--  
+╭━━━━┳╮╱╱╱╱╱╭━━━╮
+┃╭╮╭╮┃┃╱╱╱╱╱╰╮╭╮┃
+╰╯┃┃╰┫╰━┳━━╮╱┃┃┃┣╮╭┳╮╭┳━━╮
+╱╱┃┃╱┃╭╮┃┃━┫╱┃┃┃┃┃┃┃╰╯┃╭╮┃
+╱╱┃┃╱┃┃┃┃┃━┫╭╯╰╯┃╰╯┃┃┃┃╰╯┃
+╱╱╰╯╱╰╯╰┻━━╯╰━━━┻━━┻┻┻┫╭━╯
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃┃
+╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╰╯ -->
+
+<div class="ghosttit">
+  
+      <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/LDU_Txk06tM?si=kxKWZfoh758g7W73&amp;clip=Ugkx0b14O7WJlqSy8y8LoEXcecS_LtpO6eqn&amp;clipt=EIKjBBiamAU" 
+      title="YouTube video player"
+       frameborder="0"
+        allow="accelerometer;
+         autoplay;
+          clipboard-write;
+           encrypted-media;
+            gyroscope; picture-in-picture; web-share"
+             allowfullscreen></iframe>
+      <div id="preloader"></div>
+      <script src="script.js"></script>
+  
+</div>
+
+
+
+
+<script>
+    // Get the canvas element
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // Function to draw a random pixel on the canvas
+    function drawRandomPixel() {
+        var x = Math.floor(Math.random() * canvas.width);
+        var y = Math.floor(Math.random() * canvas.height);
+        var r = Math.floor(Math.random() * 256);
+        var g = Math.floor(Math.random() * 256);
+        var b = Math.floor(Math.random() * 256);
+        ctx.fillStyle = "rgb(" + r + "," + g + "," + b + ")";
+        ctx.fillRect(x, y, 1, 1);
+    }
+
+    // Main loop to continuously draw random pixels
+    function mainLoop() {
+        drawRandomPixel();
+        requestAnimationFrame(mainLoop);
+    }
+
+    // Start the main loop
+    mainLoop();
+</script>
+
   </body>
 </html>
