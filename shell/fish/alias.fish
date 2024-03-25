@@ -120,7 +120,7 @@ alias ghl='gh repo list'             	                                          
 alias ghr='gh repo rename'		                                                                 #rename a repo.
 alias ghc='gh repo clone'		                                                                  #clone a repo.
 alias gh_del='gh repo delete'		                                                              #delete a repo.
-alias ghdrip='git status; git add.; git status; git commit -a -m "droppin some \.\.\.\.\. dribs"' #add and commit all changes. 
+alias ghdrip='git status; git add .; git status; git commit -a -m "droppin some \.\.\.\.\. dribs"' #add and commit all changes. 
 # Show current network information
 # Show current network connections to the server
 alias ipview="netstat -anpl | grep :80 | awk {'print \$5'} | cut -d\":\" -f1 | sort | uniq -c | sort -n | sed -e 's/^ *//' -e 's/ *\$//'"
@@ -238,6 +238,7 @@ alias obsidian='cd /mnt/c/Users/russk/digital/Obsidian/Obsidian-github/Obsidian-
 alias ios-obsidian='cd /mnt/c/Users/russk/iCloudDrive/Obsidian'
 alias ios='cd /mnt/c/Users/russk/iCloudDrive/'
 alias ffchrome='cd /mnt/c/Users/russk/AppData/Roaming/Mozilla/Firefox/Profiles/3e9qvlk6.dev-edition-default/chrome'
+alias Ddump='cd /mnt/c/Users/russk/digital/DGTLHubDump'
 # ? how am I going to call powershell from wsl??
 # alais powershell=
 # obsidian 

@@ -1,0 +1,656 @@
+#!/bin/sh
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# source ~/.local/share/icons-in-terminal/icons_bash.sh
+source $(dirname $(gem which colorls))/tab_complete.sh
+source ~/bash/LS_COLORS/lscolors.sh
+source ~/bash/.README.sh
+export ZSH=$HOME/.oh-my-zsh
+export PATH="$PATH:/opt/nvim-linux64/bin"
+ typeset -g POWERLEVEL9K_INSTANT_PROMPT=quiet
+
+
+
+# https://github.com/zap-zsh/outlet
+[ -f "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh" ] && source "${XDG_DATA_HOME:-$HOME/.local/share}/zap/zap.zsh"
+plug "zap-zsh/supercharge"
+plug "zap-zsh/exa"
+plug "zap-zsh/sudo"
+# plug "wintermi/zsh-fnm"
+plug "wintermi/zsh-rust"
+plug "wintermi/zsh-starship"
+# plug "wintermi/zsh-bob"
+plug "atoftegaard-git/zsh-omz-autocomplete"
+plug "zap-zsh/zap-prompt"
+plug "zap-prompt"
+plug "zsh-users/zsh-syntax-highlighting"
+plug  "zsh-users/zsh-completions"
+plug "zsh-users/zsh-history-substring-search"
+plug "zsh-users/zsh-completions"
+plug "zsh-users/zsh-autosuggestions"
+plug "hlissner/zsh-autopair"
+plug "zap-zsh/vim"
+plug "zap-zsh/fzf"
+plug "zap-zsh/exa"
+plug "zsh-users/zsh-history-substring-search"
+plug "MichaelAquilina/zsh-auto-notify"
+plug "MAHcodes/distro-prompt"
+plug "zsh-autopair"
+plug "zap-zsh/completions"
+plug "zap-zsh/magic-enter"
+plug "fzf-tab-source"
+plug "lukechilds/zsh-better-npm-completion"
+# plug "sanekeybinds"
+plug "zsh-dynamic-prompt"
+plug "romkatv/powerlevel10k"
+plug "trystan2k/zsh-npm-plugin"
+plug "Yaya-Cout/zsh-web"
+#  defer:2
+
+# Example install of a zsh completion
+plug "esc/conda-zsh-completion"
+
+
+plugins=(git zsh-autosuggestions
+ zsh-syntax-highlighting
+  fast-syntax-highlighting 
+  zsh-autocomplete)
+
+# Load and initialise completion system
+autoload -Uz compinit
+# compinit
+
+#keybinds
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+bindkey '^ ' autosuggest-accept
+#history substring search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
+# export EDITOR='/mnt/c/Users/russk/AppData/Local/Programs/Microsoft\ VS\ Code\ Insiders\/Code\ -\ Insiders.exe'
+export EDITOR='nvim'
+# export TERMINAL=""
+# export BROWSER=""
+# export MANPAGER='nvim +Man!'
+export MANWIDTH=999
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+export PATH="$HOME/.local/bin":$PATH
+# export ZSH_DOTENV_PROMPT=false
+
+
+if command -v bat &> /dev/null; then
+  alias cat="bat -pp --theme \"Visual Studio Dark+\"" 
+  alias catt="bat --theme \"Visual Studio Dark+\"" 
+fi
+
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/xwin/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/xwin/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/xwin/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/xwin/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+#Open any file using its default program (eg. pdfs, torrents, etc).
+alias open="xdg-open"
+alias update='sudo apt update'
+alias upgrade='sudo apt upgrade'
+# alias uninstall='sudo apt remove'
+
+
+#uninstall and or remove a package
+alias uninstall='sudo apt remove'   	 # remove a package from apt package manager.
+alias rm='sudo rm -iv'                   # ignore nonexistent files, prompt before every removal + explain what is being done.
+alias rmdir='sudo rm -Rfv'              # remove empty directories.
+###############
+# ALIAS CMD's #    
+###############
+
+
+case "$(uname -s)" in
+
+Darwin)
+	# echo 'Mac OS X'
+alias ls='eza --icons --color=always --group-directories-first'                                        ─╯
+	;;
+
+Linux)
+alias ls='eza --icons --color=always --group-directories-first'                                        ─╯
+	;;
+
+CYGWIN* | MINGW32* | MSYS* | MINGW*)
+	# echo 'MS Windows'
+	;;
+*)
+	# echo 'Other OS'
+	;;
+esac
+
+# Alias's for multiple directory listing commands
+alias ls='eza --icons --color=always --group-directories-first'                                        ─╯
+# alias ls='ls -aFh --color=always'       # add colors and file type extensions
+
+alias ll='eza -alF --icons --color=always --group-directories-first'
+# alias ll='ls -Fls'                      # long listing format
+
+alias la='eza -a --icons --color=always --group-directories-first'
+# alias la='ls -Alh'                      # show hidden files
+
+alias l='eza -F --icons --color=always --group-directories-first'
+# alias l.='eza -a | egrep "^\."'
+alias lx='ls -lXBh'                     # sort by extension
+alias lk='ls -lSrh'                     # sort by size
+alias lc='ls -lcrh'                     # sort by change time
+alias lu='ls -lurh'                     # sort by access time
+alias lr='ls -lRh'                      # recursive ls
+alias lt='ls -ltrh'                     # sort by date
+alias lm='ls -alh |more'                # pipe through 'more'
+alias lw='ls -xAh'                      # wide listing format
+alias labc='ls -lap'                    #alphabetical sort
+alias lf="ls -l | egrep -v '^d'"        # files only
+alias ldir="ls -l | egrep '^d'"         # directories only
+alias c='vimcat'                        # colored file display
+alias re_shell='source ~/.zshrc'        # reload shell
+alias clr='clear -x'
+alias cls='clear'                       
+alias zup='zap update all'
+
+
+
+# Alias's to modified commands
+alias cp='sudo cp -i'                    # -i option prompts before overwrite
+alias mv='sudo mv -i'                    # -i option prompts before overwrite
+alias mkdir='sudo mkdir -p'              # create parent directories as needed
+alias mknf='sudo touch'             # make a new file
+alias ps='sudo ps auxf'                  # show all processes
+alias ping='sudo ping -c 10'             # ping with 10 packets
+alias less='sudo less -R'                # raw control characters
+alias apt-get='sudo apt-get'        # debian based systems
+alias cat=ccat
+
+# alias chmod commands
+alias mx='chmod a+x'
+alias 000='chmod -R 000'
+alias 644='chmod -R 644'
+alias 666='chmod -R 666'
+alias 755='chmod -R 755'
+alias 777='chmod -R 777'
+
+alias h="history | grep "
+
+# Search running processes
+alias p="ps aux | grep "
+alias topcpu="/bin/ps -eo pcpu,pid,user,args | sort -k 1 -r | head -10"
+
+# Search files in the current folder
+alias f="find . | grep "
+
+# Count all files (recursively) in the current folder
+alias countfiles="for t in files links directories; do echo \`find . -type \${t:0:1} | wc -l\` \$t; done 2> /dev/null"
+
+# To see if a command is aliased, a file, or a built-in command
+alias checkcommand="type -t"
+
+
+########################
+######     GIT     #####
+alias gs='git status'               # View Git status.
+alias ga='git add'                  # Add a file to Git.
+alias gaa='git add --all'           # Add all files to Git.
+alias gc='git commit'               # Commit changes to the code.
+alias gl='git log --oneline'        # View the Git log.
+alias gb='git checkout -b'          # new Git branch and move to new branch at same time.
+alias gd='git diff'                 # View the difference between the current branch and the master branch.
+
+###github
+alias ghs='gh search repos'         	#search for a github repository.
+alias ghv='gh repo view'            	#Vew details about a repository.
+alias ghl='gh repo list'             	#Get a list of my repositorys.
+alias ghr='gh repo rename'		#rename a repo.
+alias ghc='gh repo clone'		#clone a repo.
+alias gh_del='gh repo delete'		#delete a repo.
+
+#------------------------------------------------------------#
+
+
+# Show current network information
+# Show current network connections to the server
+alias ipview="netstat -anpl | grep :80 | awk {'print \$5'} | cut -d\":\" -f1 | sort | uniq -c | sort -n | sed -e 's/^ *//' -e 's/ *\$//'"
+
+# Show open ports
+alias openports='netstat -nape --inet'
+
+
+netinfo ()
+{
+	echo "--------------- Network Information ---------------"
+	/sbin/ifconfig | awk /'inet addr/ {print $2}'
+	echo ""
+	/sbin/ifconfig | awk /'Bcast/ {print $3}'
+	echo ""
+	/sbin/ifconfig | awk /'inet addr/ {print $4}'
+
+	/sbin/ifconfig | awk /'HWaddr/ {print $4,$5}'
+	echo "---------------------------------------------------"
+}
+
+# IP address lookup
+alias whatismyip="whatsmyip"
+function whatsmyip ()
+{
+	# Dumps a list of all IP addresses for every device
+	# /sbin/ifconfig |grep -B1 "inet addr" |awk '{ if ( $1 == "inet" ) { print $2 } else if ( $2 == "Link" ) { printf "%s:" ,$1 } }' |awk -F: '{ print $1 ": " $3 }';
+
+	# Internal IP Lookup
+	echo -n "Internal IP: " ; /sbin/ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}'
+
+	# External IP Lookup
+	echo -n "External IP: " ; wget http://smart-ip.net/myip -O - -q
+}
+
+
+
+# Change directory aliases 
+alias home='cd ~'
+alias root='cd /'
+alias hmm='cd ~; pwd; ls;'
+alias ..='cd ..;pwd; ls'  ## Move to the parent folder.
+alias ...='cd ../..;pwd; ls' ## Move up two parent folders.
+alias ....='cd ../../..;pwd; ls' ## Move up three parent folders.
+alias .....='cd ../../../..;pwd; ls' ### Move up four parent folders.
+
+# easier to read disk
+alias df='df -h'     # human-readable sizes
+alias free='free -m' # show sizes in MB
+
+# Alias's to show disk space and space used in a folder
+alias diskspace="du -S | sort -n -r |more"
+alias folders='du -h --max-depth=1'
+alias folderssort='find . -maxdepth 1 -type d -print0 | xargs -0 du -sk | sort -rn'
+alias tree='tree -CAhF --dirsfirst'
+alias treed='tree -CAFd'
+alias mountedinfo='df -hT'
+
+# Alias's for archives
+alias mktar='tar -cvf'
+alias mkbz2='tar -cvjf'
+alias mkgz='tar -cvzf'
+alias untar='tar -xvf'
+alias unbz2='tar -xvjf'
+alias ungz='tar -xvzf'
+
+
+# Create and go to the directory
+mkdirg ()
+{
+	mkdir -p $1
+	cd $1
+}
+
+
+# Windows
+alias progs86'/mnt/c/Program\ Files\ \(x86\)'
+alias progs='/mnt/c/Program\ Files'
+alias winlocal='/mnt/c/Users/russk/AppData/Local/'
+alias vscode='/mnt/c/Users/russk/AppData/Local/Programs/Microsoft\ VS\ Code\ Insiders\/Code\ -\ Insiders.exe'
+alias vscodedir='/mnt/c/Users/russk/AppData/Local/Programs/Microsoft\ VS\ Code\ Insiders\'
+
+alias adobe='/mnt/c/Program\ Files/Adobe'
+#open program Windows
+
+alias  obsidian='/mnt/c/Users/russk/AppData/Local/Obsidian/Obsidian.exe'
+alias everything='/mnt/c/Program\ Files\ \(x86\)/Everything/Everything.exe'
+alias eagle='/mnt/c/Program\ Files\Eagle\Eagle.exe'
+alias  winStartup='/mnt/c/Users/russk/AppData/Roaming/Microsoft/Windows/Start\ Menu/Programs/Startup'
+alias  winprogs='/mnt/c/Users/russk/AppData/Roaming/Microsoft/Windows/Start\ Menu/Programs/'
+alias  glass2k='/mnt/c/Users/russk/AppData/Roaming/Microsoft/Windows/Start\ Menu/Programs/Startup/Glass2k.exe'
+
+
+#URL's
+#workRelated
+alias fldwork='xdg-open https://app.fieldnation.com/workorders/'
+alias fldnation='xdg-open https://app.fieldnation.com/'
+
+# web_search from terminal
+
+function web_search() {
+  emulate -L zsh
+
+  # define search engine URLS
+  typeset -A urls
+  urls=(
+    google      "https://www.google.com/search?q="
+    bing        "https://www.bing.com/search?q="
+    yahoo       "https://search.yahoo.com/search?p="
+    duckduckgo  "https://www.duckduckgo.com/?q="
+    yandex      "https://yandex.ru/yandsearch?text="
+    github      "https://github.com/search?q="
+    baidu       "https://www.baidu.com/s?wd="
+  )
+
+  # check whether the search engine is supported
+  if [[ -z "$urls[$1]" ]]; then
+    echo "Search engine $1 not supported."
+    return 1
+  fi
+
+  # search or go to main page depending on number of arguments passed
+  if [[ $# -gt 1 ]]; then
+    # build search url:
+    # join arguments passed with '+', then append to search engine URL
+    url="${urls[$1]}${(j:+:)@[2,-1]}"
+  else
+    # build main page url:
+    # split by '/', then rejoin protocol (1) and domain (2) parts with '//'
+    url="${(j://:)${(s:/:)urls[$1]}[1,2]}"
+  fi
+
+  open_command "$url"
+}
+
+
+alias bing='web_search bing'
+alias google='web_search google'
+alias yahoo='web_search yahoo'
+alias ddg='web_search duckduckgo'
+alias yandex='web_search yandex'
+alias github='web_search github'
+alias baidu='web_search baidu'
+
+#add your own !bang searches here
+alias wiki='web_search duckduckgo \!w'
+alias news='web_search duckduckgo \!n'
+alias youtube='web_search duckduckgo \!yt'
+alias map='web_search duckduckgo \!m'
+alias image='web_search duckduckgo \!i'
+alias ducky='web_search duckduckgo \!'
+
+# search 
+alias googlesearch='xdg-open http://www.google.com'
+alias startpage='xdg-open https://www.startpage.com/en/'
+alias spotifysong='xdg-open https://open.spotify.com/'
+alias discordchan='xdg-open https://discord.com/channels/'
+alias githubfeed='xdg-open https://discord.com/channels/'
+alias browsetwitch='xdg-open https://www.twitch.tv/directory'
+
+# AI Url's
+alias OpenPhind='xdg-open https://www.phind.com/'
+alias OpenDuck='xdg-open https://duckduckgo.com/'
+alias OpenChatGpt='xdg-open https://www.chatgpt.com/'
+alias gchat='xdg-open https://www.chatgpt.com/'
+alias OpenChatGptWriter='xdg-open https://chat.openai.com/g/g-3SIdOvkZx-writer'
+alias gchattW='xdg-open https://chat.openai.com/g/g-3SIdOvkZx-writer'
+alias OpenDigitalHub='xdg-open https://github.com/DGTL-Hub'
+alias OpenSplashPage='https://snazzy-starship-b11073.netlify.app/'
+alias Opendigdump='xdg-open https://dgtl-hub.github.io/DGTLHubDump/'
+alias OpenPerplex='xdg-open https://www.perplexity.ai/'
+alias OpenHuggingFaceChat='xdg-open https://huggingface.co/chat/'
+alias hugchat='xdg-open https://huggingface.co/chat/'
+
+#-------------------Networking-----------------------------------#
+
+# Show current network information
+netinfo ()
+{
+	echo "--------------- Network Information ---------------"
+	/sbin/ifconfig | awk /'inet addr/ {print $2}'
+	echo ""
+	/sbin/ifconfig | awk /'Bcast/ {print $3}'
+	echo ""
+	/sbin/ifconfig | awk /'inet addr/ {print $4}'
+
+	/sbin/ifconfig | awk /'HWaddr/ {print $4,$5}'
+	echo "---------------------------------------------------"
+}
+
+
+# IP address lookup
+alias whatismyip="whatsmyip"
+function whatsmyip ()
+{
+	# Dumps a list of all IP addresses for every device
+	# /sbin/ifconfig |grep -B1 "inet addr" |awk '{ if ( $1 == "inet" ) { print $2 } else if ( $2 == "Link" ) { printf "%s:" ,$1 } }' |awk -F: '{ print $1 ": " $3 }';
+
+	# Internal IP Lookup
+	echo -n "Internal IP: " ; /sbin/ifconfig eth0 | grep "inet addr" | awk -F: '{print $2}' | awk '{print $1}'
+
+	# External IP Lookup
+	echo -n "External IP: " ; wget http://smart-ip.net/myip -O - -q
+}
+
+#-------------------------end-----------------------------#
+#System Information
+# get top process eating memory
+alias psmem='ps auxf | sort -nr -k 4 | head -5'
+
+# get top process eating cpu ##
+alias pscpu='ps auxf | sort -nr -k 3 | head -5'
+
+
+# Show all logs in /var/log
+alias logs="sudo find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1 | sed -e's/:$//g' | grep -v '[0-9]$' | xargs tail -f"
+
+# Show the current distribution
+distribution ()
+{
+	local dtype
+	# Assume unknown
+	dtype="unknown"
+
+	# First test against Fedora / RHEL / CentOS / generic Redhat derivative
+	if [ -r /etc/rc.d/init.d/functions ]; then
+		source /etc/rc.d/init.d/functions
+		[ zz`type -t passed 2>/dev/null` == "zzfunction" ] && dtype="redhat"
+
+	# Then test against SUSE (must be after Redhat,
+	# I've seen rc.status on Ubuntu I think? TODO: Recheck that)
+	elif [ -r /etc/rc.status ]; then
+		source /etc/rc.status
+		[ zz`type -t rc_reset 2>/dev/null` == "zzfunction" ] && dtype="suse"
+
+	# Then test against Debian, Ubuntu and friends
+	elif [ -r /lib/lsb/init-functions ]; then
+		source /lib/lsb/init-functions
+		[ zz`type -t log_begin_msg 2>/dev/null` == "zzfunction" ] && dtype="debian"
+
+	# Then test against Gentoo
+	elif [ -r /etc/init.d/functions.sh ]; then
+		source /etc/init.d/functions.sh
+		[ zz`type -t ebegin 2>/dev/null` == "zzfunction" ] && dtype="gentoo"
+
+	# For Mandriva we currently just test if /etc/mandriva-release exists
+	# and isn't empty (TODO: Find a better way :)
+	elif [ -s /etc/mandriva-release ]; then
+		dtype="mandriva"
+
+	# For Slackware we currently just test if /etc/slackware-version exists
+	elif [ -s /etc/slackware-version ]; then
+		dtype="slackware"
+
+	fi
+	echo $dtype
+}
+
+# Show the current version of the operating system
+ver ()
+{
+	local dtype
+	dtype=$(distribution)
+
+	if [ $dtype == "redhat" ]; then
+		if [ -s /etc/redhat-release ]; then
+			cat /etc/redhat-release && uname -a
+		else
+			cat /etc/issue && uname -a
+		fi
+	elif [ $dtype == "suse" ]; then
+		cat /etc/SuSE-release
+	elif [ $dtype == "debian" ]; then
+		lsb_release -a
+		# sudo cat /etc/issue && sudo cat /etc/issue.net && sudo cat /etc/lsb_release && sudo cat /etc/os-release # Linux Mint option 2
+	elif [ $dtype == "gentoo" ]; then
+		cat /etc/gentoo-release
+	elif [ $dtype == "mandriva" ]; then
+		cat /etc/mandriva-release
+	elif [ $dtype == "slackware" ]; then
+		cat /etc/slackware-version
+	else
+		if [ -s /etc/issue ]; then
+			cat /etc/issue
+		else
+			echo "Error: Unknown distribution"
+			exit 1
+		fi
+	fi
+}
+
+# Cpu cors I think
+cpp()
+{
+	set -e
+	strace -q -ewrite cp -- "${1}" "${2}" 2>&1 \
+	| awk '{
+	count += $NF
+	if (count % 10 == 0) {
+		percent = count / total_size * 100
+		printf "%3d%% [", percent
+		for (i=0;i<=percent;i++)
+			printf "="
+			printf ">"
+			for (i=percent;i<100;i++)
+				printf " "
+				printf "]\r"
+			}
+		}
+	END { print "" }' total_size=$(stat -c '%s' "${1}") count=0
+}
+
+
+#file type Handling
+# Extracts any archive(s) (if unp isn't installed)
+extract () {
+	for archive in $*; do
+		if [ -f $archive ] ; then
+			case $archive in
+				*.tar.bz2)   tar xvjf $archive    ;;
+				*.tar.gz)    tar xvzf $archive    ;;
+				*.bz2)       bunzip2 $archive     ;;
+				*.rar)       rar x $archive       ;;
+				*.gz)        gunzip $archive      ;;
+				*.tar)       tar xvf $archive     ;;
+				*.tbz2)      tar xvjf $archive    ;;
+				*.tgz)       tar xvzf $archive    ;;
+				*.zip)       unzip $archive       ;;
+				*.Z)         uncompress $archive  ;;
+				*.7z)        7z x $archive        ;;
+				*)           echo "don't know how to extract '$archive'..." ;;
+			esac
+		else
+			echo "'$archive' is not a valid file!"
+		fi
+	done
+}
+
+
+
+
+# Colorize grep output (good for log files)
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+### ### ### ### ### ##
+# # Fun BAT files # # #
+alias matrix_time="bash <(curl -sL https://gist.githubusercontent.com/alexfornuto/f2f6ffa423bd5bc21c5e/raw/matrix.sh)"
+
+
+
+
+eval "$(navi widget zsh)"
+
+_navi_call() {
+   local result="$(navi "$@" </dev/tty)"
+   printf "%s" "$result"
+}
+
+_navi_widget() {
+   local -r input="${READLINE_LINE}"
+   local -r last_command="$(echo "${input}" | navi fn widget::last_command)"
+
+   if [ -z "${last_command}" ]; then
+      local -r output="$(_navi_call --print)"
+   else
+      local -r find="${last_command}_NAVIEND"
+      local -r replacement="$(_navi_call --print --query "$last_command")"
+      local output="$input"
+      if [ -n "$replacement" ]; then
+         output="${input}_NAVIEND"
+         output="${output//$find/$replacement}"
+      fi
+   fi
+
+   READLINE_LINE="$output"
+   READLINE_POINT=${#READLINE_LINE}
+}
+
+_navi_widget_legacy() {
+   _navi_call --print
+}
+
+
+
+
+eval "$(zoxide init zsh)"
+#
+
+
+ZSH_THEME="robbyrussell"
+
+#print a lolcat
+alias lololcat="echo {a..z}{a..z}{a..z} | lolcat"
+# # # # # # # # # # # #
+# wslfetch
+
+
+
+  #read documents
+  alias -s pdf=acroread
+  alias -s ps=gv
+  alias -s dvi=xdvi
+  alias -s chm=xchm
+  alias -s djvu=djview
+
+  #list whats inside packed file
+  alias -s zip="unzip -l"
+  alias -s rar="unrar l"
+  alias -s tar="tar tf"
+  alias -s tar.gz="echo "
+  alias -s ace="unace l"
+
+zstyle -e ':completion:*:(ssh|scp|sftp|rsh|rsync):hosts' hosts 'reply=(${=${${(f)"$(cat {/etc/ssh_,~/.ssh/known_}hosts(|2)(N) /dev/null)"}%%[# ]*}//,/ })'
+
+echo                              "_your files sire..  }"
+echo                     "(ツ)_/¯"
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
