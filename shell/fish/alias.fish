@@ -111,16 +111,16 @@ alias gb='git checkout -b'          # new Git branch and move to new branch at s
 alias gd='git diff'                 # View the difference between the current branch and the master branch.
 
 ###github
-# alias ghss='gh gist list --starred'         	#list starred gists.
-# alias ghlg='gh gist list'                    	#list gists.
-# alias ghsg='gh search repos list --starred'   #list starred repositories.      	
-alias ghv='gh repo view'            	          #Vew details about a repository.
-alias ghs='gh search repos'         	          #search for a github repository.
-alias ghl='gh repo list'             	          #Get a list of my repositorys.
-alias ghr='gh repo rename'		                  #rename a repo.
-alias ghc='gh repo clone'		                    #clone a repo.
-alias gh_del='gh repo delete'		                #delete a repo.
-
+# alias ghss='gh gist list --starred'         	                                                   #list starred gists.
+# alias ghlg='gh gist list'                                                                     	#list gists.
+# alias ghsg='gh search repos list --starred'                                                    #list starred repositories.      	
+alias ghv='gh repo view'            	                                                         #Vew details about a repository.
+alias ghs='gh search repos'         	                                                         #search for a github repository.
+alias ghl='gh repo list'             	                                                         #Get a list of my repositorys.
+alias ghr='gh repo rename'		                                                                 #rename a repo.
+alias ghc='gh repo clone'		                                                                  #clone a repo.
+alias gh_del='gh repo delete'		                                                              #delete a repo.
+alias ghdrip='git status; git add.; git status; git commit -a -m "droppin some \.\.\.\.\. dribs"' #add and commit all changes. 
 # Show current network information
 # Show current network connections to the server
 alias ipview="netstat -anpl | grep :80 | awk {'print \$5'} | cut -d\":\" -f1 | sort | uniq -c | sort -n | sed -e 's/^ *//' -e 's/ *\$//'"

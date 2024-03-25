@@ -84,20 +84,21 @@ alias downgit='https://minhaskamal.github.io/DownGit/#/home?url='  # ? will I ne
 #? man what the fuck is going on here...... why is it opening microsoft store
 #? and why dose firefox open my donuments. 
 alias monkwr='open moz-extension://574700a5-f4dd-44e7-b728-2a1d217a5a18/options.html#url=aHR0cHM6Ly9naXRodWIuY29tL2Rhc2hib2FyZA==&nav=dashboard'
-
-alias gs='git status'        # View Git status.
-alias ga='git add'           # Add a file to Git.
-alias gaa='git add --all'    # Add all files to Git.
-alias gc='git commit'        # Commit changes to the code.
-alias gl='git log --oneline' # View the Git log.
-alias gb='git checkout -b'   # new Git branch and move to new branch at same time.
-alias gd='git diff'          # View the difference between the current branch and the master branch.
-alias ghv='gh repo view'     #Vew details about a repository.
-alias ghs='gh search repos'  #search for a github repository.
-alias ghl='gh repo list'     #Get a list of my repositorys.
-alias ghr='gh repo rename'   #rename a repo.
-alias ghc='gh repo clone'    #clone a repo.
-alias gh_del='gh repo delete'#delete a repo.
+###github
+alias gs='git status'                                                                           # View Git status.
+alias ga='git add'                                                                               # Add a file to Git.
+alias gaa='git add --all'                                                                       # Add all files to Git.
+alias gc='git commit'                                                                           # Commit changes to the code.
+alias gl='git log --oneline'                                                                    # View the Git log.
+alias gb='git checkout -b'                                                                       # new Git branch and move to new branch at same time.
+alias gd='git diff'                                                                              # View the difference between the current branch and the master branch.
+alias ghv='gh repo view'            	                                                         #Vew details about a repository.
+alias ghs='gh search repos'         	                                                         #search for a github repository.
+alias ghl='gh repo list'             	                                                         #Get a list of my repositorys.
+alias ghr='gh repo rename'		                                                                 #rename a repo.
+alias ghc='gh repo clone'		                                                                  #clone a repo.
+alias gh_del='gh repo delete'		                                                              #delete a repo.
+alias ghdrip='git status; git add.; git status; git commit -a -m "droppin some \.\.\.\.\. dribs"' #add and commit all changes. 
 
 # Show current network information #
 # Show current network connections to the server 
