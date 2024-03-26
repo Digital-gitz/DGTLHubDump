@@ -1,42 +1,6 @@
 {
   "liveServer.settings.port": 6969,
   "liveServer.settings.multiRootWorkspaceName": "DGTLHibDump",
-
-  "apc.stylesheet": {
-    "body": {
-      // other panels should be transparent see "workbench.colorCustomizations"
-      "background-image": "url(/Users/aleksandarpopovic/imgs/19.png), linear-gradient(to top,rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2))",
-      "background-size": "cover",
-      "background-blend-mode": "multiply",
-      "background-repeat": "no-repeat"
-    }
-
-  },
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 20
-  },
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 20,
-    "fontSize": 10
-  },
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 7,
-      "y": 5
-    }
-  },
-  "apc.header": {
-    "height": 25,
-    "fontSize": 11
-  },
-  "apc.listRow": {
-    "height": 19,
-    "fontSize": 11
-  },
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "dce48196-ff46-470c-b5f9-d1e23f4a79d3",
   "workbench.settings.editor": "json",
@@ -203,83 +167,6 @@
     ]
   },
   "workbench.colorCustomizations": {
-    // "sideBar.border": "#00000000",
-    // "statusBar.border": "#00000000",
-    // "terminal.border": "#00000000",
-    // "panel.border": "#00000000",
-    // "activityBar.border": "#00000000",
-    // "activityBar.activeBorder": "#00000000",
-    // "list.focusAndSelectionOutline": "#00000000",
-    // "editorIndentGuide.activeBackground": "#00000000",
-    // "editorGroupHeader.tabsBackground": "#00000000",
-    // "sideBar.background": "#00000000",
-    // "sideBarSectionHeader.border": "#00000000",
-    // "sideBarSectionHeader.background": "#00000000",
-    // "editor.background": "#00000000",
-    // "editorIndentGuide.background": "#00000000",
-    // "peekViewEditor.background": "#00000000",
-    // "peekViewEditorGutter.background": "#00000000",
-    // "peekViewTitle.background": "#00000000",
-    // "peekViewResult.background": "#00000000",
-    // "tab.border": "#00000000",
-    // "tab.activeModifiedBorder": "#00000000",
-    // "tab.inactiveModifiedBorder": "#00000000",
-    // "tab.activeBackground": "#00000000",
-    // "tab.inactiveBackground": "#00000000",
-    // "tab.lastPinnedBorder": "#00000000",
-    // "editorOverviewRuler.border": "#00000000",
-    // "statusBar.background": "#00000000",
-    // "statusBar.debuggingBackground": "#00000000",
-    // "statusBar.noFolderBackground": "#00000000",
-    // "statusBar.focusBorder": "#00000000",
-    // "statusBarItem.activeBackground": "#00000000",
-    // "widget.shadow": "#00000000",
-    // "focusBorder": "#00000000",
-    // "tree.indentGuidesStroke": "#00000000",
-    // "panel.background": "#00000000",
-    // "activityBar.background": "#00000000",
-    // "activityBar.dropBorder": "#00000000",
-    // "peekViewEditor.matchHighlightBackground": "#00000000",
-    // "peekViewEditor.matchHighlightBorder": "#00000000",
-    // "titleBar.activeBackground": "#0C1125",
-    // "titleBar.inactiveBackground": "#0C1125",
-    // "activityBarBadge.background": "#0C1125",
-    // "editorWidget.background": "#0C1125",
-    // "settings.dropdownBackground": "#0C1125",
-    // "input.background": "#0C1125",
-    // "badge.background": "#0C1125",
-    // "activityBar.inactiveForeground": "#01589b99",
-    // "button.background": "#01589b99",
-    // "panelTitle.inactiveForeground": "#01589b99",
-    // "editorLineNumber.foreground": "#01589b99",
-    // "editorSuggestWidget.border": "#01589b99",
-    // "list.hoverBackground": "#01589b99",
-    // "list.inactiveSelectionBackground": "#01589b99",
-    // "list.activeSelectionBackground": "#01589b99",
-    // "input.border": "#01589b99",
-    // "editorLineNumber.activeForeground": "#1979c2",
-    // "editorWidget.border": "#1979c2",
-    // "peekView.border": "#1979c2",
-    // "statusBar.foreground": "#1979c2",
-    // "activityBar.foreground": "#29B6F6",
-    // "activityBarBadge.foreground": "#29B6F6",
-    // "sideBarSectionHeader.foreground": "#29B6F6",
-    // "sideBarTitle.foreground": "#29B6F6",
-    // "tab.activeBorder": "#29B6F6",
-    // "icon.foreground": "#29B6F6",
-    // "badge.foreground": "#29B6F6",
-    // "list.focusOutline": "#29B6F6",
-    // "panelTitle.activeForeground": "#29B6F6",
-    // "panelTitle.activeBorder": "#29B6F6",
-    // "titleBar.activeForeground": "#29B6F6",
-    // "sideBar.foreground": "#81bae6",
-    // "gitDecoration.modifiedResourceForeground": "#81bae6",
-    // "gitDecoration.untrackedResourceForeground": "#81bae6",
-    // "gitDecoration.ignoredResourceForeground": "#81bae6",
-    // "gitDecoration.addedResourceForeground": "#81bae6",
-    // "gitDecoration.renamedResourceForeground": "#81bae6",
-    // "tab.activeBorderTop": "#00000000",
-    // "editorGroupHeader.tabsBorder": "#00000000"
   },
   "autoHide.autoHideSideBar": false
 }

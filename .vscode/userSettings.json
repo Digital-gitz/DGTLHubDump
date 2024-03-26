@@ -1,0 +1,647 @@
+{
+    "window.newWindowDimensions": "inherit", 
+    "window.titleBarStyle": "custom",
+    "workbench.colorCustomizations": {
+        "workbench": {
+            "iconTheme": "vscode-icons"
+        },
+        "minimap.background": "#00000000",
+        "editor.lineHighlightBackground": "#1073cf2d", 
+        "editorError.foreground": "#ff00002d",
+        "editorWarning.foreground": "#ffd90065",
+        "editorInfo.foreground": "#f5003577",
+        "terminal.fontFamily": "comic sans ms",
+        "terminal.background": "#07090a",
+        "terminal.foreground": "#d5fb00",
+        "terminal.ansiBlack": "#1D2021",
+        "terminal.ansiBrightBlack": "#665C54",
+        "terminal.ansiBrightBlue": "#0D6678",
+        "terminal.ansiBrightCyan": "#8BA59B",
+        "terminal.ansiBrightGreen": "#237e02",
+        "terminal.ansiBrightMagenta": "#8F4673",
+        "terminal.ansiBrightRed": "#FB543F",
+        "terminal.ansiBrightWhite": "#FDF4C1",
+        "terminal.ansiBrightYellow": "#FAC03B",
+        "terminal.ansiBlue": "#00a1f9",
+        "terminal.ansiCyan": "#8BA59B",
+        "terminal.ansiGreen": "#95C085",
+        "terminal.ansiMagenta": "#8F4673",
+        "terminal.ansiRed": "#FB543F",
+        "terminal.ansiWhite": "#A89984",
+        "terminal.ansiYellow": "#FAC03B",
+        "better-comments.tags": [
+            {
+                "tag": "!",
+                "color": "#FF2D00",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "?",
+                "color": "#3498DB",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "//",
+                "color": "#474747",
+                "strikethrough": true,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "todo",
+                "color": "#FF8C00",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            },
+            {
+                "tag": "*",
+                "color": "#98C379",
+                "strikethrough": false,
+                "underline": false,
+                "backgroundColor": "transparent",
+                "bold": false,
+                "italic": false
+            }
+        ],
+        "svg.preview.transparencyGrid": true,
+        "apc.stylesheet": {
+            ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important",
+        },
+        "editor.cursorBlinking": "phase",
+        "terminal.integrated.fontFamily": "monospace",
+        "terminal.integrated.inheritEnv": true,
+        "terminal.integrated.letterSpacing": 0,
+        "terminal.integrated.lineHeight": 1,
+        "redhat.telemetry.enabled": true,
+        "explorer.confirmDragAndDrop": false,
+        "security.workspace.trust.untrustedFiles": "open",
+        "chatgpt.lang": "en",
+        "editor.inlineSuggest.enabled": true,
+        "window.commandCenter": true,
+        "workbench.iconTheme": "vscode-icons",
+        "editor.tokenColorCustomizations": {
+            "textMateRules": [
+                {
+                    "scope": "source.note comment",
+                    "settings": {
+                        "foreground": "#88846f"
+                    }
+                },
+                {
+                    "scope": "source.note string",
+                    "settings": {
+                        "foreground": "#E6DB74"
+                    }
+                },
+                {
+                    "scope": "source.note entity.name.function",
+                    "settings": {
+                        "foreground": "#A6E22E"
+                    }
+                },
+                {
+                    "scope": "source.note variable.parameter",
+                    "settings": {
+                        "foreground": "#FD971F",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": "source.note support.function",
+                    "settings": {
+                        "foreground": "#66D9EF"
+                    }
+                },
+                {
+                    "scope": "source.note support.constant",
+                    "settings": {
+                        "foreground": "#66D9EF"
+                    }
+                },
+                {
+                    "scope": "source.note keyword",
+                    "settings": {
+                        "foreground": "#F92672"
+                    }
+                },
+                {
+                    "scope": "source.note invalid",
+                    "settings": {
+                        "foreground": "#F92672",
+                        "fontStyle": "bold underline"
+                    }
+                },
+                {
+                    "scope": "variable.other.readwrite.alias.js",
+                    "settings": {
+                        "foreground": "#9b1919"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword",
+                        "variable.language"
+                    ],
+                    "settings": {
+                        "foreground": "#5c9ed1"
+                    }
+                },
+                {
+                    "scope": "comment",
+                    "settings": {
+                        "foreground": "#051a1f",
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        },
+        "files.associations": {
+            "*.scss": "postcss"
+        },
+        "liveServer.settings.donotShowInfoMsg": true,
+        "editor.inlayHints.enabled": "on",
+        "editor.wordWrap": "on",
+        "diffEditor.wordWrap": "on",
+        "editor.guides.indentation": true,
+        "editor.guides.bracketPairs": true,
+        "tabsColor.activeTab": {
+            "backgroundColor": "#003030",
+            "fontColor": "black"
+        },
+        "tabsColor.byFileType": {
+            "js": {
+                "backgroundColor": "#119bd2",
+                "fontColor": "black"
+            },
+            "json": {
+                "backgroundColor": "#119bd2",
+                "fontColor": "black"
+            },
+            "tsx": {
+                "backgroundColor": "#3178c6",
+                "fontColor": "black"
+            },
+            "ts": {
+                "backgroundColor": "#16a5b1",
+                "fontColor": "black"
+            },
+            "config": {
+                "backgroundColor": "#fcecec",
+                "fontColor": "#2c3c7c"
+            },
+            "css": {
+                "backgroundColor": "#1572b7",
+                "fontColor": "#2c3c7c"
+            }
+        },
+        "liveshare.accessibility.soundsEnabled": false,
+        "editor.accessibilitySupport": "off",
+        "window.titleBarStyle": "custom",
+        "github.copilot.enable": {
+            "*": true,
+            "plaintext": true,
+            "markdown": true,
+            "scminput": true
+        },
+        "symbols.hidesExplorerArrows": false,
+        "webPreview.url": "http://localhost:6942",
+        "webPreview.mediaScreenOverride": true, 
+        "webPreview.mediaScreen": {
+            "Mobile": "380x796",
+            "Tablet": 768, 
+            "Laptop": 1024
+        },
+        "sonarlint.rules": {
+            "typescript:S6479": {
+                "level": "off"
+            },
+            "typescript:S2137": {
+                "level": "off"
+            },
+            "typescript:S6606": {
+                "level": "off"
+            },
+            "typescript:S1874": {
+                "level": "off"
+            }
+        },
+        "css.lint.unknownAtRules": "ignore",
+        "sortJSON.contextMenu": {
+            "sortJSON": true,
+            "sortJSONAlphaNum": true,
+            "sortJSONAlphaNumReverse": true,
+            "sortJSONKeyLength": true,
+            "sortJSONKeyLengthReverse": true,
+            "sortJSONReverse": true,
+            "sortJSONType": true,
+            "sortJSONTypeReverse": true,
+            "sortJSONValues": true,
+            "sortJSONValuesReverse": true
+        },
+        "colorInfo.languages": [
+            {
+                "selector": "css",
+                "colors": "css"
+            },
+            {
+                "selector": "sass",
+                "colors": "css"
+            },
+            {
+                "selector": "scss",
+                "colors": "css"
+            },
+            {
+                "selector": "less",
+                "colors": "css"
+            },
+            {
+                "selector": "tailwind",
+                "colors": "css"
+            }
+        ],
+        "vscode-edge-devtools.browserFlavor": "Default",
+        "git.autofetch": true,
+        "codeium.enableSearch": true,
+        "editor.unicodeHighlight.invisibleCharacters": false,
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "pixelbyte.love2d.debug": true,
+        "workbench.settings.applyToAllProfiles": [
+            "pixelbyte.love2d.path"
+        ],
+        "pixelbyte.love2d.path": "/home/digital/Downloads/love-11.4-x86_64.AppImage",
+        "[lua]": {
+        },
+        "files.exclude": {
+            "**/.trunk/*actions/": true,
+            "**/.trunk/*logs/": true,
+            "**/.trunk/*notifications/": true,
+            "**/.trunk/*out/": true,
+            "**/.trunk/*plugins/": true
+        },
+        "trunk.trunkGrayOutNonBlockingIssues": false,
+        "files.watcherExclude": {
+            "**/.trunk/*actions/": true,
+            "**/.trunk/*logs/": true,
+            "**/.trunk/*notifications/": true,
+            "**/.trunk/*out/": true,
+            "**/.trunk/*plugins/": true
+        },
+        "svg.preview.mode": "img",
+        "editor.defaultFormatter": "GitHub.copilot",
+        "liveServer.settings.donotVerifyTags": true,
+        "chat.editor.wordWrap": "on",
+        "[typescript]": {
+        },
+        "terminal.integrated.cursorBlinking": true,
+        "editor.cursorSmoothCaretAnimation": "on",
+        "editor.cursorSurroundingLinesStyle": "all",
+        "liveServer.settings.CustomBrowser": "chrome",
+        "glassit.alpha": 240,
+        "liveServer.settings.NoBrowser": true,
+        "javascript.inlayHints.enumMemberValues.enabled": true,
+        "godot_tools.editor_path": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Godot Engine\\godot.windows.opt.tools.64.exe",
+        "workbench.activityBar.location": "hidden",
+        "workbench.editorAssociations": {
+            "*.pdf": "latex-workshop-pdf-hook"
+        },
+        "explorer.confirmDelete": false,
+        "workbench.startupEditor": "none",
+        "window.zoomLevel": 1,
+        "security.allowedUNCHosts": [
+            "wsl.localhost"
+        ],
+        "vscode_custom_css.imports": [
+            "file:///c:/Users/russk/.vscode-insiders/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+        ]
+    },
+    "vscode_custom_css.imports": [],
+    "editor.suggest.insertMode": "replace",
+    "editor.suggest.showWords": false,
+    "cSpell.fixSpellingWithRenameProvider": false,
+    "cSpellTech.enabled": true,
+    "cSpellTech.expand": false,
+    "cSpell.enabled": false,
+    "cSpell.userWords": [
+        "aliceblue",
+        "alpinejs",
+        "antiquewhite",
+        "apikey",
+        "audiowide",
+        "autodocs",
+        "autofetch",
+        "awide",
+        "backlink",
+        "blanchedalmond",
+        "blueviolet",
+        "boxflex",
+        "Bpcp",
+        "brandonkirbyson",
+        "bromium",
+        "btime",
+        "burlywood",
+        "cadetblue",
+        "Centerfix",
+        "chatbox",
+        "Chichagof",
+        "codeium",
+        "codestats",
+        "commandline",
+        "Consolas",
+        "contentlayer",
+        "coolors",
+        "cornflowerblue",
+        "cornsilk",
+        "cssbanner",
+        "cssnano",
+        "Cygwin",
+        "darkcyan",
+        "darkgoldenrod",
+        "darkgray",
+        "darkgreen",
+        "darkgrey",
+        "darkkhaki",
+        "darkmagenta",
+        "darkolivegreen",
+        "darkorange",
+        "darkorchid",
+        "darkred",
+        "darkriszty",
+        "darksalmon",
+        "darkseagreen",
+        "darkslateblue",
+        "darkslategray",
+        "darkslategrey",
+        "darkturquoise",
+        "darkviolet",
+        "deeppink",
+        "deepskyblue",
+        "digi",
+        "dimgray",
+        "dimgrey",
+        "dodgerblue",
+        "Dometic",
+        "donot",
+        "drei",
+        "Envalope",
+        "esbenp",
+        "favacon",
+        "Fira",
+        "firstname",
+        "flexybox",
+        "floralwhite",
+        "fontawesome",
+        "forestgreen",
+        "fortawesome",
+        "fullscreen",
+        "gainsboro",
+        "gameboy",
+        "Ghero",
+        "ghostwhite",
+        "glassit",
+        "glsl",
+        "GLTF",
+        "glua",
+        "greenyellow",
+        "gsap",
+        "headlessui",
+        "hotpink",
+        "htmx",
+        "HVAC",
+        "hyperborder",
+        "hypercwd",
+        "hypergoogle",
+        "hyperpower",
+        "hyperterm",
+        "ICTA",
+        "indianred",
+        "jetbrains",
+        "Jogo",
+        "katamari",
+        "langchain",
+        "lastname",
+        "lavenderblush",
+        "lawngreen",
+        "lemonchiffon",
+        "lightcoral",
+        "lightcyan",
+        "lightgoldenrodyellow",
+        "lightgray",
+        "lightgreen",
+        "lightpink",
+        "lightsalmon",
+        "lightseagreen",
+        "lightskyblue",
+        "lightslategray",
+        "lightslategrey",
+        "lightsteelblue",
+        "lightyellow",
+        "limegreen",
+        "Linebreaks",
+        "liveshare",
+        "llms",
+        "LRGWCOYXMRZXH",
+        "Lucida",
+        "manypkg",
+        "mediumaquamarine",
+        "mediumblue",
+        "mediumorchid",
+        "mediumpurple",
+        "mediumseagreen",
+        "mediumslateblue",
+        "mediumspringgreen",
+        "mediumturquoise",
+        "mediumvioletred",
+        "Menlo",
+        "Microastronomer",
+        "midnightblue",
+        "Minecraftia",
+        "Monokai",
+        "nextjs",
+        "noreferrer",
+        "Nskew",
+        "nura",
+        "Oleg",
+        "OPENAI",
+        "Pengwin",
+        "PICO",
+        "pixelarticons",
+        "pixelbyte",
+        "Pixi",
+        "pixijs",
+        "popmotion",
+        "Powerline",
+        "preinstall",
+        "raczzalan",
+        "readwrite",
+        "Renaud",
+        "Résume",
+        "Résumé",
+        "Rheem",
+        "Roboto",
+        "runtimes",
+        "russk",
+        "Russkiy",
+        "safepaste",
+        "savaweb",
+        "savetext",
+        "scematics",
+        "scminput",
+        "Signup",
+        "skullhead",
+        "slategrey",
+        "sonarlint",
+        "sourcery",
+        "springgreen",
+        "statusline",
+        "steamapps",
+        "steelblue",
+        "stylesheet",
+        "sumneko",
+        "supabase",
+        "svglint",
+        "Svyat",
+        "Svyatoslav",
+        "tailwindcss",
+        "tamagui",
+        "termninal",
+        "Thinkfull",
+        "Threejs",
+        "Tohundred",
+        "usecase",
+        "USERID",
+        "vanila",
+        "verifyemail",
+        "Webgi",
+        "webgl",
+        "weblink",
+        "whitesmoke",
+        "yellowgreen",
+        "stary"
+    ],
+    "cSpell.enabledLanguageIds": [
+        "csharp",
+        "go",
+        "javascript",
+        "javascriptreact",
+        "markdown",
+        "php",
+        "plaintext",
+        "typescript",
+        "typescriptreact",
+        "yml",
+        "sql"
+    ],
+    "livePreview.customExternalBrowser": "Firefox",
+    "security.workspace.trust.untrustedFiles": "open",
+    "security.allowedUNCHosts": [
+        "wsl.localhost"
+    ],
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "editor.cursorBlinking": "expand",
+    "liveshare.accessibility.soundsEnabled": false,
+    "editor.accessibilitySupport": "off",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "Notes.notesLocation": "c:\\Users\\russk\\Documents\\PowerShell\\Github",
+    "powershell.pester.codeLens": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "figma.autocompleteBlocks": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+
+    
+    "cssvar.files": [
+        "./node_modules/open-props/open-props.min.css",
+        "assets/styles/variables.css"
+      ],
+    
+      "cssvar.ignore": [],
+    
+      "cssvar.extensions": [
+        "css", "postcss", "jsx", "tsx"
+      ],
+
+    "bashIde.explainshellEndpoint": "http://localhost:5000",
+    "codestats.apikey": "SFMyNTY.VFdsamNtOWhjM1J5YjI1dmJXVnkjI01UWTJOamM9.4pKndWuzHIpMJPQm6Qw8D4zau7FkA4AuQrzMFlh0ZkA",
+    "codestats.username": "Microastronomer",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "svelte.enable-ts-plugin": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.colorTheme": "Svelte Dark",
+    "window.menuBarVisibility": "toggle",
+    "workbench.activityBar.location": "top",
+    "terminal.integrated.env.windows": {},
+    "console-ninja.featureSet": "Community",
+    "powerShellUniversal.samplesDirectory": "C:\\Users\\russk\\AppData\\Roaming",
+    "terminal.integrated.fontFamily": "monospace",
+    "workbench.editorAssociations": {},
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "cmake.configureOnOpen": true,
+    "cmake.additionalCompilerSearchDirs": [
+        "C:/msys64/mingw32/bin",
+        "C:/msys64/mingw64/bin",
+        "C:/msys64/clang32/bin",
+        "C:/msys64/clang64/bin",
+        "C:/msys64/clangarm64/bin",
+        "C:/msys64/ucrt64/bin"
+    ],
+    "pieces.setCopilotLocation": true,
+    "pieces.code-lens": false,
+    "pieces.relatedMaterials.autoSaveRelatedMaterialSelection": true,
+    "open-in-vim.useNeovim": true,
+    "open-in-vim.openMethod": "linux.gnome-terminal",
+    "workbench.editor.autoLockGroups": {
+        "mainThreadWebview-markdown.preview": true
+    },
+    "editor.matchBrackets": false,
+    "animations.Auto-Install": true,
+    "animations.Install-Method": "Apc Customize UI++",
+    "apc.imports": [
+        "file:///c:/Users/russk/.vscode-insiders/extensions/brandonkirbyson.vscode-animations-2.0.1/dist/updateHandler.js"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "settingsSync.ignoredExtensions": [
+        "rob-bennett.quick-select"
+    ],
+    "totalTypeScript.hideAllTips": false,
+    "totalTypeScript.hideBasicTips": false,
+    "[svelte]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+    
+}
