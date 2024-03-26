@@ -1,6 +1,6 @@
 #!/bin/bash
 #Welcome. 
-# Welcome To  CuM Z o NE ~~ ~
+# Welcome To  CuM Z o NE
 # ~/.bashrc: executed by bash(1) for non-login shells.
 
 #Digital COMMAND CENT's 
@@ -8,19 +8,18 @@
 #########
 #neofetch
 #fastfetch
-       #    U A R E    G O i NG  To   Cum. 
+wslfetch
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # cat                     ~/Digital.txt
 #                                                                 #
-alias                .bashrc='. .bashrc'
 echo                   "Loading bash..."
 #      D I G I T A L          ~              S H E L L            #
-                   source ~/.MARKDOWN.sh
+                    
                     source ~/.README.sh
 echo                     "(ツ)_/¯"
 echo                              "_your files sire..  }"
 pwd
-#sudo -s# this command loops the script.
+
 #                                                                 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # If not running interactively, don't do anything
@@ -29,7 +28,6 @@ case $- in
       *) return;;
 esac
 #RUN.RUN.RUN.RUn###################################################
-wslfetch
 
 # Expand the history size
 export HISTFILESIZE=10000
@@ -72,7 +70,7 @@ if [[ $iatest > 0 ]]; then bind "set completion-ignore-case on"; fi
 # Show auto-completion list automatically, without double tab
 if [[ $iatest > 0 ]]; then bind "set show-all-if-ambiguous On"; fi
 
-bind  'TAB:menu-complete'
+
 
 # Show all logs in /var/log
 alias logs="sudo find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1 | sed -e's/:$//g' | grep -v '[0-9]$' | xargs tail -f"
@@ -171,24 +169,11 @@ cpp()
 	END { print "" }' total_size=$(stat -c '%s' "${1}") count=0
 }
 
-#===========================
-#====EDIT=====CMDS==========
-# Ctrl-Delete: delete next word
-"\e[3;5~": shell-kill-word
-
-# Ctrl-Backspace
-"\C-H": shell-backward-kill-word
-
-
-
-
 
 
 # Set the default editor
 #  export EDITOR=/mnt/c/Users/russk/AppData/Local/Programs/Microsoft VS Code Insiders/VS Code Insiders.exe
 #  export VISUAL=code
-#  export EDITOR='nvim'
-export EDITOR='vim'
 # alias pico='edit'
 # alias spico='sedit'
 # alias nano='edit'
@@ -212,14 +197,8 @@ export LESS_TERMCAP_us=$'\E[01;32m'
 
 ### ### ### ### ### ##
 # # Fun BAT files # # #
-alias matrix_time="bash <(curl -sL https://gist.githubusercontent.com/alexfornuto/f2f6ffa423bd5bc21c5e/raw/matrix.sh)"
-#
+alias trix1="bash <(curl -sL https://gist.githubusercontent.com/alexfornuto/f2f6ffa423bd5bc21c5e/raw/matrix.sh)"
 # # # # # # # # # # # #
-
-
-#print a lolcat
-alias lololcat="echo {a..z}{a..z}{a..z} | lolcat"
-
 
 
 # # ~IM~a~thnAKE~# # #
@@ -257,7 +236,6 @@ alias ghl='gh repo list'
 alias ghr='gh repo rename'
 alias ghc='gh repo clone'
 
-###Gist
 
 #######################################################
 ##  MACHINE SPECIFIC ALIAS'S
@@ -268,16 +246,11 @@ alias ghc='gh repo clone'
 # Alias's to change the directory
 alias web='cd /var/www/html'
 
-
-#systemctl
-alias ubver= 'lsb_release -a'
-
-
 # Alias's to mount ISO files
 # mount -o loop /home/NAMEOFISO.iso /home/ISOMOUNTDIR/
 # umount /home/NAMEOFISO.iso
 # (Both commands done as root only.)
-alias ytfzfv='ytfzf --thumb-viewer=mpv' 
+ 
 alias a='ls -a'
 alias l='ls -CF'
 # alias laa='ls -A'   #list dir. --almost-all
@@ -285,7 +258,7 @@ alias l='ls -CF'
 alias lp='ls -A'
 alias n='nvim'
 alias e='sudo ranger'
-alias clr='clear -x'
+alias x='clear -x'
 alias N='touch'
 alias M='mkdir'
 alias c='cat'
@@ -295,7 +268,6 @@ alias tar='gtar'
 alias python='python3'
 alias pip='pip3'
 alias vimrc='vim ~/.vimrc'
-alias editbash 'vim ~/.bashrc'
 alias bashrc='vim ~/.bashrc'
 alias reloadbash='source ~/.bashrc'
 alias vim='/usr/bin/neovim'
@@ -303,7 +275,6 @@ alias tar='gtar'
 alias python='python3'
 alias pip='pip3'
 ##shortcuts##
-alias re_shell='vim ~/.bashrc'
 alias vimrc='vim ~/.vimrc'
 alias bashrc='vim ~/.bashrc'
 alias reloadbash='source ~/.bashrc'
@@ -320,12 +291,11 @@ alias gb='git checkout -b'          # new Git branch and move to new branch at s
 alias gd='git diff'                 # View the difference between the current branch and the master branch.
 
 ###github
-alias ghs='gh search repos'         	#search for a github repository.
-alias ghv='gh repo view'            	#Vew details about a repository.
-alias ghl='gh repo list'            	#Get a list of my repositorys.
-alias ghr='gh repo rename'		#rename a repo.
-alias ghc='gh repo clone'		#clone a repo.
-alias gh_del='gh repo delete'		#delete a repo.
+alias ghs='gh search repos'
+alias ghv='gh repo view'
+alias ghl='gh repo list'
+alias ghr='gh repo rename'
+alias ghc='gh repo clone'
        ## Get shortened git.io URLs from a single command
 gurl() {
     curl -i https://git.io -F "url=$1" \
@@ -362,11 +332,11 @@ alias bd='cd "$OLDPWD"' # cd into the old directory
 #--c-.-.-d--#
 # |Change directory aliases| #
 alias home='cd ~'
-alias hmm='cd ~; pwd; ls;'
-alias ..='cd ..;pwd; ls'  ## Move to the parent folder.
-alias ...='cd ../..;pwd; ls' ## Move up two parent folders.
-alias ....='cd ../../..;pwd; ls' ## Move up three parent folders.
-alias .....='cd ../../../..;pwd; ls' ### Move up four parent folders.
+alias hmm='cd ~; pwd;'
+alias ..='cd ..;pwd'  ## Move to the parent folder.
+alias ...='cd ../..;pwd' ## Move up two parent folders.
+alias ....='cd ../../..;pwd' ## Move up three parent folders.
+alias .....='cd ../../../..;pwd' ### Move up four parent folders.
 #------------------------------------------------------------#
 ################################
 #   dirr bookmark'z Directories. #
@@ -402,8 +372,9 @@ alias rmd='/bin/rm  --recursive --force --verbose'
 ################################
 #       code INTO file         #
 ################################
-alias bashrc='nvim ~/.bashrc'
 
+alias bashrc='nvim ~/.bashrc'
+alias hyperjs='nvim /mnt/c/Users/russk/AppData/Roaming/Hyper/.hyper.js'
 
 # Alias's for multiple directory listing commands
 alias la='ls -Alh'                      # show hidden files
@@ -569,8 +540,6 @@ extract () {
 }
 
 
-
-
 # Searches for text in all files in the current folder
 ftext ()
 {
@@ -647,16 +616,6 @@ up ()
 	fi
 	cd $d
 }
-
-#system link
-## source it from ~/.bashrc or ~/.bash_profile ##
-echo "source /etc/profile.d/bash_completion.sh" >> ~/.bashrc
- 
-## Another example Check and load it from ~/.bashrc or ~/.bash_profile ##
-#grep -wq '^source /etc/profile.d/bash_completion.sh' ~/.bashrc || echo 'source /etc/profile.d/bash_completion.sh'>>~/.bashrc
-
-
-
 
 #Automatically do an ls after each cd
 # cd ()
@@ -791,7 +750,6 @@ netinfo ()
 	/sbin/ifconfig | awk /'HWaddr/ {print $4,$5}'
 	echo "---------------------------------------------------"
 }
-
 
 
 # IP address lookup
@@ -1032,9 +990,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-# Tar export maybe. 
-# export PATH=/usr/bin:$PATH
-export PATH=/usr/local/bin:$PATH
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
@@ -1156,34 +1111,31 @@ alias l='ls -CF'
 alias lp='ls -A'
 alias n='nvim'
 alias e='sudo ranger'
-alias cl='clear -x'
+alias c='clear -x'
 alias cx='clear'
 alias N='touch'
 alias M='mkdir'
-alias c='cat'
+# alias c='cat'
 alias rs='exec bash -il'
 alias vim='sudo /usr/bin/neovim'
 alias tar='gtar'
 alias python='python3'
 alias pip='pip3'
-alias su='sudo -s'
-
-
 
 # edit Settings
 alias vimrc='nvim ~/.vimrc'
-alias e.bash='nvim ~/.bashrc'
+alias edit.bashrc='nvim ~/.bashrc'
 alias bashrc='nvim ~/.bashrc'
 alias vimrc='nvim ~/.vimrc'
 
 alias reload_bash='source ~/.bashrc'
-alias RESET='source ~/.bashrc'
+alias re_shell='source ~/.bashrc'
 alias edit='/usr/bin/neovim'
 alias tar='gtar'
 alias python='python3'
 alias pip='pip3'
-##shortcuts restart bash reload shell shit like that god damn..##
-alias re_shell='source ~/.bashrc'
+##shortcuts##
+alias reloadbash='source ~/.bashrc'
 alias t00b='ytfzf -u firefox'
 alias R="ranger"
 
@@ -1216,8 +1168,3 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-eval "$(starship init bash)"
-source /etc/profile.d/bash_completion.sh
-
-source /etc/profile.d/bash_completion.sh
-source /etc/profile.d/bash_completion.sh
