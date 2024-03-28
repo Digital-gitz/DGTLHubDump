@@ -12,6 +12,10 @@ alias xosh='source ~/.config/fish/config.fish'  # reload shell
 alias resh='source ~/.config/fish/config.fish'  # reload shell
 # ERROR:  I need to fix this to work with the new fish shell.
 alias fishie='sudo cd ~ && sudo code-insiders .'
+
+#go to  user bin
+alias usebin='cd /usr/local/bin/'
+
 # manipulation
 # File/Directory manipulation. 
 # mv, rm, cp
