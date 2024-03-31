@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 179.82 52.93">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+        stroke-width: 3.5px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-2);
+        stroke-width: 2px;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #231f20;
+        font-family: StencilStd, 'Stencil Std';
+        font-size: 10px;
+      }
+
+      .cls-4 {
+        fill: #f1f1f2;
+        stroke-width: 4px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1396" y1="2311.47" x2="1443.96" y2="2311.47" gradientTransform="translate(1479.73 -2277.19) rotate(63.5)" gradientUnits="userSpaceOnUse">
+      <stop offset=".16" stop-color="#fff"/>
+      <stop offset=".34" stop-color="#d4d3d3"/>
+      <stop offset=".75" stop-color="#696667"/>
+      <stop offset="1" stop-color="#231f20"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="2391.25" y1="2606.49" x2="2410.76" y2="2606.49" gradientTransform="translate(2515.44 -2516.28) rotate(86.44)" gradientUnits="userSpaceOnUse">
+      <stop offset=".24" stop-color="#fff"/>
+      <stop offset=".4" stop-color="#d4d3d3"/>
+      <stop offset=".77" stop-color="#696667"/>
+      <stop offset="1" stop-color="#231f20"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-4" x="2" y="7.31" width="175.82" height="41.64" rx="13.63" ry="13.63"/>
+    <polygon class="cls-2" points="38.71 49.26 18.21 29.58 26.63 7.19 62.06 2.01 63.59 31.95 54.55 46.87 38.71 49.26"/>
+    <polygon class="cls-3" points="72.6 45.02 61.38 51.74 52.46 45.29 58.12 32.39 67.92 31.88 73.45 37.7 72.6 45.02"/>
+    <text class="cls-6" transform="translate(69.63 30.54)"><tspan x="0" y="0">BUY ME A </tspan><tspan class="cls-1" x="54.34" y="0">R</tspan><tspan class="cls-5" x="62" y="0">OcK.</tspan></text>
+  </g>
+</svg>

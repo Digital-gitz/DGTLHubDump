@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const y = Math.random() * (window.innerHeight - anchor.clientHeight);
 
         // Apply absolute positioning
-        anchor.style.position = 'absolute';
+        anchor.style.position = 'relative';
         anchor.style.left = `${x}px`;
         anchor.style.top = `${y}px`;
 
