@@ -59,9 +59,7 @@ html {
 
 }
 
-
 .colorshit{
-
   background-color: black;
 }
 
@@ -143,14 +141,9 @@ canvas {
 	filter: hue-rotate(30deg) var(--shadow);
     background-size: 2vmin 1vmin, 1vmin 2vmin, 100% 100%;
 }
-
-
-.poseFirs {
-
-  display: grid;
-  grid-column-gap: 1em;
-  justafy-content: space-between;
-}
+/* .poseFirs { */
+/* displa: */
+/* } */
 
 
 
