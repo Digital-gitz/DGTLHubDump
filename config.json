@@ -1,0 +1,56 @@
+{
+  "ascii": [
+"            __|-| |-|_ *                           ",
+"         __ |        | _____      __\\__         ",
+"~~~~~~~~~\\_________________/~~~~~~\\____}~~~~~~~  ",
+"<><                                    ",
+"><>    sinkin' in the rain             ",   
+    "███████╗██╗  ██╗███████╗██╗     ██╗",
+    "██╔════╝██║  ██║██╔════╝██║     ██║",
+    "███████╗███████║█████╗  ██║     ██║",
+    "╚════██║██╔══██║██╔══╝  ██║     ██║",
+    "███████║██║  ██║███████╗███████╗███████╗",
+    "╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚══════╝"
+  ],
+  "title": "WebShell",
+  "username": "visitor",
+  "hostname": "webshell",
+  "password": "050823",
+  "repoLink": "https://github.com/DGTL-Hub/webshell",
+  "social": {
+    "email": "russkiy1389@gmail.com",
+    "github": "https://github.com/DGTL-Hub",
+    "linkedin": "https://www.linkedin.com/in/russkiy/"
+  },
+  "aboutGreeting": "Hi stranger. Welcome to Digi-Shell.",
+  "projects": [
+    [
+      "Hugo-Portfolio",
+      "a place where I Dumpped all of my project files",
+      ""
+    ]
+  ],
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}

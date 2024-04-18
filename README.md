@@ -5,4 +5,11 @@ HTML
 
 CSS
 
-Images
+Image
+
+
+
+my install scripts
+```sh
+npm i @types/js-yaml typescript vite  --include=dev
+```

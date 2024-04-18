@@ -3,8 +3,17 @@
     "window.titleBarStyle": "custom",
     "workbench.colorCustomizations": {
         "workbench": {
-            "iconTheme": "vscode-icons"
+            "workbench.iconTheme": "vscode-stardew-icon-theme"
         },
+        "files.exclude": {
+            "**/.git": true,
+            "**/.svn": true,
+            "**/.hg": true,
+            "**/CVS": true,
+            "**/.DS_Store": true,
+            "**/Thumbs.db": true,
+            "**/node_modules": true
+        },       
         "minimap.background": "#00000000",
         "editor.lineHighlightBackground": "#1073cf2d", 
         "editorError.foreground": "#ff00002d",
@@ -285,13 +294,7 @@
         "pixelbyte.love2d.path": "/home/digital/Downloads/love-11.4-x86_64.AppImage",
         "[lua]": {
         },
-        "files.exclude": {
-            "**/.trunk/*actions/": true,
-            "**/.trunk/*logs/": true,
-            "**/.trunk/*notifications/": true,
-            "**/.trunk/*out/": true,
-            "**/.trunk/*plugins/": true
-        },
+
         "trunk.trunkGrayOutNonBlockingIssues": false,
         "files.watcherExclude": {
             "**/.trunk/*actions/": true,
