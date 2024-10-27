@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"path": "../../Documents/git/github/Obsidian-Second-Brain"
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"sideBar.background": "#000a0a",
+			"editor.scrollbar.horizontal": "hidden",
+			"editor.scrollbar.vertical": "hidden",
+			"scrollbar.shadow": "#00000000",
+			"editor.minimap.enabled": true,
+			"minimap.background": "#00000000",
+			"editor.lineHighlightBackground": "#1073cf2d",
+			"editor.lineHighlightBorder": "#9fced11f",
+			"editor.background": "#000a0a",
+			"editor.foreground": "#3fb762",
+			"editor.selectionBackground": "#00ff1e2d",
+			"editor.selectionHighlightBackground": "#00ff1e2d",
+			"editor.selectionHighlightBorder": "#00ff1e2d",
+			"editor.cursorSmoothCaretAnimation": false,
+			"editorCursor.foreground": "#ffff00",
+			"terminalCursor.foreground": "#ff00ff",
+			"terminal.integrated.cursorStyle": "block",
+			"terminal.integrated.cursorBlinking": "true",
+			"terminal.integrated.cursorStyleInactive": "none",
+			"terminal.background": "#131212",
+			"terminal.foreground": "#dddad6",
+			"terminal.ansiBlack": "#1D2021",
+			"terminal.ansiBrightBlack": "#665C54",
+			"terminal.ansiBrightBlue": "#0D6678",
+			"terminal.ansiBrightCyan": "#8BA59B",
+			"terminal.ansiBrightGreen": "#237e02",
+			"terminal.ansiBrightMagenta": "#8F4673",
+			"terminal.ansiBrightRed": "#FB543F",
+			"terminal.ansiBrightWhite": "#FDF4C1",
+			"terminal.ansiBrightYellow": "#FAC03B",
+			"terminal.ansiBlue": "#00a1f9",
+			"terminal.ansiCyan": "#8BA59B",
+			"terminal.ansiGreen": "#95C085",
+			"terminal.ansiMagenta": "#8F4673",
+			"terminal.ansiRed": "#FB543F",
+			"terminal.ansiWhite": "#A89984",
+			"terminal.ansiYellow": "#FAC03B"
+		},
+		"autoHide.autoHideSideBar": false,
+		"workbench.iconTheme": "vscode-icons",
+		"explorerExclude.backup": {}
+	}
+}
