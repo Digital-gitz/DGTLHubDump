@@ -1,0 +1,62 @@
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.reorient {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Fix floating issus around content */
+.left {
+  float: left;
+  margin-right: 1rem;
+}
+.right {
+  float: right;
+  margin-left: 1rem;
+}
+/* apply to empty div to clear space around a float */
+.clear{
+  /* clearL: right; */
+  /* clear: left; */
+  clear: both;
+}

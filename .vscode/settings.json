@@ -127,7 +127,6 @@
           "keyword.control.at-rule",
           "punctuation.definition.tag.end",
           "punctuation.definition.tag.begin"
-          //
         ],
         "settings": {
           "foreground": "#f6b"
@@ -143,7 +142,6 @@
           "variable.other.normal.shell",
           "variable.parameter.positional.shell",
           "variable.other.assignment.shell",
-          // "support.type.builtin.tsx"
           "support.type.builtin"
         ],
         "settings": {
@@ -158,13 +156,14 @@
           "storage.identifier",
           "function.support",
           "function.support.builtin",
-          "function.support.core" //
+          "function.support.core"
         ],
         "settings": {
           "foreground": "#F00"
         }
       }
-    ]
+    ],
+    "comments": ""
   },
   "workbench.colorCustomizations": {
   },

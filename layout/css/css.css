@@ -1,0 +1,249 @@
+k*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .view-header-title { display: none; } */
+
+body{
+    min-height: 100vh;
+    font-size 2rem;
+}
+main{
+ background-color: lightgray;
+ opacity: .8;
+}
+/* this dose because it is a span */
+.opposite{
+    /* display: inline-block; */
+    margin-top: 2rem;
+    background-color: black;
+    color: whitesmoke;
+    padding: 200px;
+    float: right;
+}
+
+.divin{
+    background-color: blue;
+    color: whitesmoke;
+    height: 100px;
+    float: right;
+}
+p {
+    padding: 20px;
+    margin: 0 auto;
+    2rem;
+    background-color: lightgray;
+}
+h1{
+    text-align: center;
+    margin: 20px auto;
+    width: 50%;
+}
+
+    .toolbox{
+        text-align: left;
+ width: 50%;
+ border: 2px dashed blue;
+ margin: 20px auto;
+}
+
+ .container{
+        border: 2px dashed blue;
+        font-size: 2rem;
+        margin: 2em 2em 3em 4em;
+        padding: 1.5rem;
+        border-radius: 50px;
+    }
+
+.container h1{
+ background-color: #f2f2f2;
+border-bottom: 5px solid red;
+border-top: 5px solid red;
+border-radius: 5px;
+padding: 1em;
+}
+.container h2{
+     ouline: 2px solid red;
+ ouline-offset: 0.25rem;
+    ouline: 2px solid green;  
+}
+ul {
+    display: none;
+    list-style-type: none;
+    padding: 1.5em;
+    list-style-type: square;
+    padding-left: 2rem;
+margin: 2rem;
+
+}
+
+a {
+    text-decoration: none; 
+    cursor: pointer;
+    color: #1ac0ff;
+
+}X
+
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: red;
+}
+.circle {
+ margin: 3rem auto;
+ background-color: gold;
+ width: 100px;
+ height: 100px;
+ border: 2px solid #000;
+ border-radius: 50%;
+ ouline: 2px solid red;
+ ouline-offset: 0.25rem;
+}
+
+input, button {
+    font: inherit;
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: monospace; */
+    /* font-family: cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    /* font-family: 'customfont', sans-serif; */
+    /* font-family; 'fantasy', sans-serif; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: "Times New Roman", Times, serif; */
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+.block{
+    width: 30vw;
+    height: 30vh;
+    color: white;
+    padding: 1rem;
+    background-color: black;
+    float: left;
+}
+section {
+    background-color: bisque;
+    display: flow-root;
+border: 2px solid gray;
+padding: 1rem;
+z-index: 1;
+}
+.columns {
+
+    column-count: 4;
+    /* column-width: 250px; */
+    column-rule: 1px solid gray;
+    column-gap: 3rem;
+    column-span: all;
+
+}
+.columns p {
+    margin-top: 0;
+}
+.columns:nth-child(2n+1){
+    background-color: #f2f2f2;
+}
+.columns h2{
+    margin-top: 0;
+    background-color: #f2f2f2;
+    color: red;
+    padding: 1rem;
+    brake-inside: avoid;
+
+}
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear{
+    clear: both;
+}
+
+
+
+p {
+    margin: 0 0 1.5rem;
+}
+.tdec {
+
+    text-decoration: bold;
+    font-size: 2rem;
+    color: red;
+    text-align: left;
+    text-indent: 2em;
+    word-spacing: 0.1em;
+    line-height: 1.5;
+}
+.bdec {
+    text-decoration: line-through;
+    padding: 1rem;
+    font-size: 2rem;
+    color: purple;
+    text-align: left;
+    line-height: 1.5;
+    text-indent: 2em;
+}
+.cdec {
+    text-decoration: overline;
+    padding: 1rem;
+    font-size: 2rem;
+    color: green;
+ margin:   5ch;
+ test-align: justify;
+ line-height: 2em;
+ text-decoration: underline;
+}
+.rdec {
+    padding: 1rem;
+    font-size: 2rem;
+    color: darkgray;
+ margin:   5ch;
+ test-align: justify;
+ line-height: 2em;
+ letter-spacing: 0.1em;
+ text-indent: 2em;
+ line-height: 1.5;
+ word-spacing: 0.2em;
+}
+
+.deffont{
+    text-indent: 2em;
+    line-height: 1.5;
+    text-align: left;
+}
+
+ul{
+    padding: 1.5em;
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    list-style-image: 
+    url("https://www.w3schools.com/cssref/sqpurple.gif");
+}
+ul li:nth-child(2n+1){
+    background-color: #f2f2f2;
+}
+::marker {
+    color: red;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: cursive;
+    content: "👉";
+}
