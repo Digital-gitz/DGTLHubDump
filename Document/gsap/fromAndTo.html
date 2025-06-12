@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>From and To</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.11.1/sass.min.js">
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1>From and To</h1>
+        <div class="progress-bar"></div>
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sass.js/0.11.1/sass.min.js"></script>
+    <script>
+        // Initialize Sass
+        // Load and compile SASS file
+        Sass.compile(document.querySelector('link[href="main.sass"]').href)
+            .then(result => {
+                // Create style element and add compiled CSS
+                const style = document.createElement('style');
+                style.textContent = result.text;
+                document.head.appendChild(style);
+            })
+            .catch(error => {
+                console.error('Error compiling SASS:', error);
+            });
+    </script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+<script></script>
+</body>
+</html>

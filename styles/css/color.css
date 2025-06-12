@@ -1,0 +1,29 @@
+.backgroundGrade {
+
+    background: rgb(56, 189, 248);
+
+    background: linear-gradient(0deg,
+
+            rgba(56, 189, 248, 1) 0%,
+
+            rgba(56, 189, 248, 1) 22%,
+
+            rgba(2, 0, 36, 1) 45%,
+
+            rgba(13, 58, 99, 1) 55%,
+
+            rgba(39, 196, 250, 1) 78%,
+
+            rgba(18, 205, 253, 1) 90%,
+
+            rgba(255, 255, 255, 1) 100%,
+
+            rgba(37, 186, 239, 1) 020024%);
+
+    background-size: 100vw 100vh;
+
+    background-attachment: fixed;
+
+    background-repeat: no-repeat;
+
+}
