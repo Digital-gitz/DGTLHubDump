@@ -3,7 +3,35 @@
 
 // job search
 {
+    "recommendations": [
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "bierner.color-info",
+        "esbenp.prettier-vscode",
+        "dsznajder.es7-react-js-snippets",
+        "xabikos.javascriptsnippets",
+        "streetsidesoftware.code-spell-checker",
+        "igorsbitnev.error-gutters",
+        "usernamehw.errorlens",
+        "kisstkondoros.vscode-gutter-preview",
+        "mikestead.dotenv",
+        "meganrogge.template-string-converter",
+        "wayou.vscode-todo-highlight",
+        "ibm.output-colorizer",
+        "zitup.classnametocss",
+        "ibm.output-colorizer",
+        "voldemortensen.rainbow-tags",
+        "azuretools.vscode-azure-github-copilot",
+        "ms-azuretools.vscode-docker",
+        "christian-kohler.npm-intellisense"
+        
 
-     // remote-weekly.remote-jobs
 
+        // "dbaeumer.vscode-eslint",
+        // "stylelint.vscode-stylelint",
+        // "mblode.pretty-formatter",
+        // "mblode.pretty-formatter",
+        // "mblode.pretty-formatter"
+    ]
 }
+

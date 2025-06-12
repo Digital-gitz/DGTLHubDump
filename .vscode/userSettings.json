@@ -1,9 +1,10 @@
 {
-    "window.newWindowDimensions": "inherit", 
+    "window.newWindowDimensions": "inherit",
     "window.titleBarStyle": "custom",
     "workbench.colorCustomizations": {
         "workbench": {
-            "workbench.iconTheme": "vscode-stardew-icon-theme"
+            "workbench.iconTheme": "vscode-stardew-icon-theme",
+            "workbench.colorTheme": "Svelte Dark"
         },
         "files.exclude": {
             "**/.git": true,
@@ -13,9 +14,50 @@
             "**/.DS_Store": true,
             "**/Thumbs.db": true,
             "**/node_modules": true
-        },       
+        },
+        "workbench.colorCustomizations": {
+            "titleBar.activeForeground": "#ff5e00",
+            "activityBar.background": "#000000",
+            "sideBar.background": "#000a0a",
+            "editor.scrollbar.horizontal": "hidden",
+            "editor.scrollbar.vertical": "hidden",
+            "scrollbar.shadow": "#00000000",
+            "editor.minimap.enabled": true,
+            "minimap.background": "#00000000",
+            "editor.lineHighlightBackground": "#1073cf2d",
+            "editor.lineHighlightBorder": "#9fced11f",
+            "editor.background": "#000a0a",
+            "editor.foreground": "#3fb762",
+            "editor.selectionBackground": "#00ff1e2d",
+            "editor.selectionHighlightBackground": "#00ff1e2d",
+            "editor.selectionHighlightBorder": "#00ff1e2d",
+            "editor.cursorSmoothCaretAnimation": false,
+            "editorCursor.foreground": "#ffff00",
+            "terminalCursor.foreground": "#ff00ff",
+            "terminal.integrated.cursorStyle": "block",
+            "terminal.integrated.cursorBlinking": "true",
+            "terminal.integrated.cursorStyleInactive": "none",
+            "terminal.background": "#131212",
+            "terminal.foreground": "#dddad6",
+            "terminal.ansiBlack": "#1D2021",
+            "terminal.ansiBrightBlack": "#665C54",
+            "terminal.ansiBrightBlue": "#0D6678",
+            "terminal.ansiBrightCyan": "#8BA59B",
+            "terminal.ansiBrightGreen": "#237e02",
+            "terminal.ansiBrightMagenta": "#8F4673",
+            "terminal.ansiBrightRed": "#FB543F",
+            "terminal.ansiBrightWhite": "#FDF4C1",
+            "terminal.ansiBrightYellow": "#FAC03B",
+            "terminal.ansiBlue": "#00a1f9",
+            "terminal.ansiCyan": "#8BA59B",
+            "terminal.ansiGreen": "#95C085",
+            "terminal.ansiMagenta": "#8F4673",
+            "terminal.ansiRed": "#FB543F",
+            "terminal.ansiWhite": "#A89984",
+            "terminal.ansiYellow": "#FAC03B"
+    },
         "minimap.background": "#00000000",
-        "editor.lineHighlightBackground": "#1073cf2d", 
+        "editor.lineHighlightBackground": "#1073cf2d",
         "editorError.foreground": "#ff00002d",
         "editorWarning.foreground": "#ffd90065",
         "editorInfo.foreground": "#f5003577",
@@ -87,7 +129,7 @@
         ],
         "svg.preview.transparencyGrid": true,
         "apc.stylesheet": {
-            ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important",
+            ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important"
         },
         "editor.cursorBlinking": "phase",
         "terminal.integrated.fontFamily": "monospace",
@@ -227,10 +269,10 @@
         },
         "symbols.hidesExplorerArrows": false,
         "webPreview.url": "http://localhost:6942",
-        "webPreview.mediaScreenOverride": true, 
+        "webPreview.mediaScreenOverride": true,
         "webPreview.mediaScreen": {
             "Mobile": "380x796",
-            "Tablet": 768, 
+            "Tablet": 768,
             "Laptop": 1024
         },
         "sonarlint.rules": {
@@ -292,9 +334,7 @@
             "pixelbyte.love2d.path"
         ],
         "pixelbyte.love2d.path": "/home/digital/Downloads/love-11.4-x86_64.AppImage",
-        "[lua]": {
-        },
-
+        "[lua]": {},
         "trunk.trunkGrayOutNonBlockingIssues": false,
         "files.watcherExclude": {
             "**/.trunk/*actions/": true,
@@ -307,8 +347,7 @@
         "editor.defaultFormatter": "GitHub.copilot",
         "liveServer.settings.donotVerifyTags": true,
         "chat.editor.wordWrap": "on",
-        "[typescript]": {
-        },
+        "[typescript]": {},
         "terminal.integrated.cursorBlinking": true,
         "editor.cursorSmoothCaretAnimation": "on",
         "editor.cursorSurroundingLinesStyle": "all",
@@ -577,19 +616,17 @@
     "[javascript]": {
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-
-    
     "cssvar.files": [
         "./node_modules/open-props/open-props.min.css",
         "assets/styles/variables.css"
-      ],
-    
-      "cssvar.ignore": [],
-    
-      "cssvar.extensions": [
-        "css", "postcss", "jsx", "tsx"
-      ],
-
+    ],
+    "cssvar.ignore": [],
+    "cssvar.extensions": [
+        "css",
+        "postcss",
+        "jsx",
+        "tsx"
+    ],
     "bashIde.explainshellEndpoint": "http://localhost:5000",
     "codestats.apikey": "SFMyNTY.VFdsamNtOWhjM1J5YjI1dmJXVnkjI01UWTJOamM9.4pKndWuzHIpMJPQm6Qw8D4zau7FkA4AuQrzMFlh0ZkA",
     "codestats.username": "Microastronomer",
@@ -646,5 +683,6 @@
     "[svelte]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     }
-    
+
+
 }

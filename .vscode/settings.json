@@ -1,14 +1,56 @@
 {
+  "workbench.colorTheme": "Cobalt2",
   "liveServer.settings.port": 6969,
   "liveServer.settings.multiRootWorkspaceName": "DGTLHibDump",
   "workbench.iconTheme": "vscode-icons",
-  "workbench.colorTheme": "dce48196-ff46-470c-b5f9-d1e23f4a79d3",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none",
   "editor.fontFamily": "'Roboto Mono'",
   "editor.fontSize": 11,
   "breadcrumbs.enabled": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ff5e00",
+    "activityBar.background": "#000000",
+    "sideBar.background": "#000a0a",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "scrollbar.shadow": "#00000000",
+    "editor.minimap.enabled": true,
+    "minimap.background": "#00000000",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "editor.background": "#000a0a",
+    "editor.foreground": "#3fb762",
+    "editor.selectionBackground": "#00ff1e2d",
+    "editor.selectionHighlightBackground": "#00ff1e2d",
+    "editor.selectionHighlightBorder": "#00ff1e2d",
+    "editor.cursorSmoothCaretAnimation": false,
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ff00ff",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": "true",
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.background": "#131212",
+    "terminal.foreground": "#dddad6",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#237e02",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiBlue": "#00a1f9",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -163,9 +205,26 @@
         }
       }
     ],
-    "comments": ""
   },
-  "workbench.colorCustomizations": {
-  },
-  "autoHide.autoHideSideBar": false
+  "autoHide.autoHideSideBar": false,
+  "apc.electron": {
+    "workbench.colorCustomizations": {
+        "sideBar.background": "#00000000", // transparent
+        "editor.background": "#00000000"
+    },
+    "opacity": 0.95,
+    "transparent": true,
+    "frame": false,
+    "titleBarStyle": "hiddenInset",
+    "symbolColor": "#74b1be",
+    "color": "#2f3241",
+    "backgroundColor": "rgba(123, 123, 123, 0.5)",
+    "visualEffectState": "active",
+    // "titleBarStyle": "hidden",
+    "trafficLightPosition": {
+        "x": 7,
+        "y": 5
+    },
+    "vibrancy": "ultra-dark"
+},
 }
