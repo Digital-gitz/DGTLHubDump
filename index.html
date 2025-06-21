@@ -5,67 +5,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Welcome to my digital portfolio">
     <meta name="keywords" content="portfolio, web development, creative">
-    <meta name="author" content="Svyatoslav"
+    <meta name="author" content="Svyatoslav">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="styles/shapes.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
-
-<title>Welcome</title>
 </head>
-<body bgcolor="black">
-    <Header>
-        <nav class="resource-links">
-            <div class="navigation-group">
-                <a data-lucide="mountain"href="Document/DigitalDump.html" class="navigation-link">Dump</a>
-                <b>_Digital Dump_</b></b>
-                <a data-lucide="settings" href="Document/home.html" class="navigation-link">Hello</a>
-            </div>
-        </nav>
-    </Header>
-    <content>
-        <div class="main-content" style="margin-top: 60px;">
+<body>
+    <div class="content-wrapper">
+        <main>
+            <nav class="resource-links">
+                <div class="nav-group">
+                    <h2>Core Technologies</h2>
+                    <a href="#" class="nav-link">Home</a>
+                    <a href="Document/html/html.html" class="nav-link">HTML</a>
+                    <a href="Document/javascript/javascript.html" class="nav-link">Javascript</a>
+                    <a href="Document/css/css.html" class="nav-link">CSS</a>
+                </div>
 
-                    
+                <div class="nav-group">
+                    <h2>Projects & Examples</h2>
+                    <a href="../Document/responsiveDashboardDesign/responsiveDashboarDesign.html" class="nav-link">Dashboard</a>
+                    <a href="../Document/avatar/avatar.html" class="nav-link">Avatar</a>
+                    <a href="../Document/portfolio/portfolio.html" class="nav-link">Portfolio</a>
+                    <a href="../Document/threejs/threejs.html" class="nav-link">ThreeJS</a>
+                    <a href="../Document/conwayGameofLife/simple-app/index.html" class="nav-link">Conway's Game of Life</a>
+                    <a href="../Document/Procedural-Gen/index.html" class="nav-link">Perlin Noise Examples</a>
+                </div>
 
+                <div class="nav-group">
+                    <h2>Resources & Tools</h2>
+                    <a href="../styles/css/style.html" class="nav-link">Style Backgrounds</a>
+                    <a href="../Design/Adobe/Photoshop.html" class="nav-link">Photoshop</a>
+                    <a href="../Document/html/utils/showdown.html" class="nav-link">Showdown</a>
+                    <a href="../Document/grid.html" class="nav-link">Grid</a>
+                    <a href="../Document/animatedBackground/animatedBackground.html" class="nav-link">Background CSS</a>
+                    <a href="../Document/LoadingScreens/lindex.html" class="nav-link">Loading Screens</a>
+                </div>
+
+                <div class="nav-group">
+                    <h2>External Links</h2>
+                    <a href="https://digital-app.vercel.app/" class="nav-link" target="_blank" rel="noopener noreferrer">Digital App</a>
+                    <a href="../404.html" class="nav-link">404 Page</a>
+                </div>
+                <div class="nav-group">
+                    <h2>VHS</h2>
+                    <a href="../styles/css/VHS/vhs.html" class="nav-link">VHS</a>
+                </div>
+            </nav>
+        </main>
     </div>
-    </content>
-<footer class="footer-content">
-    <nav>
-
-    </nav>
-</footer>
-
-    <!-- <div class="cylinder-group">    
-        <div class="cylinder">
-    </div> -->
-
-    
-    <canvas id="bgCanvas"></canvas>
-    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script>
-        // Initialize Lucide icons
-        lucide.createIcons();
-
-        // Header hide on scroll
-        let lastScrollTop = 0;
-        const header = document.querySelector('Header');
-        
-        window.addEventListener('scroll', () => {
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            if (scrollTop > lastScrollTop) {
-                // Scrolling down
-                header.classList.add('hide');
-            } else {
-                // Scrolling up
-                header.classList.remove('hide');
-            }
-            
-            lastScrollTop = scrollTop;
-        });
-    </script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </body>
 </html>
