@@ -1,24 +1,29 @@
-# Logs
-logs
+# Ignore all .log files
 *.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Ingnore all .env files
+*.env
+# Ignore config.psd1
+config.psd1
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Ignore all files in any directory named temp
+temp/
+
+# Ignore all .txt files in the root directory
+/*.txt
+
+#modules to ignore
+node_modules/
+# modules/
+
+# AWS CLI credentials and config
+.aws/
+.aws/config
+.aws/credentials
+
+# Custom AWS token or secret files
+aws_tokens.txt
+secrets/
+
+# Ignore all files in the winget-install directory
+winget-install/

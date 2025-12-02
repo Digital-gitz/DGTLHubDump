@@ -1,0 +1,160 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">PSWizget</S>
+      <S N="Version">1.0.15</S>
+      <S N="Type">Script</S>
+      <S N="Description">PowerShell script that allow you to manage the upgrade process with winget. _x000A_It adds a few more options than 'winget upgrade --all':_x000A_- create a file with the packages you would like to omit;_x000A_- add or remove packages from the blacklist file directly from the script;_x000A_- automatically omit packages with "unknown" installed version, or when the formats of_x000A_  the installed version and the available version formats does not match;_x000A_- it tries to guess the correct installed version by reading the pattern _x000A_  from the available version;_x000A_- manually edit the upgrade queue;_x000A_- quick mode (it's similar to 'winget upgrade --all' but with a blacklist applied);_x000A_- wingetParam &lt;string&gt; option with custom parameters to pass to winget. '-h' is set by default;_x000A_- you can preselect one of the options available from the menu by adding the -option parameter_x000A_with A, C or S argument._x000A__x000A_Known issue with Windows Powershell ver. &lt;= 5.1 (desktop):_x000A_Due to the ascii encoding, packages with longer names than 30 chars may corrupt _x000A_the 'winget upgrade' result, i.e. info about the long name package _x000A_and the packages listed after it. _x000A_Please use this script with PowerShell ver. &gt; 5.1 (core) if you can _x000A_or avoid installing long name packages with winget.</S>
+      <S N="Author">zakret.code@gmx.com</S>
+      <S N="CompanyName">Zakret</S>
+      <S N="Copyright">GPL-3.0</S>
+      <DT N="PublishedDate">2022-11-17T17:24:09-05:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2025-03-08T17:41:18.5609905-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://opensource.org/licenses/GPL-3.0</URI>
+      <URI N="ProjectUri">https://github.com/zakret/PSwizget</URI>
+      <Nil N="IconUri" />
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>PSEdition_Core</S>
+          <S>PSEdition_Desktop</S>
+          <S>windows</S>
+          <S>winget</S>
+          <S>batch</S>
+          <S>upgrade</S>
+          <S>wizard</S>
+          <S>update</S>
+          <S>all</S>
+          <S>queue</S>
+          <S>PSScript</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Write-Art</S>
+                <S>Clear-HostRange</S>
+                <S>Write-Separator</S>
+                <S>Get-Answer</S>
+                <S>Get-IntAnswer</S>
+                <S>Write-PackagesStatus</S>
+                <S>Reset-Setup</S>
+                <S>Split-Result</S>
+                <S>Show-Result</S>
+                <S>Show-UI</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>Write-Art</S>
+                <S>Clear-HostRange</S>
+                <S>Write-Separator</S>
+                <S>Get-Answer</S>
+                <S>Get-IntAnswer</S>
+                <S>Write-PackagesStatus</S>
+                <S>Reset-Setup</S>
+                <S>Split-Result</S>
+                <S>Show-Result</S>
+                <S>Show-UI</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <S N="ReleaseNotes">- once a week, the script checks if there is a new version available on powershellgallery.com_x000A_and if so, the information is added to the table;_x000A_- the package's manifest file is downloaded if there is an update for it._x000A_Information about the release notes and the URL for them are retrieved from the manifest file_x000A_and can be presented to the user under the [ R ] option;_x000A_- manifests older than 3 months are deleted at the end of the script;_x000A_- additional files to the script are now placed in the folder;_x000A_- testing the Internet connection can be omitted with the omitNetTest parameter;_x000A_- reformating the table, separators and menu;_x000A_- better parameter validation, error handling and easier debugging;_x000A_- adjusted version recognition mechanism;_x000A_- the script can now play an idle animation while waiting for the user's response_x000A_( idleAnimation parameter ).</S>
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2/items/psscript</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="copyright">GPL-3.0</S>
+          <S N="description">PowerShell script that allow you to manage the upgrade process with winget. _x000A_It adds a few more options than 'winget upgrade --all':_x000A_- create a file with the packages you would like to omit;_x000A_- add or remove packages from the blacklist file directly from the script;_x000A_- automatically omit packages with "unknown" installed version, or when the formats of_x000A_  the installed version and the available version formats does not match;_x000A_- it tries to guess the correct installed version by reading the pattern _x000A_  from the available version;_x000A_- manually edit the upgrade queue;_x000A_- quick mode (it's similar to 'winget upgrade --all' but with a blacklist applied);_x000A_- wingetParam &lt;string&gt; option with custom parameters to pass to winget. '-h' is set by default;_x000A_- you can preselect one of the options available from the menu by adding the -option parameter_x000A_with A, C or S argument._x000A__x000A_Known issue with Windows Powershell ver. &lt;= 5.1 (desktop):_x000A_Due to the ascii encoding, packages with longer names than 30 chars may corrupt _x000A_the 'winget upgrade' result, i.e. info about the long name package _x000A_and the packages listed after it. _x000A_Please use this script with PowerShell ver. &gt; 5.1 (core) if you can _x000A_or avoid installing long name packages with winget.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="releaseNotes">- once a week, the script checks if there is a new version available on powershellgallery.com_x000A_and if so, the information is added to the table;_x000A_- the package's manifest file is downloaded if there is an update for it._x000A_Information about the release notes and the URL for them are retrieved from the manifest file_x000A_and can be presented to the user under the [ R ] option;_x000A_- manifests older than 3 months are deleted at the end of the script;_x000A_- additional files to the script are now placed in the folder;_x000A_- testing the Internet connection can be omitted with the omitNetTest parameter;_x000A_- reformating the table, separators and menu;_x000A_- better parameter validation, error handling and easier debugging;_x000A_- adjusted version recognition mechanism;_x000A_- the script can now play an idle animation while waiting for the user's response_x000A_( idleAnimation parameter ).</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">12427</S>
+          <S N="downloadCount">12548</S>
+          <S N="packageSize">15956</S>
+          <S N="published">11/17/2022 5:24:09 PM -05:00</S>
+          <S N="created">11/17/2022 5:24:09 PM -05:00</S>
+          <S N="lastUpdated">3/8/2025 5:10:00 PM -05:00</S>
+          <S N="tags">PSEdition_Core PSEdition_Desktop windows winget batch upgrade wizard update all queue PSScript PSFunction_Write-Art PSCommand_Write-Art PSFunction_Clear-HostRange PSCommand_Clear-HostRange PSFunction_Write-Separator PSCommand_Write-Separator PSFunction_Get-Answer PSCommand_Get-Answer PSFunction_Get-IntAnswer PSCommand_Get-IntAnswer PSFunction_Write-PackagesStatus PSCommand_Write-PackagesStatus PSFunction_Reset-Setup PSCommand_Reset-Setup PSFunction_Split-Result PSCommand_Split-Result PSFunction_Show-Result PSCommand_Show-Result PSFunction_Show-UI PSCommand_Show-UI PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2025-03-08T17:10:00Z</S>
+          <S N="NormalizedVersion">1.0.15</S>
+          <S N="Authors">zakret.code@gmx.com</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Script</S>
+          <S N="FileList">PSWizget.nuspec|PSWizget.ps1</S>
+          <S N="GUID">acb8f443-01c8-40b3-9369-c5e6e28548d1</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Digital_Russkiy\Documents\PowerShell\Scripts</S>
+    </MS>
+  </Obj>
+</Objs>

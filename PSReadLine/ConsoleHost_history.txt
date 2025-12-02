@@ -1,0 +1,1179 @@
+Start-Aseprite
+clr
+ls
+pwsh
+New-QRCode google.com
+New-QRCode 
+h
+kist_llm
+list_llms
+list_llm
+clear
+pwsh
+Get-StockMarketSummary
+nvim
+go get github.com/mattn/gobanner
+go
+go install github.com/mattn/gobanner
+go install github.com/mattn/gobanner@latest
+gobanner
+Install-Module -Name PSBanner -Scope CurrentUser
+Write-Banner "Hello!"
+Write-Banner "Hello!" -FontName "Consolas" -FontSize 14
+Write-Banner "Hello!" -FontName "Consolas" -FontSize 14
+Write-Banner "Hello!" -Bold -Italic -Strikeout -Underline
+"Hello!" | Write-Banner
+Write-Banner "😊" -FontName "Segoe UI Emoji" -FontSize 20
+Write-Banner "Power Shell!" -FontName "Consolas" -FontSize 14
+Write-Banner "Power Shell!" -FontName "Consolas" -FontSize 6
+Write-Banner "Power Shell!" -FontName "Consolas" -FontSize 8
+Write-Banner "Power Shell!" -FontName "Consolas" -FontSize 12
+Write-Banner "|Power Shell!|" -FontName "Consolas" -FontSize 12
+Write-Banner "|Power Shell!|" -FontName "Consolas" -FontSize 14
+z powershell
+git status
+ghub
+z powersehll 
+z 'C:\Users\Digital_Russkiy\Documents\Powershell'
+ls
+git status 
+github
+git commit 
+git commit -a
+git status 
+git push 
+git status 
+git commit -a -m "updated"
+git add . 
+git status
+git commit -a -m "updated"
+git push
+cluade
+claude
+Get-WindowsCapability -Online | Where-Object Name -like 'OpenSSH*'
+pwsh
+Get-SshStatus
+Get-SshStatus
+pwsh
+Get-SshStatus
+Get-Service | Where-Object {$_.Name -like "*ssh*"}
+pwsh
+Get-SshStatus
+pwsh
+Get-SshStatus
+where.exe ssh
+ssh -V
+pwsh 
+Get-SshStatus
+pwsh 
+winget search hyper
+winget install  Vercel.Hyper 
+hyper
+hyper i hyperpower
+claude
+AHK
+$ npm install -g twitch-chat-cli
+ npm install -g twitch-chat-cli
+Update-CustomScripts
+Update-ConfiguredPackages
+Show-Welcome
+Remove-UnusedModules
+Update-PowerShellProfile
+github
+tc
+ia
+ npm search hyper
+hyper i hyperpower
+cd C:\Users\Digital_Russkiy\AppData\Roaming\Hyper
+ls
+hyper i hyperpower
+ls
+pwsh
+devientart
+rumble
+pwsh
+listsocial
+reddit
+pwsh
+socialcats
+amazon
+ckr
+clr 
+pip install kick-chat
+nvim 
+pwsh
+listsocial
+ghub
+z github
+ls
+mkdir Artstation
+cd .\Artstation\
+ls
+gh repo clone kent-lee/artstation-scraper
+startup
+github
+winget install Desmos
+winget search Desmos
+z github
+ls
+cd .\Digital\
+ls
+cd .
+z obsdidian
+z bosidian
+z obsidian
+z documents
+ls
+cargo install obsidian-export
+youtube-viewer clipstudio
+torrent 
+perplexity 
+z workbench
+google
+list_llm
+perplexity
+startup
+list_llm
+ai
+TwitchOverlay
+ Search-GoPackages
+ Search-GoPackages internet -OpenInBrowser
+pwsh
+Get-BIOSInfo
+Get-AllFunctions
+pwsh
+ddump
+git status
+git commit -a -m "updated folder"
+git push
+git add .
+git push
+git status
+clear
+pwsh
+Import-ModuleManaged
+pwsh
+Search-PyPiPackages internet
+pwsh
+. 'C:\Users\Digital_Russkiy\Documents\Powershell\Scripts\Core\Utility-Functions.ps1'
+clear
+pwsh
+z Stream deck
+cd C:\Program Files\Elgato\StreamDeck
+cd 'C:\Program Files\Elgato\StreamDeck'
+git status
+github
+spotify]
+spotify
+github
+imports`
+
+git status
+pwsh
+git add . 
+sudo git add . 
+sudo commit -m "Backing Up my Stream Deck Configs & plugins"
+sudo git commit -m "Backing Up my Stream Deck Configs & plugins"
+sudo git status
+git status
+git commit -m "Backing Up my Stream Deck Configs & plugins"
+sudo git commit -m "Backing Up my Stream Deck Configs & plugins"
+gh create_repo
+gh_create_repo
+pwsh
+gh_create_repo
+gh_create_repo . 
+  gh_create_repo Digital_StreamDeck_Dump private
+git status
+pwsh
+githubrepos
+git push 
+github 
+githubrepos
+git push Digital-gitz/Digital_StreamDeck_dump
+ git push --set-upstream Digital-gitz/Digital_StreamDeck_dump master
+winget search zed 
+ls
+doom
+lvim
+winget install LLVM.LLVM
+clang --version
+cl
+winget --version
+winget install Microsoft.VisualStudio.2022.BuildTools --accept-source-agreements --accept-package-agreements
+winget list Microsoft.VisualStudio
+Get-ChildItem -Path "C:\Program Files*" -Recurse -Name "vcvars*.bat" -ErrorAction SilentlyContinue | Select-Object -First 5
+cmd /c "\"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat\" x64 && set" | Where-Object { $_ -match "^(PATH|INCLUDE|LIB|LIBPATH|VCINSTALLDIR|WindowsSdkDir)" } | Sort-Object
+cmd /c '"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64 && cl'
+cmd /c '"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build\vcvarsall.bat" x64 && powershell'
+lvim
+  cd .\Documents\
+ls
+cd .\Powershell\
+ls
+nvim
+lvim
+wsl --list --verbose
+wsl -d Arch
+Get-MoonPhase 
+Get-Weather
+Find-Module -Name "*weather*" | Select-Object Name, Description, Version | Format-Table -AutoSize
+clear
+pass
+winget search pass
+nvim
+nvim AppData/Local/nvim-data/lazy/NvChad/lua/nvchad/plugins/init.lua
+nvim
+cd AppData/Local/nvim-data/lazy/NvChad/lua/nvchad/plugins/
+ls
+explorer . 
+nvim "C:\Users\Digital_Russkiy\AppData\Local\nvim-data\lazy\NvChad\lua\nvchad\plugins\init.lua"
+cd C:\Users\Digital_Russkiy\AppData\Local\nvim\lua\custom
+ls
+wsl -d Arch
+Search-NpmPackages
+TwitchOverlay  
+github
+ddump
+node
+cd_blog
+pwsh -NoLogo -NoProfile -Command "$PSVersionTable.PSVersion; \n\nWrite-Host \"Profile path: $PROFILE\"; \nWrite-Host \"Profile exists: \" -NoNewline; Test-Path $PROFILE | Out-String | Write-Host; \n\nWrite-Host 'Reloading profile...'; . $PROFILE; \n\nWrite-Host 'Checking for cd_blog after profile load:'; $cmd = Get-Command cd_blog -ErrorAction SilentlyContinue; if ($cmd) { $cmd | Format-List Name,CommandType,Source; } else { Write-Host 'cd_blog not found after profile load.' -ForegroundColor Yellow }; \n\n$profileDir = Split-Path -Path $PROFILE; $navPath = Join-Path $profileDir 'Scripts/Core/Navigation/Directory-Navigation.ps1'; \nWrite-Host \"Navigation script path: $navPath\"; \nWrite-Host \"Navigation script exists: \" -NoNewline; Test-Path $navPath | Out-String | Write-Host; \n\nWrite-Host 'Dot-sourcing navigation script explicitly...'; . $navPath; \n\nWrite-Host 'Checking for cd_blog after dot-sourcing nav:'; $cmd2 = Get-Command cd_blog -ErrorAction SilentlyContinue; if ($cmd2) { $cmd2 | Format-List Name,CommandType,Source; } else { Write-Host 'cd_blog still not found.' -ForegroundColor Red }"
+pwsh -NoLogo -Command "$PSVersionTable.PSVersion; Write-Host ('Profile path: ' + $PROFILE); Write-Host ('Profile exists: ' + (Test-Path $PROFILE)); Write-Host 'Reloading profile...'; try { . $PROFILE; Write-Host 'Profile reloaded.' -ForegroundColor Green } catch { Write-Host ('Profile load error: ' + $_) -ForegroundColor Red }; Write-Host 'Checking cd_blog after profile load:'; $c = Get-Command cd_blog -ErrorAction SilentlyContinue; if ($c) { $c | Format-List Name,CommandType,Source } else { Write-Host 'cd_blog not found.' -ForegroundColor Yellow }; $profileDir = Split-Path -Path $PROFILE; $navPath = Join-Path $profileDir 'Scripts/Core/Navigation/Directory-Navigation.ps1'; Write-Host ('Navigation script path: ' + $navPath); Write-Host ('Navigation script exists: ' + (Test-Path $navPath)); Write-Host 'Dot-sourcing navigation script explicitly...'; if (Test-Path $navPath) { . $navPath; Write-Host 'Dot-sourced nav script.' -ForegroundColor Green } else { Write-Host 'Nav script not found at expected path.' -ForegroundColor Red }; Write-Host 'Checking cd_blog after dot-sourcing:'; $c2 = Get-Command cd_blog -ErrorAction SilentlyContinue; if ($c2) { $c2 | Format-List Name,CommandType,Source } else { Write-Host 'cd_blog still not found.' -ForegroundColor Red }"
+pwsh -NoLogo -Command "try { . $PROFILE; Write-Host 'Profile reloaded.' -ForegroundColor Green } catch { Write-Host ('Profile load error: ' + $_) -ForegroundColor Red }; Write-Host 'Checking cd_blog:'; $c = Get-Command cd_blog -ErrorAction SilentlyContinue; if ($c) { $c | Format-List Name,CommandType,Source } else { Write-Host 'cd_blog not found.' -ForegroundColor Yellow }; Write-Host 'Check function definition source by grepping the script:'; $profileDir = Split-Path -Path $PROFILE; $navPath = Join-Path $profileDir 'Scripts/Core/Navigation/Directory-Navigation.ps1'; if (Test-Path $navPath) { Select-String -Path $navPath -Pattern '^function\s+.*cd_blog' -SimpleMatch | ForEach-Object { $_.Line }; Write-Host ('Nav script path: ' + $navPath) } else { Write-Host 'Nav script not found.' -ForegroundColor Red }"
+cd_blog
+reload
+clear
+Install-Module -Name ScriptDeck
+cd_blog
+cd_blog
+Get-FunctionHelp
+o_blog
+  Open-SocialChat
+h
+neovim
+Initialize-OhMyPosh
+pwsh -NoLogo -Command "$modules = @(Get-Module -ListAvailable Terminal-Icons | Select-Object -ExpandProperty ModuleBase -Unique); Write-Host 'Found Terminal-Icons module paths:'; $modules | ForEach-Object { Write-Host $_ }; if ($modules.Count -gt 0) { Write-Host 'Removing existing Terminal-Icons modules...'; foreach ($m in $modules) { try { Remove-Item -Recurse -Force -LiteralPath $m; Write-Host ('Removed: ' + $m) -ForegroundColor Yellow } catch { Write-Host ('Failed to remove: ' + $m + ' -> ' + $_.Exception.Message) -ForegroundColor Red } } } else { Write-Host 'No existing Terminal-Icons found.' -ForegroundColor Yellow }; Write-Host 'Reinstalling Terminal-Icons from PSGallery...'; try { if ((Get-PSRepository -Name PSGallery).InstallationPolicy -ne 'Trusted') { Set-PSRepository -Name PSGallery -InstallationPolicy Trusted }; Install-Module Terminal-Icons -Scope CurrentUser -Force -AllowClobber -SkipPublisherCheck -ErrorAction Stop; Write-Host 'Terminal-Icons reinstalled.' -ForegroundColor Green } catch { Write-Host ('Install failed: ' + $_.Exception.Message) -ForegroundColor Red }"
+pwsh -NoLogo -NoProfile -Command "$m = Get-Module -ListAvailable Terminal-Icons | Select-Object -First 1; if (-not $m) { Write-Error 'Terminal-Icons module not found'; exit 1 }; $base = Split-Path -Parent $m.Path; Write-Host \"ModuleBase:\" $base; $fmt = Get-ChildItem -Path $base -Recurse -Filter *.format.ps1xml | Select-Object -First 1; if (-not $fmt) { Write-Error 'No .format.ps1xml found in module'; exit 1 }; Write-Host \"FormatFile:\" $fmt.FullName; $content = Get-Content -Path $fmt.FullName -Raw; $lines = $content -split \"`n\"; for ($i=730; $i -le [Math]::Min(760, $lines.Length); $i++) { $ln = $lines[$i-1]; Write-Output ([string]::Format('L{0}: {1}', $i, $ln)) }"
+pwsh -NoLogo -NoProfile -Command "$m = Get-Module -ListAvailable Terminal-Icons | Select-Object -First 1; if (-not $m) { Write-Error 'Terminal-Icons module not found'; exit 1 }; $base = Split-Path -Parent $m.Path; Write-Host ('ModuleBase: ' + $base); $fmts = Get-ChildItem -Path $base -Recurse -Filter *.format.ps1xml; if (-not $fmts) { Write-Error 'No .format.ps1xml found in module'; exit 1 }; foreach ($fmt in $fmts) { Write-Host ('FormatFile: ' + $fmt.FullName); $lines = Get-Content -Path $fmt.FullName; $start = 730; $end = 760; if ($lines.Length -lt $start) { $start = [Math]::Max(1, $lines.Length - 50) }; $end = [Math]::Min($end, $lines.Length); for ($i = $start; $i -le $end; $i++) { Write-Output ('L{0}: {1}' -f $i, $lines[$i-1]) } Write-Host ('---- total lines: ' + $lines.Length) }"
+powershell.exe -NoLogo -NoProfile -Command "$paths = @(); if ($env:USERPROFILE) { $paths += Join-Path $env:USERPROFILE 'Documents\PowerShell\Modules' }; if ($env:ProgramFiles) { $paths += Join-Path $env:ProgramFiles 'PowerShell\7\Modules' }; $mods = @(); foreach ($p in $paths) { if (Test-Path $p) { $mods += Get-ChildItem -Path $p -Directory -Filter 'Terminal-Icons*' -ErrorAction SilentlyContinue } }; if (-not $mods) { Write-Output 'No Terminal-Icons directory found in standard locations.'; exit 1 }; foreach ($mod in $mods) { Write-Output ('ModuleDir: ' + $mod.FullName); $fmts = Get-ChildItem -Path $mod.FullName -Recurse -Filter *.format.ps1xml -ErrorAction SilentlyContinue; if (-not $fmts) { Write-Output '  (no .format.ps1xml files)'; continue }; foreach ($fmt in $fmts) { Write-Output ('FormatFile: ' + $fmt.FullName); $lines = Get-Content -Path $fmt.FullName -ErrorAction SilentlyContinue; if (-not $lines) { Write-Output '  (cannot read file)'; continue }; $start = 730; $end = 760; if ($lines.Length -lt $start) { $start = [Math]::Max(1, $lines.Length - 50) }; $end = [Math]::Min($end, $lines.Length); for ($i = $start; $i -le $end; $i++) { $ln = $lines[$i-1]; [Console]::OutputEncoding = [Text.Encoding]::UTF8; Write-Output ([string]::Format('L{0}: {1}', $i, $ln)) }; Write-Output ('---- total lines: ' + $lines.Length) } } | Out-String -Width 4096 | Write-Output"
+powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -Command "$root = Join-Path $env:USERPROFILE 'Documents\PowerShell\Modules'; if (-not (Test-Path $root)) { Write-Output 'Modules root not found: ' + $root; exit 1 }; $fmt = Get-ChildItem -Path $root -Recurse -Filter *.format.ps1xml -ErrorAction SilentlyContinue | Where-Object { $_.FullName -match 'Terminal-Icons' } | Select-Object -First 1; if (-not $fmt) { Write-Output 'No Terminal-Icons .format.ps1xml found under ' + $root; exit 1 }; Write-Output ('FormatFile: ' + $fmt.FullName); $lines = Get-Content -Path $fmt.FullName -ErrorAction Stop; $start = 730; $end = 760; if ($lines.Length -lt $start) { $start = [Math]::Max(1, $lines.Length - 100) }; $end = [Math]::Min($end, $lines.Length); for ($i = $start; $i -le $end; $i++) { Write-Output ('L{0}: {1}' -f $i, $lines[$i-1]) } Write-Output ('---- total lines: ' + $lines.Length)"
+ gemini_url
+list_llm
+ai
+Open-GoogleDocsDocuments
+Open-GoogleDocsResume
+nmcal
+Show-ArtCommands
+Show-ArtCommands
+Get-Command | Select-Object Name, CommandType | Sort-Object Name | Format-Table -AutoSize
+Get-Command -CommandType Cmdlet | Group-Object Module | Sort-Object Count -Descending | Select-Object -First 10 Name, Count
+Get-Command -CommandType Function | Measure-Object | Select-Object Count
+Get-Command -CommandType Application | Select-Object -First 20 Name, Source
+ Go-PokemonSketchesDirectory
+Search-Sketchfab robot
+Search-X robots
+Search-Google robots
+Search-Reddit robots
+Search-Reddit
+Search-Reddit robots
+Search-HuggingFace robots
+Search-HuggingFace cats
+Search-Reddit cats
+Search-Google news
+Search-Google gamedev
+Search-Pinterest drawing cats
+Search-Pinterest "Drawing cats"
+Show-FunctionsInArt
+powershell
+ls
+clear
+Go-AsepriteDirectory
+startup
+steam
+powershell
+terminal
+clear
+Get-AlphabeticalFileList
+github
+Startup
+programs
+games
+winget install vlc
+winget install VideoLAN.VLC
+vlc
+ls
+oc . 
+oc
+startup
+lvim
+stream deack
+stream deck 
+sd
+winget install wacup
+New-Script
+System.Security.SecureString
+spotify
+# Example (Node.js)
+npm install ncs-colors
+npm
+npm install ncs-colors
+lvim
+scoop install fd
+nvim
+vim
+lvim
+winget install sharkdp.fd
+  fd
+fd -h
+fd .
+fd c:\
+fd c:/
+cd fd
+fd -h
+list_llm   
+──────────
+list_llm
+claude
+.\Get-ChromeTabs.ps1
+cd .\Documents\
+cd .\Powershell\
+ls
+cd .\Scripts\
+ls
+.\Get-ChromeTabs.ps1
+pwd
+.\Get-ChromeTabs.ps1`
+
+gh ext browse
+.\Get-ChromeTabs.ps1`
+
+Get-ChromeTabsFromSessionFile
+Get-ChromeTabsFromSessionFile
+cd "C:\Users\Digital_Russkiy\Documents\Powershell" && powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1"
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1"
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1" -Verbose
+powershell -ExecutionPolicy Bypass -Command "& { Get-Content 'Scripts\Networking\Chrome\Get-ChromeTabs.ps1' | Out-Null; Write-Host 'Syntax OK' }"
+powershell -ExecutionPolicy Bypass -Command "& 'Scripts\Networking\Chrome\Get-ChromeTabs.ps1' -Verbose"
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs-Simple.ps1"
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1" -Verbose
+lvim
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1"
+powershell -ExecutionPolicy Bypass -Command "try { . 'Scripts\Networking\Chrome\Get-ChromeTabs.ps1' } catch { Write-Host 'Error:' $_.Exception.Message }"
+nvim
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1"
+powershell -ExecutionPolicy Bypass -Command "& 'Scripts\Networking\Chrome\Get-ChromeTabs.ps1'"
+vim
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1"
+npm install -g @anthropic-ai/claude-code
+claude-code
+claude.cmd
+npx https://github.com/google-gemini/gemini-cli
+ddgr
+gh ext browse chrome
+gh ext browse "chrome"
+gh ext browse -help
+gh ext browse --help
+gh ext browse
+gh ext browse --help
+winget search cyberghost
+winget install CyberGhost.CyberGhost
+winget search proton
+winget install  Proton.ProtonVPN
+winget search inskscape
+winget search inkkscape
+winget search xshot
+claude
+winget install ShareX
+winget install  ShareX.ShareX
+icloud
+paswords
+claude
+pip install openai anthropic google-generativeai groq
+keepassxc-cli
+winget search keepassxc-cli
+[Environment]::SetEnvironmentVariable("Path", [Environment]::GetEnvironmentVariable("Path","Machine") + ";C:\Program Files\KeePassXC", "Machine")
+[Environment]::SetEnvironmentVariable(`
+  "Path",`
+  [Environment]::GetEnvironmentVariable("Path","User") + ";C:\Program Files\KeePassXC",`
+  "User"`
+)
+$env:Path -split ';' | Select-String "KeePassXC"
+keepassxc-cli --version
+$env:Path -split ';' | Select-String "KeePassXC"
+keepassxc-cli --version
+keypass
+keepassxc-cli --help
+zbrush
+startup
+startup 
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1"
+powershell -ExecutionPolicy Bypass -File "Scripts\Networking\Chrome\Get-ChromeTabs.ps1" -DebugMode
+winget list Microsoft.VisualStudio
+Get-Content ".\Documents\Powershell\Available Commands.txt"
+Show-CommandList
+Show-CommandList '.\Stable Diffusion - web UI\'
+Get-Content "file:///c:/Users/Digital_Russkiy/Documents/Powershell/text/Available%20Commands.txt"
+Get-Content "/text/Available%20Commands.txt"
+Get-Content "/text/Available Commands.txt"
+Get-Content "\text\Available Commands.txt"
+Get-Content "]Available Commands.txt"
+Get-Content "Available Commands.txt"
+Get-Content "C:\Users\Digital_Russkiy\Documents\Powershell\Available Commands.txt"
+Show-Markdown -Path ".\Documents\Powershell\markdown\Available Commands.md"
+cd "C:\Users\Digital_Russkiy\Documents\Powershell" && .\Scripts\build-readme.ps1 -Backup
+Get-ChildItem -Name "README*" | Sort-Object
+.\Scripts\build-readme.ps1 -Backup -Force
+Get-ExecutionPolicy
+jq
+npm install -g shelljs
+node
+github
+Search-ArtStation
+Search-Scripts
+Search-ArtStation
+Search-ArtStation -Subject "bogo"
+github
+arstation
+Get-SshStatus
+Get-MyIP
+Get-Cheat
+ddump
+pshell
+github
+ddump
+pwd
+twirch
+documents
+cd_blog
+o_blog
+ghub
+Get-GithubFunctionList
+   . $PROFILE
+Get-GithubFunctionList
+re
+rl
+reload
+   . $PROFILE
+reload
+reload_profile
+clear
+ls
+Get-GithubFunctionList
+Update-AllRepos
+New-GitHubRepository
+ghub
+ls
+ghub
+ls
+reload_profile
+create_directory
+ghub
+create_directory
+ls
+cd .\Windows\
+ls
+Search-Scripts
+Search-ArtStation batman
+claude
+clear
+ls
+python
+ghub
+mkdir python
+chatgpt
+gmail
+cd_obsidianRoot
+Aseprite
+Start-Aseprite
+Aseprite
+aseprite
+Show-AsepriteCommands
+pyscripts
+reload
+re
+reload_profile
+pyscripts
+ls
+Search-Art batman
+clear
+Search-Art
+Search-Art batman
+Search-Art batman 
+Search-Art zombie 
+chafa
+chafa -f symbols --symbols ascii -c none  --exact-size=auto --scale=.5 *IMG*
+npm
+npm list
+ASKII
+  Get-My_IP
+Search-Art Anatomy
+Search-Art abs
+Search-Art Teres major
+Search-Art "Teres major"
+clear
+reload_profile
+clear
+startup
+art
+startup
+everything
+cursor
+curs
+obsidian
+code
+script
+github
+eagle
+pintrest
+reload
+reload_profile
+Open
+list_open
+Open-Shopping
+list_open
+list-dir
+cd .\Documents\Powershell\
+ls
+git status
+git add .
+git status
+git commit -m "changed file shorted URL function list"
+Search-Art "Anatomy"
+claude
+pip install instagrapi tweepy
+C:\Users\Digital_Russkiy\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.12_qbz5n2kfra8p0\python.exe -m pip install --upgrade pip
+clear
+Get-SearchFunctionList
+Get-UrlFunctionList
+Show-UrlFunctions
+clear
+cd github
+cd .\Documents\github\
+ls
+cd .\Windows\
+ls
+gh repo clone zachey01/NimbusScroll
+rust
+winget install discord
+winget install  Discord.Discord
+clear
+Search-Art "proko"
+Search-Art "brodgman"
+Search-Art "bridgman"
+todo
+clr`
+clear
+Search-Art "pelvis"
+gh search
+gh search repo spotdl
+github
+pip install --upgrade spotdl
+spotdl
+claude
+cd D:\Music\
+ls
+Search-GitHubRepos cmus
+Get-GitHubRepoView cmus
+gh view repo cmus
+gh
+gh alias
+gh help alias set
+gh view repo cmus
+Search-GitHubRepos cmus
+ghv cmus/cmus
+gh view cmus/cmus 
+gh view cmus/cmus web
+gh view cmus/cmus --web
+ls
+z documents
+cd .\github\
+ls
+mkdir music
+mkdir audio && mv music audio
+cd .\audio\ls
+cd .\audio\
+ls
+cd .\music\
+mkdir terminal 
+cd .\terminal\
+gh repo clone cmus/cmus
+clear
+winget search winamp 
+winget install -e --id Winamp.Winamp
+z music
+ls
+cd D:\Music\
+ls
+pwd
+cursor
+claude
+chatgpt
+claude
+chatgpt
+clear
+cd C:\Users\Digital_Russkiy\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\
+ls
+. explorer 
+explorer .
+z powersehll
+z powershell
+explorer .
+git status
+git add .
+git status
+git commit -m "sortened URL scripts I guess"
+git push 
+clear
+Search-Art "lower body"
+Search-Art "uper body"
+gh search  artstation 
+ghs artstation 
+gh search repo artstation 
+gh search artstation
+Search-GitHubRepos artstation 
+ghub
+gh view FyorDev/Artstation-webscraper --web
+gh view dimitryzub/artstation-artwork-analysis --web
+z art
+cd C:\Users\Digital_Russkiy\Documents\github\
+ls
+cd .\Artstation\
+ls
+gh repo clone dimitryzub/artstation-artwork-analysis
+ls
+cd .\artstation-artwork-analysis\
+ls
+glow
+cd ..
+Search-GitHubRepos artstation
+gh view Lucasnribeiro/art-py -web
+gh view Lucasnribeiro/art-py --web
+pip install pytumblr
+chatgpt
+z python
+cd C:\Users\Digital_Russkiy\python_Scripts\
+ls
+git status 
+pip3 install topydo
+pip3 install topydo[columns]
+pip3 install topydo[prompt]
+topydo 
+topydo add "Hello topydo"
+topydo columns
+bagles
+ Bagels
+Search-Art "Joker"
+spotify
+clear
+stream deck
+obs
+clr
+ip config
+ip
+clear
+everything
+clear
+wikit 
+wikit wesocket
+wikit websocket
+clear
+gh search "obs spotify"
+clear
+z music
+ls
+cd C:\Users\Digital_Russkiy\Documents\github\
+ls
+cd .\audio\
+ls
+mkdir OBS && cd OBS 
+gh repo clone Aldaviva/WinampNowPlayingToFile
+cd 'C:\Program Files\'
+ls
+cd C:\Program Files (x86)\Winamp
+cd ..
+cd '.\Program Files (x86)\'
+cd .\Winamp\
+ls
+cd .\Plugins\
+ls
+cd .\WinampNowPlayingToFile\
+ls
+glow 
+explorer .
+pwd
+cd C:\Users\Digital_Russkiy\Desktop\
+ls
+unzip "WinampNowPlayingToFile (1).zip" C:\Program Files (x86)\Winamp\Plugins
+z github
+ls
+cd .\audio\
+ls
+cd .\OBS\
+ls
+cd .\WinampNowPlayingToFile\
+glow
+ls
+cd lls
+cd ..
+ls
+rm -a .\WinampNowPlayingToFile\
+rm  .\WinampNowPlayingToFile\
+explorer.exe . 
+cd .\WinampNowPlayingToFile\
+ls
+& 'C:\Program Files\Go\bin\glow.exe'
+ls
+cd ..
+ls
+rm .\WinampNowPlayingToFile\
+Search-GitHubRepos winamo
+Search-GitHubRepos winamp
+z git
+la
+ls
+cd .\audio\music\
+ls
+cd .\terminal\
+ls
+mkdir youtube 
+ls
+cd .\youtube\
+ls
+gh repo clone Tech-How/YouTube-Music-Downloader
+ls
+cd .\YouTube-Music-Downloader\
+ls
+cd .\build\
+ls
+cd .\Redistributables\
+ls
+explorer.exe .
+ls
+mkdir YouTube-DL FFMPEG
+mkdir YouTube-DL, FFMPEG
+ls
+cd .\FFMPEG\
+grep https://github.com/GyanD/codexffmpeg/releases/download/2021-02-07-git-a52b9464e4/ffmpeg-2021-02-07-git-a52b9464e4-full_build.zip
+grep
+winget search grep 
+winget install -e --id StefansTools.grepWin
+wget https://github.com/GyanD/codexffmpeg/releases/download/2021-02-07-git-a52b9464e4/ffmpeg-2021-02-07-git-a52b9464e4-full_build.zip
+ls
+unzip ffmpeg-2021-02-07-git-a52b9464e4-full_build.zip 
+ls
+cd ..\YouTube-DL\
+ls
+gh 
+gh alias 
+gh alias list
+gh srch YouTube-DL
+gh view ytdl-org/youtube-dl
+gh view ytdl-org/youtube-dl --web
+ls
+cd ..
+ls
+cd .\YouTube-DL\
+wget https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe
+ls
+cd ..
+ls
+cd ..
+ld
+ls
+cat .\Help.txt
+explorer.exe .
+ls
+Spotify.exe
+Invoke-YouTubeMusicDownloader https://www.youtube.com/watch?v=nx7LmjJjqg4&list=RDnx7LmjJjqg4&start_radio=1
+C:\Users\Digital_Russkiy\Documents\github\audio\music\terminal\youtube\YouTube-Music-Downloader\build\Add Music.cmd
+Invoke-YouTubeMusicDownloader https://music.youtube.com/watch?v=nx7LmjJjqg4
+Invoke-YouTubeMusicDownloader
+Invoke-YouTubeMusicDownloader https://music.youtube.com/watch?v=nx7LmjJjqg4
+clear
+Invoke-YouTubeMusicDownloader https://music.youtube.com/watch?v=nx7LmjJjqg4
+claude
+cd C:\Users\Digital_Russkiy\Documents\Powershell; type Scripts\Audio\YouTube.ps1
+clear
+cmd
+download_music
+add_music
+claude
+hist
+history
+add_music https://music.youtube.com/watch?v=nx7LmjJjqg4
+download_music
+add_music https://music.youtube.com/playlist?list=OLAK5uy_kSfcuckNboAymIpsoq6hb1y5TvtyUU6p4
+download_music
+add_music
+download_music
+ytmusic
+ composer require orkan/winamp
+winget search composer
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'c8b085408188070d5f52bcfe4ecfbee5f727afa458b2573b8eaaf77b3419b0bf2768dc67c86944da1544f06fa544fd47') { echo 'Installer verified'.PHP_EOL; } else { echo 'Installer corrupt'.PHP_EOL; unlink('composer-setup.php'); exit(1); }"
+php composer-setup.php
+winget search php
+Search-Art "Cybademon"
+Search-Art "Cyberdemon"
+gh srch Devientart
+gh srch DeviantArt
+gh viwe mikf/gallery-dl -web
+gh viw mikf/gallery-dl -web
+gh view mikf/gallery-dl -web
+gh -v mikf/gallery-dl -web
+gh vew mikf/gallery-dl -web
+gh 
+gh view mikf/gallery-dl -web
+gh alias list
+gh view mikf/gallery-dl
+gh view mikf/gallery-dl -web
+gh view mikf/gallery-dl 
+gh view mikf/gallery-dl --web
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('sha384', 'composer-setup.php') === 'c8b085408188070d5f52bcfe4ecfbee5f727afa458b2573b8eaaf77b3419b0bf2768dc67c86944da1544f06fa544fd47') { echo 'Installer verified'.PHP_EOL; } else { echo 'Installer corrupt'.PHP_EOL; unlink('composer-setup.php'); exit(1); }"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+php
+Search-Art "Cyberdemon"
+clear
+gh srch qr
+github
+wikit cygwin
+winget cygwin
+winget search cygwin
+topdo
+topydo
+todo
+pip 
+pip list
+pip install qrcode[pil]
+glist
+ghub
+pip list 
+wikit checksum
+wikit jadokar
+gh srch yewtube
+yt
+pip install yewtube
+Generate_QR
+Search-Art "Cyberdemon"
+gen_qr
+ls
+gen_qr
+Search-Art "Cyberdemon"
+gen_qr
+reload
+restart
+gen_qr
+ls
+Install-Module -Name Terminal-Icons -Repository PSGallery
+ls
+Install-Module -Name Terminal-Icons -Repository PSGallery
+ls
+Add-Content $PROFILE "Import-Module -Name Terminal-Icons"
+ls
+clear
+google
+cd C:
+ls
+find cygwin 
+wingrep 
+guid
+Get-Guid
+ cygwin
+C:\cygwin64\Cygwin.bat
+clear
+ls
+image magic 
+winget search "image magic "
+ddr 
+cd_cygwin
+ls
+reload
+cigwin
+cd_cygwin
+yt
+clear
+claude
+ytmusic
+Search-Art "Cat"
+add_music
+download_music
+gh serch artist profile 
+gh view mcdgomez/Artist-Profile --web
+gh view Think23/artist-profile --web
+gh view Daslaw/Profile-Demo --web
+gh view RolandSall/artist-block--web
+gh view RolandSall/artist-blockArkkky/Arttist-Profile --web
+claude
+clear
+cd ~
+ls
+obsidian
+cd_obsidianRoot
+ls
+pwd
+git status
+  gh_create_repo Obsidian_Second_brain private
+git p -U origin main
+git status
+ghlist
+ghub
+Remove-GitHubRepo Digital-gitz/Obsidian_Second_brain
+claude
+winget search rTorrent
+clear
+yt
+winget install discord
+winget install Discord.Discord
+Spotify.exe
+discord.exe
+add_music
+ytmusic
+z python_scripts
+pwd
+git init 
+git status 
+git commit -m "Python Scripts init"
+git status 
+git add . 
+git status 
+git commit -m "Python Scripts init"
+ls
+New-GitHubRepository 
+claude 
+ghub
+download_music
+claude
+python list 
+pip list
+pip install sys subprocess `
+
+pip install subprocess `
+
+winget search lazygit
+z github
+ls
+mkdir LAZY  && cd LAZY 
+cd Lazy 
+cd LAZY
+gh repo clone jesseduffield/lazygit
+ls
+cd .\lazygit\
+ls
+glow 
+rufus 
+.\rufus.com
+clr
+winget search lazy
+winget install lazygit
+lazygit
+z python_scripts
+lazygit
+clr
+cd ~ 
+ls
+git status
+z powershell 
+git status
+git add . 
+git status
+git commit -m "Update FIle God damn this is a mess I need to nuke this thing."
+Search-Art "kid link swinging sward"
+wiki tangent 
+wikit tangent 
+spotify
+ytmusic
+ghlist
+ghub
+Search-Art "kid link swinging sward"
+clear
+shutdown 
+ shutdown /r /o /t 
+ shutdown /r /o /t 0
+Search-Art "tatsumaki"
+claude
+chatgpt
+Spotify.exe
+chatgpt
+startup
+ gemini_url
+npx https://github.com/google-gemini/gemini-cli
+unity
+z github
+ls
+mkdir LookingGlass
+cd .\LookingGlass\
+gh repo clone CaptainProton42/GodotHoloPlay
+curser
+code
+Open-Curator
+curser
+cursor
+icloud
+ls
+pwsh -NoProfile -Command "$m = Get-Module -ListAvailable Terminal-Icons | Select-Object -First 1; if ($m) { Write-Host ('Module path: ' + $m.Path); $helpPath = Join-Path (Split-Path $m.Path) 'en-US\Terminal-Icons-help.xml'; if (Test-Path $helpPath) { $lines = Get-Content $helpPath; Write-Host ('Total lines: ' + $lines.Length); if ($lines.Length -ge 848) { Write-Host ('Line 848: ' + $lines[847]) } else { Write-Host 'File has less than 848 lines' } } else { Write-Host 'Help file not found' } } else { Write-Host 'Module not found' }"
+pwsh -NoProfile -Command "try { Import-Module Terminal-Icons -Force -ErrorAction Stop; Write-Host 'Module loaded successfully' } catch { Write-Host ('Error: ' + $_.Exception.Message); Write-Host ('Line: ' + $_.Exception.InnerException.LineNumber); Write-Host ('Position: ' + $_.Exception.InnerException.LinePosition) }"
+pwsh -NoProfile -Command "Write-Host 'Removing Terminal-Icons module...'; Remove-Module Terminal-Icons -ErrorAction SilentlyContinue; Get-InstalledModule Terminal-Icons -AllVersions -ErrorAction SilentlyContinue | Uninstall-Module -Force -AllVersions -ErrorAction SilentlyContinue; Write-Host 'Removing module directories...'; Remove-Item -Recurse -Force '$env:USERPROFILE\Documents\PowerShell\Modules\Terminal-Icons' -ErrorAction SilentlyContinue; Remove-Item -Recurse -Force 'C:\Program Files\PowerShell\Modules\Terminal-Icons' -ErrorAction SilentlyContinue; Write-Host 'Reinstalling Terminal-Icons...'; Install-Module Terminal-Icons -Scope CurrentUser -Force -AllowClobber -SkipPublisherCheck; Write-Host 'Installation complete!'"
+add_music
+ytmusic
+add_music
+neofetch
+winfetch
+Startup
+icloud
+pip install pyicloud
+icloud --username=your_apple_id@example.com
+icloud --username=microastronomer@icloud.com
+icloud --list
+Clear-Host
+z github
+Get-ChildItem
+Set-Location LookingGlass\
+Get-ChildItem
+Set-Location GodotHoloPlay\
+Get-ChildItem
+glow
+z Desktop\
+Get-ChildItem
+gh repo clone CaptainProton42/GodotHoloPlayDemo
+Clear-Host
+gh search "godot starter"
+gh srch "godot starter"
+Search-Art "trickster"
+startup
+claude
+Clear-Host
+z Desktop
+Get-ChildItem
+winget search gamemaker 
+winget install YoYoGames.GameMaker.Studio.2
+winget search mpaint
+Search-Art "Homer"
+z powershell
+git status
+git add .
+git status
+git commit -m "update"
+git push
+z powershell
+git status
+git push 
+cursor . 
+git status
+git add .
+git status
+git commit -m "update"
+git push
+Get-ChildItem
+git add .
+git commit -m "update"
+git push
+git status
+git add .
+git commit -m "update"
+git add .
+Clear-Host
+Get-ChildItem
+cursor
+winget search nbcursor
+gh srchnb
+gh srch nb
+gh srch "nb"
+npm install -g nb.sh
+nbtstat
+nb
+npm install -g nb.sh
+nb
+Clear-Host
+download_musicgh srch nb
+Set-Location ~
+Get-ChildItem
+Clear-Host
+claude
+ytmusic
+z powershell 
+Get-ChildItem
+git status
+git add .
+git commit -m "update"
+gamemaker_studio
+claude
+imagemagic
+wsl list 
+wsl -l
+wsl -h
+wsl -help
+gamemaker_studio
+reload
+gamemaker_studio
+z powershell 
+ls
+clr
+clear
+history`
+
+z powershell
+ls
+gh srch "gamemamker"
+z powershell
+ ls
+cd .\Scripts\
+ls
+cd .\URL\
+ls
+touch Data.ps1 && cursor Data.ps1
+cd ... pwd
+cd ... & pwd
+cd .. && pwd
+touch claude.ps1
+z python
+ls
+cd C:\Users\Digital_Russkiy\python_Scripts\data
+ls
+git status
+ls
+ls -a
+l
+cd cd ..
+ls
+cd ..
+ls
+..
+ls
+cd C:\Users\Digital_Russkiy\python_Scripts\data
+cd ..
+ls
+mkdir webcrawl
+cd .\webcrawl\
+ls
+touch data
+clear
+ls
+z blank 
+cd Godot Engine
+cd D:\GameMaker\Blank Pixel Game
+cd "D:\GameMaker\Blank Pixel Game"
+ls
+gh_create_repo .
+ls
+cd ..
+ls
+mv '.\Blank Pixel Game\' Digital_Blank_Pixal_Game
+bash
+ghub
+ddump
+cursor .
+git status
+git add .
+git status
+git commit -m "Dumped my python Scripts."
+git push
+z powershell
+ls
+cursor .
+ls
+z powershell
+ls
+cursor .
+explorer.exe .

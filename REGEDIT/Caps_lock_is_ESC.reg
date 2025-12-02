@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,01,00,3a,00,00,00,00,00
+
+; Data = 00000000 00000000 0200000000 01003A00 00000000
+; 0x00000000 Header: Version. Set to all zeroes. 
+; 0x00000000 Header: Flags. Set to all zeroes. 
+; 0x00000002 Two entries in the map (including null entry).
+; 0x003A001D CAPS LOCK --> ESC key (0x3A --> 0x01). 
+; 0x00000000 Null terminator. 

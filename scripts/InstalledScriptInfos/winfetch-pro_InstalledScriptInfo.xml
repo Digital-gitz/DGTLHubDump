@@ -1,0 +1,310 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>Microsoft.PowerShell.Commands.PSRepositoryItemInfo</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Name">winfetch-pro</S>
+      <S N="Version">1.0.6</S>
+      <S N="Type">Script</S>
+      <S N="Description">winfetch-pro is an enhanced version of winfetch, featuring customizable layouts (double columns, headers, footers), additional system information (WiFi, Bluetooth, cache levels, battery health, BIOS), automatic percent bar alignment, and versatile color customization options.</S>
+      <S N="Author">@LunarEclipseCode Winfetch contributers</S>
+      <S N="CompanyName">LunarEclipseCode</S>
+      <Nil N="Copyright" />
+      <DT N="PublishedDate">2024-10-21T01:47:22-04:00</DT>
+      <Obj N="InstalledDate" RefId="1">
+        <DT>2025-03-05T19:08:53.3402822-05:00</DT>
+        <MS>
+          <Obj N="DisplayHint" RefId="2">
+            <TN RefId="1">
+              <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+              <T>System.Enum</T>
+              <T>System.ValueType</T>
+              <T>System.Object</T>
+            </TN>
+            <ToString>DateTime</ToString>
+            <I32>2</I32>
+          </Obj>
+        </MS>
+      </Obj>
+      <Nil N="UpdatedDate" />
+      <URI N="LicenseUri">https://github.com/LunarEclipseCode/winfetch-pro/blob/master/LICENSE</URI>
+      <URI N="ProjectUri">https://github.com/LunarEclipseCode/winfetch-pro</URI>
+      <URI N="IconUri">https://raw.githubusercontent.com/LunarEclipseCode/winfetch-pro/refs/heads/master/images/logo.png</URI>
+      <Obj N="Tags" RefId="3">
+        <TN RefId="2">
+          <T>System.Object[]</T>
+          <T>System.Array</T>
+          <T>System.Object</T>
+        </TN>
+        <LST>
+          <S>neofetch</S>
+          <S>screenfetch</S>
+          <S>system-info</S>
+          <S>commandline</S>
+          <S>PSScript</S>
+        </LST>
+      </Obj>
+      <Obj N="Includes" RefId="4">
+        <TN RefId="3">
+          <T>System.Collections.Hashtable</T>
+          <T>System.Object</T>
+        </TN>
+        <DCT>
+          <En>
+            <S N="Key">RoleCapability</S>
+            <Obj N="Value" RefId="5">
+              <TNRef RefId="2" />
+              <LST />
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Command</S>
+            <Obj N="Value" RefId="6">
+              <TNRef RefId="2" />
+              <LST>
+                <S>get_percent_bar</S>
+                <S>get_altbar</S>
+                <S>get_level_info</S>
+                <S>Get-AnsiCode</S>
+                <S>apply_window_colors</S>
+                <S>truncate_line</S>
+                <S>info_blank</S>
+                <S>info_os</S>
+                <S>info_mini_os</S>
+                <S>info_emoji_date</S>
+                <S>info_emoji_time</S>
+                <S>info_bios</S>
+                <S>info_wifi</S>
+                <S>info_motherboard</S>
+                <S>info_title</S>
+                <S>info_user</S>
+                <S>info_hostname</S>
+                <S>info_dashes</S>
+                <S>info_refresh_rate</S>
+                <S>info_computer</S>
+                <S>info_kernel</S>
+                <S>info_uptime</S>
+                <S>info_mini_uptime</S>
+                <S>info_resolution</S>
+                <S>info_mini_resolution</S>
+                <S>info_terminal</S>
+                <S>info_terminal_font</S>
+                <S>Get-ParentProcessId</S>
+                <S>info_display</S>
+                <S>info_theme</S>
+                <S>info_cpu</S>
+                <S>info_cpu_name</S>
+                <S>info_cpu_clock_speed</S>
+                <S>info_cpu_cores</S>
+                <S>info_gpu</S>
+                <S>Get-FormattedCache</S>
+                <S>info_cache</S>
+                <S>info_mini_cache</S>
+                <S>info_ram</S>
+                <S>info_ram_form_factor</S>
+                <S>info_ram_total</S>
+                <S>info_ram_frequency</S>
+                <S>info_bluetooth</S>
+                <S>get_cpu_usage</S>
+                <S>info_cpu_usage</S>
+                <S>info_cpu_usage_only</S>
+                <S>info_cpu_processes</S>
+                <S>info_memory</S>
+                <S>info_disk</S>
+                <S>to_units</S>
+                <S>info_pwsh</S>
+                <S>info_ps_pkgs</S>
+                <S>info_pkgs</S>
+                <S>info_battery</S>
+                <S>info_emoji_battery</S>
+                <S>info_battery_health</S>
+                <S>info_locale</S>
+                <S>info_region</S>
+                <S>info_language</S>
+                <S>info_mini_language</S>
+                <S>info_weather</S>
+                <S>info_weather_condition</S>
+                <S>info_humidity</S>
+                <S>info_sun</S>
+                <S>info_temp_celcius</S>
+                <S>info_temp_farenheit</S>
+                <S>info_wind</S>
+                <S>info_feels_like_celcius</S>
+                <S>info_feels_like_farenheit</S>
+                <S>info_local_ip</S>
+                <S>info_public_ip</S>
+                <S>info_gradient</S>
+                <S>info_colorbar</S>
+                <S>info_colorbar_center</S>
+                <S>info_gradient_center</S>
+                <S>pad_line_center</S>
+                <S>CalculateTextLengths</S>
+                <S>AlignLineContent</S>
+                <S>AlignAndOutputLines</S>
+                <S>AlignLinesInGroup</S>
+                <S>ProcessHeaderItems</S>
+                <S>ColorOutput</S>
+                <S>ProcessConfigItems</S>
+                <S>DetectPatternGroups</S>
+                <S>check_non_blank</S>
+                <S>get_weather_data</S>
+                <S>AlignBartextLines</S>
+                <S>AlignTextbarLines</S>
+                <S>HeaderFooterSpacing</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">Function</S>
+            <Obj N="Value" RefId="7">
+              <TNRef RefId="2" />
+              <LST>
+                <S>get_percent_bar</S>
+                <S>get_altbar</S>
+                <S>get_level_info</S>
+                <S>Get-AnsiCode</S>
+                <S>apply_window_colors</S>
+                <S>truncate_line</S>
+                <S>info_blank</S>
+                <S>info_os</S>
+                <S>info_mini_os</S>
+                <S>info_emoji_date</S>
+                <S>info_emoji_time</S>
+                <S>info_bios</S>
+                <S>info_wifi</S>
+                <S>info_motherboard</S>
+                <S>info_title</S>
+                <S>info_user</S>
+                <S>info_hostname</S>
+                <S>info_dashes</S>
+                <S>info_refresh_rate</S>
+                <S>info_computer</S>
+                <S>info_kernel</S>
+                <S>info_uptime</S>
+                <S>info_mini_uptime</S>
+                <S>info_resolution</S>
+                <S>info_mini_resolution</S>
+                <S>info_terminal</S>
+                <S>info_terminal_font</S>
+                <S>Get-ParentProcessId</S>
+                <S>info_display</S>
+                <S>info_theme</S>
+                <S>info_cpu</S>
+                <S>info_cpu_name</S>
+                <S>info_cpu_clock_speed</S>
+                <S>info_cpu_cores</S>
+                <S>info_gpu</S>
+                <S>Get-FormattedCache</S>
+                <S>info_cache</S>
+                <S>info_mini_cache</S>
+                <S>info_ram</S>
+                <S>info_ram_form_factor</S>
+                <S>info_ram_total</S>
+                <S>info_ram_frequency</S>
+                <S>info_bluetooth</S>
+                <S>get_cpu_usage</S>
+                <S>info_cpu_usage</S>
+                <S>info_cpu_usage_only</S>
+                <S>info_cpu_processes</S>
+                <S>info_memory</S>
+                <S>info_disk</S>
+                <S>to_units</S>
+                <S>info_pwsh</S>
+                <S>info_ps_pkgs</S>
+                <S>info_pkgs</S>
+                <S>info_battery</S>
+                <S>info_emoji_battery</S>
+                <S>info_battery_health</S>
+                <S>info_locale</S>
+                <S>info_region</S>
+                <S>info_language</S>
+                <S>info_mini_language</S>
+                <S>info_weather</S>
+                <S>info_weather_condition</S>
+                <S>info_humidity</S>
+                <S>info_sun</S>
+                <S>info_temp_celcius</S>
+                <S>info_temp_farenheit</S>
+                <S>info_wind</S>
+                <S>info_feels_like_celcius</S>
+                <S>info_feels_like_farenheit</S>
+                <S>info_local_ip</S>
+                <S>info_public_ip</S>
+                <S>info_gradient</S>
+                <S>info_colorbar</S>
+                <S>info_colorbar_center</S>
+                <S>info_gradient_center</S>
+                <S>pad_line_center</S>
+                <S>CalculateTextLengths</S>
+                <S>AlignLineContent</S>
+                <S>AlignAndOutputLines</S>
+                <S>AlignLinesInGroup</S>
+                <S>ProcessHeaderItems</S>
+                <S>ColorOutput</S>
+                <S>ProcessConfigItems</S>
+                <S>DetectPatternGroups</S>
+                <S>check_non_blank</S>
+                <S>get_weather_data</S>
+                <S>AlignBartextLines</S>
+                <S>AlignTextbarLines</S>
+                <S>HeaderFooterSpacing</S>
+              </LST>
+            </Obj>
+          </En>
+          <En>
+            <S N="Key">DscResource</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Workflow</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+          <En>
+            <S N="Key">Cmdlet</S>
+            <Ref N="Value" RefId="5" />
+          </En>
+        </DCT>
+      </Obj>
+      <Nil N="PowerShellGetFormatVersion" />
+      <Nil N="ReleaseNotes" />
+      <Obj N="Dependencies" RefId="8">
+        <TNRef RefId="2" />
+        <LST />
+      </Obj>
+      <S N="RepositorySourceLocation">https://www.powershellgallery.com/api/v2</S>
+      <S N="Repository">PSGallery</S>
+      <S N="PackageManagementProvider">NuGet</S>
+      <Obj N="AdditionalMetadata" RefId="9">
+        <TN RefId="4">
+          <T>System.Management.Automation.PSCustomObject</T>
+          <T>System.Object</T>
+        </TN>
+        <MS>
+          <S N="description">winfetch-pro is an enhanced version of winfetch, featuring customizable layouts (double columns, headers, footers), additional system information (WiFi, Bluetooth, cache levels, battery health, BIOS), automatic percent bar alignment, and versatile color customization options.</S>
+          <S N="requireLicenseAcceptance">False</S>
+          <S N="isLatestVersion">True</S>
+          <S N="isAbsoluteLatestVersion">True</S>
+          <S N="versionDownloadCount">1615</S>
+          <S N="downloadCount">1646</S>
+          <S N="packageSize">44612</S>
+          <S N="published">10/21/2024 1:47:22 AM -04:00</S>
+          <S N="created">10/21/2024 1:47:22 AM -04:00</S>
+          <S N="lastUpdated">3/5/2025 4:40:00 PM -05:00</S>
+          <S N="tags">neofetch screenfetch system-info commandline PSScript PSFunction_get_percent_bar PSCommand_get_percent_bar PSFunction_get_altbar PSCommand_get_altbar PSFunction_get_level_info PSCommand_get_level_info PSFunction_Get-AnsiCode PSCommand_Get-AnsiCode PSFunction_apply_window_colors PSCommand_apply_window_colors PSFunction_truncate_line PSCommand_truncate_line PSFunction_info_blank PSCommand_info_blank PSFunction_info_os PSCommand_info_os PSFunction_info_mini_os PSCommand_info_mini_os PSFunction_info_emoji_date PSCommand_info_emoji_date PSFunction_info_emoji_time PSCommand_info_emoji_time PSFunction_info_bios PSCommand_info_bios PSFunction_info_wifi PSCommand_info_wifi PSFunction_info_motherboard PSCommand_info_motherboard PSFunction_info_title PSCommand_info_title PSFunction_info_user PSCommand_info_user PSFunction_info_hostname PSCommand_info_hostname PSFunction_info_dashes PSCommand_info_dashes PSFunction_info_refresh_rate PSCommand_info_refresh_rate PSFunction_info_computer PSCommand_info_computer PSFunction_info_kernel PSCommand_info_kernel PSFunction_info_uptime PSCommand_info_uptime PSFunction_info_mini_uptime PSCommand_info_mini_uptime PSFunction_info_resolution PSCommand_info_resolution PSFunction_info_mini_resolution PSCommand_info_mini_resolution PSFunction_info_terminal PSCommand_info_terminal PSFunction_info_terminal_font PSCommand_info_terminal_font PSFunction_Get-ParentProcessId PSCommand_Get-ParentProcessId PSFunction_info_display PSCommand_info_display PSFunction_info_theme PSCommand_info_theme PSFunction_info_cpu PSCommand_info_cpu PSFunction_info_cpu_name PSCommand_info_cpu_name PSFunction_info_cpu_clock_speed PSCommand_info_cpu_clock_speed PSFunction_info_cpu_cores PSCommand_info_cpu_cores PSFunction_info_gpu PSCommand_info_gpu PSFunction_Get-FormattedCache PSCommand_Get-FormattedCache PSFunction_info_cache PSCommand_info_cache PSFunction_info_mini_cache PSCommand_info_mini_cache PSFunction_info_ram PSCommand_info_ram PSFunction_info_ram_form_factor PSCommand_info_ram_form_factor PSFunction_info_ram_total PSCommand_info_ram_total PSFunction_info_ram_frequency PSCommand_info_ram_frequency PSFunction_info_bluetooth PSCommand_info_bluetooth PSFunction_get_cpu_usage PSCommand_get_cpu_usage PSFunction_info_cpu_usage PSCommand_info_cpu_usage PSFunction_info_cpu_usage_only PSCommand_info_cpu_usage_only PSFunction_info_cpu_processes PSCommand_info_cpu_processes PSFunction_info_memory PSCommand_info_memory PSFunction_info_disk PSCommand_info_disk PSFunction_to_units PSCommand_to_units PSFunction_info_pwsh PSCommand_info_pwsh PSFunction_info_ps_pkgs PSCommand_info_ps_pkgs PSFunction_info_pkgs PSCommand_info_pkgs PSFunction_info_battery PSCommand_info_battery PSFunction_info_emoji_battery PSCommand_info_emoji_battery PSFunction_info_battery_health PSCommand_info_battery_health PSFunction_info_locale PSCommand_info_locale PSFunction_info_region PSCommand_info_region PSFunction_info_language PSCommand_info_language PSFunction_info_mini_language PSCommand_info_mini_language PSFunction_info_weather PSCommand_info_weather PSFunction_info_weather_condition PSCommand_info_weather_condition PSFunction_info_humidity PSCommand_info_humidity PSFunction_info_sun PSCommand_info_sun PSFunction_info_temp_celcius PSCommand_info_temp_celcius PSFunction_info_temp_farenheit PSCommand_info_temp_farenheit PSFunction_info_wind PSCommand_info_wind PSFunction_info_feels_like_celcius PSCommand_info_feels_like_celcius PSFunction_info_feels_like_farenheit PSCommand_info_feels_like_farenheit PSFunction_info_local_ip PSCommand_info_local_ip PSFunction_info_public_ip PSCommand_info_public_ip PSFunction_info_gradient PSCommand_info_gradient PSFunction_info_colorbar PSCommand_info_colorbar PSFunction_info_colorbar_center PSCommand_info_colorbar_center PSFunction_info_gradient_center PSCommand_info_gradient_center PSFunction_pad_line_center PSCommand_pad_line_center PSFunction_CalculateTextLengths PSCommand_CalculateTextLengths PSFunction_AlignLineContent PSCommand_AlignLineContent PSFunction_AlignAndOutputLines PSCommand_AlignAndOutputLines PSFunction_AlignLinesInGroup PSCommand_AlignLinesInGroup PSFunction_ProcessHeaderItems PSCommand_ProcessHeaderItems PSFunction_ColorOutput PSCommand_ColorOutput PSFunction_ProcessConfigItems PSCommand_ProcessConfigItems PSFunction_DetectPatternGroups PSCommand_DetectPatternGroups PSFunction_check_non_blank PSCommand_check_non_blank PSFunction_get_weather_data PSCommand_get_weather_data PSFunction_AlignBartextLines PSCommand_AlignBartextLines PSFunction_AlignTextbarLines PSCommand_AlignTextbarLines PSFunction_HeaderFooterSpacing PSCommand_HeaderFooterSpacing PSIncludes_Function</S>
+          <S N="developmentDependency">False</S>
+          <S N="updated">2025-03-05T16:40:00Z</S>
+          <S N="NormalizedVersion">1.0.6</S>
+          <S N="Authors">@LunarEclipseCode Winfetch contributers</S>
+          <S N="IsPrerelease">false</S>
+          <S N="ItemType">Script</S>
+          <S N="FileList">winfetch-pro.nuspec|winfetch-pro.ps1</S>
+          <S N="GUID">6f7dd5d1-6db3-41e4-8328-ace6c30bf24f</S>
+        </MS>
+      </Obj>
+      <S N="InstalledLocation">C:\Users\Digital_Russkiy\Documents\PowerShell\Scripts</S>
+    </MS>
+  </Obj>
+</Objs>

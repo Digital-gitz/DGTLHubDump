@@ -1,0 +1,390 @@
+{
+    "UrlCollections": {
+        "AI": {
+            "LLM": {
+                "Dashboard": [
+                    "https://platform.deepseek.com/"
+                ],
+                "Chat": [
+                    "https://chat.openai.com/",
+                    "https://claude.ai/new",
+                    "https://x.com/i/grok",
+                    "https://you.com/",
+                    "https://pi.ai/",
+                    "https://chatgpt.com/",
+                    "https://chat.openai.com/",
+                    "https://claude.ai/new",
+                    "https://gemini.google.com/app?hl=en-GB",
+                    "https://chat.deepseek.com/"
+                ],
+                "DeepSeek": [
+                    "https://chat.deepseek.com/",
+                    "https://platform.deepseek.com/",
+                    "https://deepseekcoder.github.io/"
+                ],
+                "Resources": [
+                    "https://www.openai.com/api/introduction/",
+                    "https://www.eleuther.ai/",
+                    "https://chatgpt.com/"
+                ]
+            },
+            "AiPackages": [
+                "https://huggingface.co/",
+                "https://www.tensorflow.org/",
+                "https://pytorch.org/",
+                "https://keras.io/",
+                "https://www.deeplearning.ai/"
+            ],
+            "AiSearch": [
+                "https://www.perplexity.ai/",
+                "https://www.phind.com/",
+                "https://kagi.com/",
+                "https://www.consensus.app/"
+            ],
+            "AiArt": [
+                "https://anything.world/"
+            ],
+            "Azure": [
+                "https://portal.azure.com/",
+                "https://learn.microsoft.com/en-us/azure/",
+                "https://learn.microsoft.com/en-us/azure/openai/",
+                "https://learn.microsoft.com/en-us/azure/cognitive-services/"
+            ]
+        },
+        "Google": {
+            "Core": [
+                "https://www.google.com/",
+                "https://myaccount.google.com/"
+            ],
+            "Productivity": [
+                "https://www.google.com/drive",
+                "https://www.google.com/calendar",
+                "https://www.google.com/gmail",
+                "https://www.google.com/docs",
+                "https://www.google.com/sheets",
+                "https://www.google.com/slides",
+                "https://www.google.com/forms",
+                "https://www.google.com/keep"
+            ],
+            "Communication": [
+                "https://www.google.com/meet",
+                "https://www.google.com/contacts"
+            ],
+            "Media": [
+                "https://www.google.com/photos",
+                "https://www.google.com/youtube"
+            ],
+            "Tools": [
+                "https://www.google.com/maps",
+                "https://www.google.com/translate",
+                "https://www.google.com/earth"
+            ],
+            "Business": [
+                "https://www.google.com/ads",
+                "https://www.google.com/analytics",
+                "https://www.google.com/adsense",
+                "https://www.google.com/webmasters"
+            ],
+            "Blogs": [
+                "https://www.google.com/blog",
+                "https://www.google.com/blog",
+                "https://www.google.com/blog",
+                "https://www.google.com/blog"
+            ],
+            "Cloud": [
+                "https://www.google.com/cloud",
+                "https://www.google.com/cloud-storage",
+                "https://www.google.com/cloud-storage",
+                "https://www.google.com/cloud-storage"
+            ],
+            "Other": [
+                "https://www.google.com/news",
+                "https://www.google.com/alerts",
+                "https://www.google.com/books",
+                "https://www.google.com/flights",
+                "https://www.google.com/shopping",
+                "https://www.google.com/finance"
+            ]
+        },
+        "Development": {
+            "Documentation": [
+                "https://devdocs.io/",
+                "https://docs.microsoft.com/en-us/powershell/",
+                "https://developer.mozilla.org/",
+                "https://kubernetes.io/docs/",
+                "https://docs.cursor.com/get-started/welcome",
+                "https://docs.aws.amazon.com/"
+            ],
+            "GitSites": [
+                "https://github.com/",
+                "https://gitlab.com/",
+                "https://bitbucket.org/",
+                "https://github.com/Digital-gitz"
+            ],
+            "LearnWebDev": [
+                "https://www.w3schools.com/",
+                "https://www.codecademy.com/",
+                "https://www.freecodecamp.org/",
+                "https://developer.mozilla.org/",
+                "https://frontendmasters.com/"
+            ],
+            "Javascript": [
+                "https://lynxjs.org/",
+                "https://www.pluralsight.com/",
+                "https://javascript.info/",
+                "https://reactjs.org/",
+                "https://vuejs.org/"
+            ],
+            "Css": [
+                "https://www.w3schools.com/css/",
+                "https://developer.mozilla.org/en-US/docs/Web/CSS",
+                "https://css-tricks.com/",
+                "https://www.sitepoint.com/css-tutorials/",
+                "https://www.tutorialspoint.com/css/index.htm",
+                "https://www.codecademy.com/learn/learn-css",
+                "https://www.freecodecamp.org/learn/responsive-web-design/basic-css/",
+                "https://tailwindcss.com/",
+                "https://sass-lang.com/"
+            ],
+            "PackageManagers": [
+                "https://pypi.org/",
+                "https://www.nuget.org/",
+                "https://www.npmjs.com/",
+                "https://crates.io/",
+                "https://packagist.org/"
+            ],
+            "CloudSites": [
+                "https://portal.azure.com/",
+                "https://aws.amazon.com/console/",
+                "https://console.cloud.google.com/",
+                "https://cloud.digitalocean.com/"
+            ],
+            "CloudStorage": [
+                "https://www.dropbox.com/",
+                "https://www.google.com/drive",
+                "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+                "https://www.pcloud.com/",
+                "https://www.mega.nz/",
+                "https://www.icloud.com/"
+            ],
+            "macro": [
+                "https://www.arduino.cc/",
+                "https://www.raspberrypi.org/",
+                "https://www.adafruit.com/",
+                "https://www.sparkfun.com/",
+                "https://www.seeedstudio.com/",
+                "https://www.clipboardfusion.com/Macros/"
+            ]
+        },
+        "Finance": {
+            "StockSites": [
+                "https://www.reddit.com/r/stocks/",
+                "https://www.webull.com/center",
+                "https://www.tradingview.com/",
+                "https://robinhood.com/",
+                "https://robinhood.com/legend",
+                "https://stockanalysis.com/stocks/",
+                "https://finviz.com/",
+                "https://www.morningstar.com/",
+                "https://seekingalpha.com/",
+                "https://www.fool.com/",
+                "https://www.zacks.com/",
+                "https://www.tipranks.com/"
+            ],
+            "Trading": [
+                "https://tradingterminal.com/",
+                "https://finviz.com/",
+                "https://www.biopharmcatalyst.com/",
+                "https://www.marketwatch.com/",
+                "https://www.benzinga.com/",
+                "https://www.investing.com/",
+                "https://www.thinkorswim.com/",
+                "https://www.etrade.com/",
+                "https://www.interactivebrokers.com/",
+                "https://www.moomoo.com/"
+            ],
+            "StockTickers": [
+                "https://www.babypips.com/tools/forex-market-hours",
+                "https://www.marketwatch.com/tools/quotes/lookup.asp",
+                "https://finance.yahoo.com/lookup",
+                "https://www.nasdaq.com/market-activity/stocks",
+                "https://www.nyse.com/listings_directory/stock"
+            ],
+            "Forex": [
+                "https://www.babypips.com/tools/forex-market-hours",
+                "https://www.forex.com/",
+                "https://www.myfxbook.com/",
+                "https://www.fxcm.com/",
+                "https://www.oanda.com/",
+                "https://www.ig.com/",
+                "https://www.forexfactory.com/"
+            ],
+            "Crypto": [
+                "https://coinmarketcap.com/",
+                "https://www.coingecko.com/",
+                "https://www.binance.com/",
+                "https://www.kraken.com/",
+                "https://www.gemini.com/",
+                "https://www.coinbase.com/",
+                "https://www.kucoin.com/",
+                "https://www.bitfinex.com/",
+                "https://www.bybit.com/",
+                "https://www.tradingview.com/crypto-screener/",
+                "https://www.cryptopanic.com/",
+                "https://www.lunarcrush.com/",
+                "https://www.blockchain.com/",
+                "https://etherscan.io/",
+                "https://defillama.com/"
+            ],
+            "CryptoNews": [
+                "https://www.cryptopotato.com/"
+            ],
+            "Banking": [
+                "https://www.td.com/us/en/personal-banking/my-td",
+                "https://www.soa.com/relay/app/spending/transaction-history",
+                "https://onlinebanking.tdbank.com/",
+                "https://app.acorns.com/settings/my-subscription",
+                "https://www.ally.com/",
+                "https://www.chime.com/",
+                "https://www.marcus.com/"
+            ],
+            "Wallets": [
+                "edge://wallet/",
+                "https://www.nerdwallet.com/",
+                "https://metamask.io/",
+                "https://trustwallet.com/",
+                "https://phantom.app/",
+                "https://www.ledger.com/",
+                "https://trezor.io/"
+            ],
+            "CreditCards": [
+                "https://www.creditkarma.com/",
+                "https://www.experian.com/",
+                "https://www.equifax.com/",
+                "https://www.transunion.com/",
+                "https://www.annualcreditreport.com/",
+                "https://www.myfico.com/",
+                "https://www.capitalone.com/",
+                "https://concoracredit.myfinanceservice.com/summary",
+                "https://www.citi.com/",
+                "https://www.nerdwallet.com/credit-cards",
+                "https://www.cardratings.com/",
+                "https://www.creditcards.com/"
+            ],
+            "RealEstate": [
+                "https://www.zillow.com/",
+                "https://www.realtor.com/",
+                "https://www.redfin.com/",
+                "https://www.trulia.com/",
+                "https://www.loopnet.com/"
+            ],
+            "Insurance": [
+                "https://www.progressive.com/",
+                "https://www.geico.com/",
+                "https://www.statefarm.com/",
+                "https://www.allstate.com/",
+                "https://www.libertymutual.com/"
+            ],
+            "Retirement": [
+                "https://www.fidelity.com/",
+                "https://www.vanguard.com/",
+                "https://www.schwab.com/",
+                "https://www.troweprice.com/",
+                "https://www.principal.com/"
+            ]
+        },
+        "News": {
+            "NewsSites": [
+                "https://www.bbc.co.uk/news",
+                "https://www.aljazeera.com/",
+                "https://www.reuters.com/",
+                "https://www.bloomberg.com/",
+                "https://www.ft.com/",
+                "https://www.economist.com/",
+                "https://www.theguardian.com/",
+                "https://www.independent.co.uk/",
+                "https://www.telegraph.co.uk/",
+                "https://www.nytimes.com/",
+                "https://www.washingtonpost.com/",
+                "https://www.wsj.com/",
+                "https://www.npr.org/",
+                "https://www.buzzfeed.com/",
+                "https://www.huffpost.com/",
+                "https://www.vice.com/"
+            ],
+            "TechNews": [
+                "https://daily.dev/",
+                "https://www.techradar.com/",
+                "https://www.theverge.com/",
+                "https://www.wired.com/",
+                "https://techcrunch.com/",
+                "https://www.engadget.com/",
+                "https://www.cnet.com/",
+                "https://www.digitaltrends.com/",
+                "https://www.tomsguide.com/",
+                "https://www.pcmag.com/",
+                "https://arstechnica.com/",
+                "https://slashdot.org/"
+            ],
+            "Music": [
+                "https://www.spotify.com/us/",
+                "https://www.youtube.com/",
+                "https://soundcloud.com/",
+                "https://music.apple.com/",
+                "https://tidal.com/"
+            ]
+        },
+        "Art": {
+            "ArtReff": [
+                "https://www.artstation.com/",
+                "https://www.deviantart.com/",
+                "https://www.pinterest.com/",
+                "https://www.behance.net/",
+                "https://www.art.com/",
+                "https://www.cgtrader.com/",
+                "https://sketchfab.com/",
+                "https://www.turbosquid.com/",
+                "https://www.shutterstock.com/",
+                "https://unsplash.com/",
+                "https://www.pexels.com/",
+                "https://www.pixiv.net/",
+                "https://www.artsy.net/",
+                "https://www.saatchiart.com/"
+            ]
+        },
+        "Social": {
+            "Professional": [
+                "https://www.linkedin.com/"
+            ],
+            "Personal": [
+                "https://x.com/home",
+                "https://www.facebook.com/",
+                "https://www.instagram.com/",
+                "https://www.threads.net/"
+            ],
+            "Content": [
+                "https://www.reddit.com/",
+                "https://www.tumblr.com/dashboard",
+                "https://www.pinterest.com/"
+            ],
+            "Community": [
+                "https://disboard.org/search"
+            ]
+        },
+        "Learning": {
+            "Platforms": [
+                "https://learn.microsoft.com/",
+                "https://www.pluralsight.com/",
+                "https://www.udemy.com/",
+                "https://www.coursera.org/",
+                "https://www.edx.org/"
+            ],
+            "Documentation": [
+                "https://docs.microsoft.com/en-us/powershell/",
+                "https://learn.microsoft.com/en-us/windows/",
+                "https://docs.python.org/",
+                "https://docs.docker.com/"
+            ]
+        }
+    }
+}

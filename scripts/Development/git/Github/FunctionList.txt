@@ -1,0 +1,24 @@
+GitHubRepositories Function:
+
+ddump : ddump directory and URL
+ghub:   github URl
+cd_blog : Obsidian blog directory 
+o_blog : netlify obsidian directory
+
+
+GithubFunct:
+Set-GitHubRepoVisibility : -Owner "myusername"  -Repo "myrepo" |stopping here will toggle | -Visibility 
+"private/public"   
+GitHubRepos :     Opens your GitHub repositories page in the default browser.
+Set-GitHubToken
+Open-GitHubRepo
+Update-AllRepos
+New-GitHubRepository
+Search-for-GitHubRepositories
+Search-GitHubRepos
+Get-GitHubRepoList
+Get-GitHubRepoView
+gitstatus
+Get-GitHubRepoclone
+Git_QuickPush
+gh_create_repo

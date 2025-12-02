@@ -1,0 +1,10 @@
+{
+    "command": {
+        "action": "splitPane",
+        "profile": "{7f586916-8357-53d4-bb2b-ca96f639898a}",
+        "split": "down"
+    },
+    "id": "Terminal.SplitPanePengwinDown",
+    "name": "Split with Pengwin Below",
+    "keys": "ctrl+alt+shift+p"
+} 

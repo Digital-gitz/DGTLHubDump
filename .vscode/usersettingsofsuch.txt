@@ -1,0 +1,172 @@
+{
+  "animations.Install-Method": "Apc Customize UI++",
+  "update.mode": "manual",
+  "workbench.colorTheme": "Dark SynthWave '84",
+  "workbench.activityBar.location": "top",
+  "workbench.editor.editorActionsLocation": "hidden",
+  "workbench.startupEditor": "readme",
+  "window.newWindowDimensions": "fullscreen",
+  "window.nativeTabs": true,
+  "window.openFoldersInNewWindow": "on",
+  "window.restoreWindows": "all",
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ff5e00",
+    "activityBar.background": "#000000",
+    "sideBar.background": "#000a0a",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "scrollbar.shadow": "#00000000",
+    "editor.minimap.enabled": true,
+    "minimap.background": "#00000000",
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f",
+    "editor.background": "#000a0a",
+    "editor.foreground": "#3fb762",
+    "editor.selectionBackground": "#00ff1e2d",
+    "editor.selectionHighlightBackground": "#00ff1e2d",
+    "editor.selectionHighlightBorder": "#00ff1e2d",
+    "editor.cursorSmoothCaretAnimation": false,
+    "editorCursor.foreground": "#ffff00",
+    "terminalCursor.foreground": "#ff00ff",
+    "terminal.integrated.cursorStyle": "block",
+    "terminal.integrated.cursorBlinking": "true",
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.background": "#131212",
+    "terminal.foreground": "#dddad6",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#237e02",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiBlue": "#00a1f9",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B"
+  },
+  "terminalAutoPanel.toggleOnWindowFocus": false,
+  "terminalAutoPanel.preventHideOnClickTerminal": true,
+  "terminalAutoPanel.hideOnClickEditor": false,
+  "apc.electron": {
+    "blur": 0.05,
+    "opacity": 0.95,
+    "transparent": true,
+    "backgroundColor": "rgba(0,0,0,0.5)",
+    "vibrancy": "ultra-dark"
+  },
+
+  "apc.stylesheet": {
+    ".monaco-editor .cursor": "background: #ffffffaa !important; box-shadow: 0 0 70px 5px #ffffff, #ffffff 0px 0px 34px 1px; color: [#161616](https://github.com/AlexOwl/vscode-transparent-color-theme/issues/161616) !important"
+  },
+  "apc.imports": [
+    "file:///c:/Users/russk/.vscode/extensions/brandonkirbyson.vscode-animations-2.0.2/dist/updateHandler.js"
+  ],
+
+  "animations.Enabled": true,
+  "animations.CursorAnimation": false,
+  "animations.Command-Palette": "Fade",
+  "animations.CursorAnimationOptions": {
+    "TrailLength": 8
+  },
+  "animations.Tabs": "Slide",
+  "animations.Active": "Indent",
+
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.customTitleBarVisibility": "windowed",
+  "window.commandCenter": false,
+  "terminal.integrated.env.windows": {},
+  /* cspell: disable-next-line */
+  "gocodeo.authToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE3NDYxNDg3OTMsImlhdCI6MTcxNTA0NDc5Mywic3ViIjoiNjYzOTgxYjljYWNmZTE0MTVmZWZiMjVmIiwibmFtZSI6IiIsImlzX3ZlcmlmaWVkIjpmYWxzZX0.v9jGYm67ixuUHbinDr6ZP91XbX7KnGKnhXPdjOHVQww",
+  "editor.linkedEditing": true,
+  "editor.matchBrackets": "never",
+  "glassit.alpha": 220,
+
+  "code-runner.executorMapByGlob": {
+    "pom.xml": "cd $dir && mvn clean package",
+    "*.test.js": "tap",
+    "*.js": "node"
+  },
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["lineBreakInsert"],
+      "silent": true
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+
+  "vim.enableNeovim": true,
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1
+  },
+  "git.openRepositoryInParentFolders": "always",
+  "vscode-office.editorTheme": "Auto",
+  "codesandbox.currentWorkspace": "11013f0b-2d36-4131-adeb-5e9b1bb1da37",
+  "workbench.editorAssociations": {
+    "*.html": "default",
+    "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+  },
+  "editor.formatOnType": true,
+  "prisma.showPrismaDataPlatformNotification": false,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.fontSize": 11,
+  "cSpell.userWords": [
+    "brandonkirbyson",
+    "codesandbox",
+    "easymotion",
+    "fullscreen",
+    "glassit",
+    "gocodeo",
+    "hlsearch",
+    "incsearch",
+    "Neovim",
+    "nohl",
+    "numso",
+    "rgba",
+    "russk",
+    "stylesheet",
+    "vscodevim"
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "github.copilot.editor.enableAutoCompletions": true,
+  "editor.inlineSuggest.showToolbar": "always",
+  "[html]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "workbench.editor.showTabs": "none"
+}
